@@ -24,7 +24,7 @@ Then, follow these instructions:
 git clone https://github.com/bioinformatics-ua/xgTaxonomy.git
 cd xgTaxonomy
 docker-compose build
-docker-compose up -d && docker exec -it compact bash && docker-compose down
+docker-compose up -d && docker exec -it xgTaxonomy bash && docker-compose down
 ```
 
 #### Install Compressors
