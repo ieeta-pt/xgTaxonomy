@@ -35,9 +35,9 @@ RUN conda install anaconda-client --yes
 
 RUN conda install -c bioconda libgcc --yes
 
-ADD . /compact 
+ADD . /xgTaxonomy 
 
-WORKDIR /compact
+WORKDIR /xgTaxonomy
 
 RUN ls -l
 

@@ -2,12 +2,12 @@ version: "3"
 
 services:
   src:
-    container_name: compact
+    container_name: xgTaxonomy
     build:
       context: .
       dockerfile: Dockerfile
     volumes:
-      - ./:/compact/
+      - ./:/xgTaxonomy/
     networks:
       - all
 
