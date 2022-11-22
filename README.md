@@ -1,19 +1,19 @@
-# COMPACT
-<H2><b>COMPressor tAxonomic ClassificaTion</b></H2>
+# xgTaxonomy
+<H2><b>Cross-reference of Genomic Taxonomy</b></H2>
 
 ### Team
   * Jorge M. Silva<sup id="a1">[1](#f1)</sup>
   * João R. Almeida<sup id="a1">[1](#f1)</sup><sup id="a2">[2](#f2)</sup>
 
-1. <small id="f1"> University of Aveiro, Dept. Electronics, Telecommunications and Informatics (DETI / IEETA), Aveiro, Portugal </small> [↩](#a1)
-2. <small id="f2"> University of A Coruña, Dept. of Information and Communications Technologies, A Coruña, Spain </small> [↩](#a2)
+1. <small id="f1"> DETI/IEETA, LASI, University of Aveiro, Aveiro, Portugal </small> [↩](#a1)
+2. <small id="f2"> University of A Coruña, A Coruña, Spain </small> [↩](#a2)
 
 ### How to use?
 #### Download Project
-Get COMPACT project using:
+Get xgTaxonomy project using:
 ```bash
-git clone https://github.com/jorgeMFS/COMPACT.git
-cd COMPACT/
+git clone https://github.com/bioinformatics-ua/xgTaxonomy.git
+cd xgTaxonomy/
 ```
 
 #### Using Docker
@@ -21,8 +21,8 @@ To perform installation correctly, docker and docker compose must be installed i
 
 Then, follow these instructions:
 ```sh
-git clone https://github.com/jorgeMFS/COMPACT.git
-cd COMPACT
+git clone https://github.com/bioinformatics-ua/xgTaxonomy.git
+cd xgTaxonomy
 docker-compose build
 docker-compose up -d && docker exec -it compact bash && docker-compose down
 ```
@@ -114,7 +114,7 @@ python3 classifier.py -bf -cr > ../results/classification_report_all_combination
 
 ### Cite
 
-Please cite the following, if you use TranSMART-Migrator in your work:
+Please cite the following, if you use xgTaxonomy in your work:
 
 ```bib
 in progress
