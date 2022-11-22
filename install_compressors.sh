@@ -41,6 +41,7 @@ Lizard_Installation(){
     cd ../
     mv lizard-1.0 ${compressor_files_path}
 }
+
 LZ4_Installation(){
     mkdir -p ${compressor_files_path}
     wget https://github.com/lz4/lz4/archive/refs/tags/v1.9.4.zip  -P ${compressor_files_path}
@@ -50,8 +51,28 @@ LZ4_Installation(){
     cp lz4 "../${compressor_path}"
     cd ../
     mv lz4-1.9.4 ${compressor_files_path}
+}
+
+Lzop__Installation(){
+    mkdir -p ${compressor_files_path}
+    wget http://www.oberhumer.com/opensource/lzo/download/lzo-2.10.tar.gz
+    tar xzf lzo-2.10.tar.gz
+    cd lzo-2.10
+    ./configure
+    make
+    make check
+    make install
+    mv lzotest/lzotest "../${compressor_path}"
+    cd ../
+    mv lzo-2.10 ${compressor_files_path}
+    rm lzo-2.10.tar.gz
+}
+
+LzTurbo__Installation(){
 
 }
+
+
 
 Brotli__Installation(){
 # This specification defines a lossless compressed data format that
@@ -130,8 +151,7 @@ NUHT_Installation() {
     mv Linux/NUHT_Compress "../../${compressor_path}/NUHT_Compress"
     cd "../.."
 }
-LZ4_Installation;
-
+Lzop__Installation;
 exit
 conda install -c conda-forge libgcc-ng --yes
 conda install -y -c bioconda jarvis --yes
@@ -139,6 +159,7 @@ conda install -c bioconda geco3 --yes
 conda install -c bioconda naf --yes
 conda install -c cobilab gto --yes 
 
+LZ4_Installation;
 Lizard_Installation;
 Libbsc_Installation;
 Brotli__Installation;
