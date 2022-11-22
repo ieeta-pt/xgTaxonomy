@@ -45,7 +45,12 @@ LZ4_Installation(){
     mkdir -p ${compressor_files_path}
     wget https://github.com/lz4/lz4/archive/refs/tags/v1.9.4.zip  -P ${compressor_files_path}
     unzip -o ${compressor_files_path}v1.9.4.zip
-    
+    cd lz4-1.9.4
+    make
+    cp lz4 "../${compressor_path}"
+    cd ../
+    mv lz4-1.9.4 ${compressor_files_path}
+
 }
 
 Brotli__Installation(){
@@ -125,8 +130,8 @@ NUHT_Installation() {
     mv Linux/NUHT_Compress "../../${compressor_path}/NUHT_Compress"
     cd "../.."
 }
+LZ4_Installation;
 
-Lizard_Installation;
 exit
 conda install -c conda-forge libgcc-ng --yes
 conda install -y -c bioconda jarvis --yes
@@ -134,6 +139,7 @@ conda install -c bioconda geco3 --yes
 conda install -c bioconda naf --yes
 conda install -c cobilab gto --yes 
 
+Lizard_Installation;
 Libbsc_Installation;
 Brotli__Installation;
 brieflz_Installation;
