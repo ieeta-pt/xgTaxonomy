@@ -20,7 +20,7 @@ Cmix_Installation() {
     mv cmix-19.1/ ${compressor_files_path}
 }
 
-brieflz_Installation(){
+Brieflz_Installation(){
     mkdir -p ${compressor_files_path}
     wget https://github.com/jibsen/brieflz/archive/refs/tags/v1.3.0.zip -P ${compressor_files_path}
     unzip -o ${compressor_files_path}v1.3.0.zip
@@ -41,14 +41,46 @@ Lizard_Installation(){
     cd ../
     mv lizard-1.0 ${compressor_files_path}
 }
+
 LZ4_Installation(){
     mkdir -p ${compressor_files_path}
     wget https://github.com/lz4/lz4/archive/refs/tags/v1.9.4.zip  -P ${compressor_files_path}
     unzip -o ${compressor_files_path}v1.9.4.zip
-    
+    cd lz4-1.9.4
+    make
+    cp lz4 "../${compressor_path}"
+    cd ../
+    mv lz4-1.9.4 ${compressor_files_path}
 }
 
-Brotli__Installation(){
+Lzop_Installation(){
+    mkdir -p ${compressor_files_path}
+    wget http://www.oberhumer.com/opensource/lzo/download/lzo-2.10.tar.gz -P ${compressor_files_path}
+    tar xzf ${compressor_files_path}lzo-2.10.tar.gz
+    cd lzo-2.10
+    ./configure
+    make
+    make check
+    make install
+    mv lzotest/lzotest "../${compressor_path}"
+    cd ../
+    mv lzo-2.10 ${compressor_files_path}
+}
+
+Snzip_Installation(){
+    mkdir -p ${compressor_files_path}
+    cd ${compressor_files_path}
+    git clone https://github.com/kubo/snzip.git
+    cd snzip
+    ./autogen.sh
+    ./configure
+    make
+    make install
+    cp snzip "../../${compressor_path}"
+    cd ../..
+}
+
+Brotli_Installation(){
 # This specification defines a lossless compressed data format that
 #    compresses data using a combination of the LZ77 algorithm and Huffman
 #    coding, with efficiency comparable to the best currently available
@@ -126,17 +158,22 @@ NUHT_Installation() {
     cd "../.."
 }
 
-Lizard_Installation;
-exit
 conda install -c conda-forge libgcc-ng --yes
 conda install -y -c bioconda jarvis --yes
 conda install -c bioconda geco3 --yes
 conda install -c bioconda naf --yes
 conda install -c cobilab gto --yes 
+conda install -c bioconda mbgc --yes 
 
+
+Brieflz_Installation;
+Brotli_Installation;
 Libbsc_Installation;
-Brotli__Installation;
-brieflz_Installation;
+Lizard_Installation;
+Lzop_Installation;
+LZ4_Installation;
+Snzip_Installation;
+
 UHT_Installation;
 MFCompress_Installation;
 UHT_Installation;
