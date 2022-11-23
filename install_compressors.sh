@@ -20,7 +20,7 @@ Cmix_Installation() {
     mv cmix-19.1/ ${compressor_files_path}
 }
 
-brieflz_Installation(){
+Brieflz_Installation(){
     mkdir -p ${compressor_files_path}
     wget https://github.com/jibsen/brieflz/archive/refs/tags/v1.3.0.zip -P ${compressor_files_path}
     unzip -o ${compressor_files_path}v1.3.0.zip
@@ -160,20 +160,21 @@ NUHT_Installation() {
     cd "../.."
 }
 
-Snzip_Installation;
-exit
 conda install -c conda-forge libgcc-ng --yes
 conda install -y -c bioconda jarvis --yes
 conda install -c bioconda geco3 --yes
 conda install -c bioconda naf --yes
 conda install -c cobilab gto --yes 
+conda install -c bioconda mbgc --yes 
 
-brieflz_Installation;
+
+Brieflz_Installation;
 Brotli__Installation;
+Libbsc_Installation;
+Lizard_Installation;
 Lzop__Installation;
 LZ4_Installation;
-Lizard_Installation;
-Libbsc_Installation;
+Snzip_Installation;
 
 UHT_Installation;
 MFCompress_Installation;
