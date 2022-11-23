@@ -53,7 +53,7 @@ LZ4_Installation(){
     mv lz4-1.9.4 ${compressor_files_path}
 }
 
-Lzop__Installation(){
+Lzop_Installation(){
     mkdir -p ${compressor_files_path}
     wget http://www.oberhumer.com/opensource/lzo/download/lzo-2.10.tar.gz -P ${compressor_files_path}
     tar xzf ${compressor_files_path}lzo-2.10.tar.gz
@@ -170,7 +170,7 @@ Brieflz_Installation;
 Brotli_Installation;
 Libbsc_Installation;
 Lizard_Installation;
-Lzop__Installation;
+Lzop_Installation;
 LZ4_Installation;
 Snzip_Installation;
 
