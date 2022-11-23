@@ -55,8 +55,8 @@ LZ4_Installation(){
 
 Lzop__Installation(){
     mkdir -p ${compressor_files_path}
-    wget http://www.oberhumer.com/opensource/lzo/download/lzo-2.10.tar.gz
-    tar xzf lzo-2.10.tar.gz
+    wget http://www.oberhumer.com/opensource/lzo/download/lzo-2.10.tar.gz -P ${compressor_files_path}
+    tar xzf ${compressor_files_path}lzo-2.10.tar.gz
     cd lzo-2.10
     ./configure
     make
@@ -65,11 +65,19 @@ Lzop__Installation(){
     mv lzotest/lzotest "../${compressor_path}"
     cd ../
     mv lzo-2.10 ${compressor_files_path}
-    rm lzo-2.10.tar.gz
 }
 
-LzTurbo__Installation(){
-
+Snzip_Installation(){
+    mkdir -p ${compressor_files_path}
+    cd ${compressor_files_path}
+    git clone https://github.com/kubo/snzip.git
+    cd snzip
+    ./autogen.sh
+    ./configure
+    make
+    make install
+    cp snzip "../../${compressor_path}"
+    cd ../..
 }
 
 
@@ -151,7 +159,8 @@ NUHT_Installation() {
     mv Linux/NUHT_Compress "../../${compressor_path}/NUHT_Compress"
     cd "../.."
 }
-Lzop__Installation;
+
+Snzip_Installation;
 exit
 conda install -c conda-forge libgcc-ng --yes
 conda install -y -c bioconda jarvis --yes
@@ -159,11 +168,13 @@ conda install -c bioconda geco3 --yes
 conda install -c bioconda naf --yes
 conda install -c cobilab gto --yes 
 
+brieflz_Installation;
+Brotli__Installation;
+Lzop__Installation;
 LZ4_Installation;
 Lizard_Installation;
 Libbsc_Installation;
-Brotli__Installation;
-brieflz_Installation;
+
 UHT_Installation;
 MFCompress_Installation;
 UHT_Installation;

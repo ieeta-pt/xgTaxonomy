@@ -29,6 +29,12 @@ RUN apt-get install -y git
 
 RUN apt-get install -y libssl-dev
 
+RUN apt-get install -y autotools-dev
+
+RUN apt-get install -y automake
+
+RUN apt-get install -y libsnappy-dev
+
 RUN DEBIAN_FRONTEND=noninteractive TZ=EUROPE/Portugal apt-get -y install cmake protobuf-compiler
 
 RUN conda install anaconda-client --yes
