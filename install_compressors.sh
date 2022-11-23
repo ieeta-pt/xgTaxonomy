@@ -172,6 +172,7 @@ Libbsc_Installation;
 Lizard_Installation;
 Lzop_Installation;
 LZ4_Installation;
+Pufferfish_Installation;
 Snzip_Installation;
 
 UHT_Installation;
