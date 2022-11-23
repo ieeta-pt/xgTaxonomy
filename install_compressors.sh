@@ -80,9 +80,7 @@ Snzip_Installation(){
     cd ../..
 }
 
-
-
-Brotli__Installation(){
+Brotli_Installation(){
 # This specification defines a lossless compressed data format that
 #    compresses data using a combination of the LZ77 algorithm and Huffman
 #    coding, with efficiency comparable to the best currently available
@@ -169,7 +167,7 @@ conda install -c bioconda mbgc --yes
 
 
 Brieflz_Installation;
-Brotli__Installation;
+Brotli_Installation;
 Libbsc_Installation;
 Lizard_Installation;
 Lzop__Installation;
