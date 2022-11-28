@@ -54,5 +54,8 @@ RUN chmod +x ./*sh
 
 RUN pip3 install -r requirements.pip
 
+RUN ./install_compressors.sh
+
+RUN ./install_orf.sh
 
 CMD tail -f >> /dev/null
