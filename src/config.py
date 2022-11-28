@@ -6,6 +6,6 @@ dstPathOfOriginalSequences = (base_path / "../aux/original_sequences").resolve()
 locationOfDatabases = (base_path / "../aux/references").resolve()
 
 dstPathOfDatabaseSequences = (base_path / "../aux/database_sequences").resolve()
-
+orf_path = (base_path / "../ORFs/orfm/").resolve()
 featuresFilePath = (base_path / "../results/features.csv").resolve()
 numIterations = 10
