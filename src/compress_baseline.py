@@ -41,8 +41,6 @@ def writeCSVLine(line):
 
 def getCompressionValues():
 
-# ,"bzip2","Cmix","GeCo3","gzip","JARVIS","MFCompress","NAF","NUHT","pufferfish","UHT","unzip","xz","zstd"]
-
     writeCSVLine(["Domain","blzpack_comp","bsc_comp","bzip2_comp","Cmix_comp","GeCo3_comp","gzip_comp",
             "JARVIS_comp","lizard_comp","lz4_comp","lzop_comp","mbgc_comp","MFCompress_comp",
             "naf_comp","NUHT_comp", "snzip_comp", "UHT_comp","zip_comp","xz_comp","zstd_comp",
@@ -50,12 +48,6 @@ def getCompressionValues():
             "lizard_time", "lz4_time", "lzop_time", "mbgc_time","MFCompress_time",
             "naf_time","NUHT_time", "snzip_time", "UHT_time", "zip_time", "xz_time", "zstd_time"])
    
-   
-    
-      
-
-
-
     for domain in listdir(mergedPath):
         print(f"Computing {domain}...")
         tmpPath = join(tmpDir,domain)
