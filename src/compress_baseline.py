@@ -45,10 +45,10 @@ def getCompressionValues():
 
     writeCSVLine(["Domain","blzpack_comp","bsc_comp","bzip2_comp","Cmix_comp","GeCo3_comp","gzip_comp",
             "JARVIS_comp","lizard_comp","lz4_comp","lzop_comp","mbgc_comp","MFCompress_comp",
-            "naf_comp","NUHT_comp","pufferfish_comp", "snzip_comp", "UHT_comp","zip_comp","xz_comp","zstd_comp",
+            "naf_comp","NUHT_comp", "snzip_comp", "UHT_comp","zip_comp","xz_comp","zstd_comp",
             "blzpack_time","bsc_time","bzip2_time","Cmix_time","GeCo3_time","gzip_time","JARVIS_time",
             "lizard_time", "lz4_time", "lzop_time", "mbgc_time","MFCompress_time",
-            "naf_time","NUHT_time", "pufferfish_time", "snzip_time", "UHT_time", "zip_time", "xz_time", "zstd_time"])
+            "naf_time","NUHT_time", "snzip_time", "UHT_time", "zip_time", "xz_time", "zstd_time"])
    
    
     
@@ -69,11 +69,11 @@ def getCompressionValues():
                 "Domain": domain,
                 "blzpack_comp": None,"bsc_comp": None,"bzip2_comp": None, "Cmix_comp": None,"GeCo3_comp": None,"gzip_comp": None,
                 "JARVIS_comp": None,"lizard_comp": None,"lz4_comp": None,"lzop_comp": None,"mbgc_comp": None,"MFCompress_comp": None,
-                "naf_comp": None,"NUHT_comp": None,"pufferfish_comp": None,"snzip_comp": None, "UHT_comp": None,"zip_comp": None,
+                "naf_comp": None,"NUHT_comp": None,"snzip_comp": None, "UHT_comp": None,"zip_comp": None,
                 "xz_comp": None,"zstd_comp": None,
                 "blzpack_time": None,"bsc_time": None,"bzip2_time": None, "Cmix_time": None,"GeCo3_time": None,"gzip_time": None,
                 "JARVIS_time": None,"lizard_time": None, "lz4_time": None, "lzop_time": None, "mbgc_time": None,"MFCompress_time": None,
-                "naf_time": None,"NUHT_time": None, "pufferfish_time": None, "snzip_time": None, "UHT_time": None, "zip_time": None,
+                "naf_time": None,"NUHT_time": None, "snzip_time": None, "UHT_time": None, "zip_time": None,
                 "xz_time": None, "zstd_time": None
             }
 
