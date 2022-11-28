@@ -91,18 +91,6 @@ def getCompressionValues():
                 os.system(f'gto_fasta_from_seq  < {tmpPath}/GENOME_FILE > {tmpPath}/x.fa')
                 fa_sz=os.path.getsize(join(tmpPath,"x.fa"))
 
-                #PUFFERFISH
-                start_pufferfish = time.time()
-                os.system(f'{compressors_path}pufferfish -i {tmpPath}/decompressed.fna -o {tmpPath}/seq.pufferfish [-c]')
-                end_pufferfish = time.time()
-                compressed_file=join(tmpPath,"seq.pufferfish")
-                cmp_sz = os.path.getsize(compressed_file)
-                elapsed_time_pufferfish=end_pufferfish-start_pufferfish
-                csvEntry["pufferfish_comp"] = str(cmp_sz/decompressed_sz)
-                csvEntry["pufferfish_time"] = str(elapsed_time_pufferfish)
-                print(csvEntry["pufferfish_comp"])
-                sys.exit()
-
                 #NAF
                 start_naf = time.time()
                 os.system(f'ennaf --level 22  {tmpPath}/decompressed.fna -o {tmpPath}/seq.naf --temp-dir DIR')
