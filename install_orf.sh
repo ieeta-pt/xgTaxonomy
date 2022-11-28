@@ -4,6 +4,9 @@
 # =============================================
 # Install ORFfinder
 #
+
+conda install -c bioconda orfm --yes
+
 mkdir ORFs
 cd ORFs
 wget ftp://ftp.ncbi.nlm.nih.gov/genomes/TOOLS/ORFfinder/linux-i64/ORFfinder.gz
