@@ -151,7 +151,6 @@ def getCompressionValues():
                 csvEntry["blazpack_comp"] = str(cmp_sz/decompressed_sz)
                 csvEntry["blazpack_time"] = str(elapsed_time_blazpack)
                 
-
                 #BSC
                 start_bsc = time.time()
                 os.system(f'{compressors_path}bsc e  {tmpPath}/decompressed.fna {tmpPath}/seq.bsc')
@@ -162,7 +161,6 @@ def getCompressionValues():
                 csvEntry["bsc_comp"] = str(cmp_sz/decompressed_sz)
                 csvEntry["bsc_time"] = str(elapsed_time_bsc)
         
-
                 #ZSTD
                 start_zstd = time.time()
                 os.system(f'zstd -9  {tmpPath}/decompressed.fna -o {tmpPath}/seq.zstd')
@@ -234,7 +232,6 @@ def getCompressionValues():
                 csvEntry["UHT_comp"] = str(cmp_sz/decompressed_sz)
                 csvEntry["UHT_time"] = str(elapsed_time_uht)
 
-
                 #MFCompress
                 start_mfc = time.time()
                 os.system(f"{compressors_path}MFCompressC -3 {tmpPath}/x.fa")
@@ -246,14 +243,14 @@ def getCompressionValues():
                 csvEntry["MFCompress_time"] = str(elapsed_time_mfc)
 
                 #CMIX
-                #start_cmix = time.time()
-                #os.system(f"{compressors_path}cmix -c {tmpPath}/GENOME_FILE {tmpPath}/cmix.seq")
-                #end_cmix = time.time()
-                #compressed_file=join(tmpPath,"cmix.seq")
-                #cmp_sz = os.path.getsize(compressed_file)
-                #elapsed_time_cmix=end_cmix-start_cmix
-                csvEntry["Cmix_comp"] = ""
-                csvEntry["Cmix_time"] = ""
+                start_cmix = time.time()
+                os.system(f"{compressors_path}cmix -c {tmpPath}/GENOME_FILE {tmpPath}/cmix.seq")
+                end_cmix = time.time()
+                compressed_file=join(tmpPath,"cmix.seq")
+                cmp_sz = os.path.getsize(compressed_file)
+                elapsed_time_cmix=end_cmix-start_cmix
+                csvEntry["Cmix_comp"] = str(cmp_sz/decompressed_sz)
+                csvEntry["Cmix_time"] = str(elapsed_time_cmix)
 
                 #JARVIS
                 start_jarvis = time.time()
