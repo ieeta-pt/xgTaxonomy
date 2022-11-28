@@ -99,18 +99,6 @@ Libbsc_Installation() {
     mv libbsc-3.2.4 ${compressor_files_path}
 
 }
-Pufferfish_Installation() {
-    #./pufferfish -i <input file> -o <output file> [-c] | [-d]
-    cd $compressor_files_path
-    git clone https://github.com/alexholehouse/pufferfish.git
-    cd pufferfish/src
-    make 
-    mv  pufferfish ../../../${compressor_path}
-    make clean > /dev/null
-    cd "../../.."
-
-}
-
 
 MFCompress_Installation() {
     # ./compress fastq_file.fastq 
@@ -159,7 +147,6 @@ Lizard_Installation;
 LZ4_Installation;
 Snzip_Installation;
 
-Pufferfish_Installation;
 UHT_Installation;
 MFCompress_Installation;
 UHT_Installation;
