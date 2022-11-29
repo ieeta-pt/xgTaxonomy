@@ -53,20 +53,6 @@ LZ4_Installation(){
     mv lz4-1.9.4 ${compressor_files_path}
 }
 
-Lzop_Installation(){
-    mkdir -p ${compressor_files_path}
-    wget http://www.oberhumer.com/opensource/lzo/download/lzo-2.10.tar.gz -P ${compressor_files_path}
-    tar xzf ${compressor_files_path}lzo-2.10.tar.gz
-    cd lzo-2.10
-    ./configure
-    make
-    make check
-    make install
-    mv lzotest/lzotest "../${compressor_path}"
-    cd ../
-    mv lzo-2.10 ${compressor_files_path}
-}
-
 Snzip_Installation(){
     mkdir -p ${compressor_files_path}
     cd ${compressor_files_path}
@@ -113,18 +99,6 @@ Libbsc_Installation() {
     mv libbsc-3.2.4 ${compressor_files_path}
 
 }
-Pufferfish_Installation() {
-    #./pufferfish -i <input file> -o <output file> [-c] | [-d]
-    cd $compressor_files_path
-    git clone https://github.com/alexholehouse/pufferfish.git
-    cd pufferfish/src
-    make 
-    mv  pufferfish ../../../${compressor_path}
-    make clean > /dev/null
-    cd "../../.."
-
-}
-
 
 MFCompress_Installation() {
     # ./compress fastq_file.fastq 
@@ -170,7 +144,6 @@ Brieflz_Installation;
 Brotli_Installation;
 Libbsc_Installation;
 Lizard_Installation;
-Lzop_Installation;
 LZ4_Installation;
 Snzip_Installation;
 

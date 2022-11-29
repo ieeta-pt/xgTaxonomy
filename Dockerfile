@@ -19,6 +19,8 @@ RUN apt-get install -y xz-utils
 RUN apt-get install -y zstd
 RUN apt-get install -y gzip
 
+RUN apt-get install -y lzop
+
 RUN apt-get install -y gcc-multilib
 
 RUN apt-get install -y build-essential
@@ -34,6 +36,7 @@ RUN apt-get install -y autotools-dev
 RUN apt-get install -y automake
 
 RUN apt-get install -y libsnappy-dev
+
 
 RUN DEBIAN_FRONTEND=noninteractive TZ=EUROPE/Portugal apt-get -y install cmake protobuf-compiler
 
@@ -51,5 +54,8 @@ RUN chmod +x ./*sh
 
 RUN pip3 install -r requirements.pip
 
+RUN ./install_compressors.sh
+
+RUN ./install_orf.sh
 
 CMD tail -f >> /dev/null
