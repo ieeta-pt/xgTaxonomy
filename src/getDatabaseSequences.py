@@ -68,7 +68,10 @@ def getSequences():
             domain = fileName.split("_")[0]
             content = fp.readlines()
             lenOfFile = len(content)
-            listOfValues = sorted(random.sample(range(0, lenOfFile), numberOfEntries[domain]))
+            if lenOfFile>numberOfEntries[domain]:
+                listOfValues = sorted(random.sample(range(0, lenOfFile), numberOfEntries[domain]))
+            else:
+                listOfValues =  sorted(range(0, lenOfFile))
             selectedSequences["from_url"][domain] = _getRandomEntries(listOfValues, content)
     return selectedSequences
 
