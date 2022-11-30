@@ -83,6 +83,17 @@ def getCompressionValues():
                 os.system(f'gto_fasta_from_seq  < {tmpPath}/GENOME_FILE > {tmpPath}/x.fa')
                 fa_sz=os.path.getsize(join(tmpPath,"x.fa"))
 
+                #SNZIP
+                start_snzip = time.time()
+                os.system(f'snzip {tmpPath}/decompressed.fna')
+                end_snzip = time.time()
+                compressed_file=join(tmpPath,"decompressed.fna.sz")
+                cmp_sz = os.path.getsize(compressed_file)
+                elapsed_time_snzip=end_snzip-start_snzip
+                csvEntry["snzip_comp"] = str(cmp_sz/decompressed_sz)
+                csvEntry["snzip_time"] = str(elapsed_time_snzip)
+
+
                 #NAF
                 start_naf = time.time()
                 os.system(f'ennaf --level 22  {tmpPath}/decompressed.fna -o {tmpPath}/seq.naf --temp-dir DIR')
