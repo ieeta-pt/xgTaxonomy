@@ -72,11 +72,11 @@ def getSequences():
                 listOfValues = sorted(random.sample(range(0, lenOfFile), numberOfEntries[domain]))
             else:
                 listOfValues =  sorted(range(0, lenOfFile))
-            selectedSequences["from_url"][domain] = _getRandomEntries(listOfValues, content)
+            selectedSequences["from_url"][domain] = _getEntries(listOfValues, content)
     return selectedSequences
 
 
-def _getRandomEntries(listOfValues, content, singleColumn=False):
+def _getEntries(listOfValues, content, singleColumn=False):
     readsOfInterest = []
     for n in listOfValues:
         if singleColumn:
@@ -101,7 +101,6 @@ def to_amino_seq():
     for (root, _, file) in walk(dstPathOfDatabaseSequences):
         for f in file:
             load_path = join(root,f)
-            print(f)
             shutil.copy(load_path, tmpPrt)
             decompressedPath = join(tmpPrt, f).replace(".gz", "")
             system(f'gzip -d {join(tmpPrt, f)}')
