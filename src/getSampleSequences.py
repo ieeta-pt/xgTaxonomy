@@ -1,4 +1,4 @@
-from os import listdir, path, makedirs
+from os import listdir, path, makedirs, walk, system, remove
 from os.path import isfile, join
 import random
 from pprint import pprint
@@ -7,7 +7,7 @@ import shutil
 import wget
 import requests
 from bs4 import BeautifulSoup
-from config import summariesPath, dstPathOfOriginalSequences, locationOfDatabases
+from config import summariesPath, dstPathOfOriginalSequences, locationOfDatabases, dstPathOfOriginalAminoacids, tmpPrt, orfPath
 
 #ensuring reproducibility
 random.seed(0)
@@ -28,11 +28,16 @@ def main():
     _initialize()
     downloadSequences(selectedSequences["from_url"], dstPathOfOriginalSequences)
     splitSequences(selectedSequences, dstPathOfOriginalSequences)
+    to_amino_seq()
 
 
 def _initialize():
     if not path.exists(dstPathOfOriginalSequences):
         makedirs(dstPathOfOriginalSequences)
+    if not path.exists(tmpPrt):
+        makedirs(tmpPrt)
+    if not path.exists(dstPathOfOriginalAminoacids):
+        makedirs(dstPathOfOriginalAminoacids)
 
 
 def splitSequences(selectedSequences, dstPathOfOriginalSequences):
@@ -87,6 +92,25 @@ def downloadSequences(selectedSequences, dst):
                     fLink = join(entry, link.get('href'))
                     print(f"Downloading {fLink} to {dst}")
                     wget.download(fLink, out=str(dst))
+
+
+def to_amino_seq():
+    for (root, _, file) in walk(dstPathOfOriginalSequences):
+        for f in file:
+            load_path = join(root,f)
+            shutil.copy(load_path, tmpPrt)
+            decompressedPath = join(tmpPrt, f).replace(".gz", "")
+            system(f'gzip -d {join(tmpPrt, f)}')
+            system(f'{orfPath}/orfm {decompressedPath} > {tmpPrt}/PROTEIN')
+            domain = root.split('/')[-1]
+            savepath = join(dstPathOfOriginalAminoacids, domain)
+            if not path.exists(savepath):
+                makedirs(savepath)
+            save_name = join(savepath,f.replace(".gz", "").replace(".fna", ".amino"))
+            system(f' cat {tmpPrt}/PROTEIN | grep -v ">" | tr -d -c "ACDEFGHIKLMNPQRSTVWY" > {save_name}')
+            system(f'gzip {save_name}')
+            remove(decompressedPath)
+   
 
 
 if __name__ == "__main__":
