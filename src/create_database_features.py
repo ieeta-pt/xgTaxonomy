@@ -27,7 +27,7 @@ UHT_COMP = "../compressors_files/Unbalanced-Huffman-Tree/dist/UHT_compress/"
 def main():
     _initialize()
     csvContent = getCompressionValues()
-    #getProteinCompressionValues()
+    getProteinCompressionValues()
 
 def writeCSVLine(line, filename):
     fileName = filename+".csv"
