@@ -11,51 +11,141 @@ from itertools import combinations
 import csv
 import sys
 import numpy as np
-import os
-from config import featuresFilePath, numIterations
+from config import genomeFeaturesFilePath, proteomeFeaturesFilePath, numIterations
 import argparse
-from statistics import mean
 
 compressor = {
-    0:"bzip2",
-    1:"JARVIS",
-    2:"MFCompress",
-    3:"NUHT",
-    4:"zstd"
+    1:"blzpack_g",
+    2:"bsc_g",
+    3:"bzip2_g", 
+    4:"GeCo3_g",
+    5:"gzip_g",
+    6:"JARVIS_g",
+    7:"lizard_g",
+    8:"lz4_g",
+    9:"lzop_g",
+    10:"mbgc_g",
+    11:"MFCompress_g",
+    12:"naf_g",
+    13:"NUHT_g",
+    14:"snzip_g",
+    15:"zip_g",
+    16:"xz_g",
+    17:"zstd_g",
+    18:"blzpack_p",
+    19:"bsc_p",
+    20:"bzip2_p",
+    21:"gzip_p",
+    22:"lizard_p",
+    23:"lz4_p",
+    24:"lzop_p", 
+    25:"snzip_p", 
+    26:"zip_p",
+    27:"xz_p",
+    28:"zstd_p" 
 }
+
+
+
+
 
 def warn(*args, **kwargs):
     pass
 warnings.warn = warn
 
-def ReadData(filename, columns):
+def concatenate_csv(args):
+    # Open both CSV files in read mode
+    with open(args.genome_filename, 'r') as file1, open(args.proteome_filename, 'r') as file2:
+        # Read the contents of both files into separate variables
+        reader1 = csv.reader(file1)
+        reader2 = csv.reader(file2)
+        combined_rows = []
+        # Iterate over the rows of both lists
+        for row1, row2 in zip(reader1, reader2):
+            # Check if the first elements of the rows are the same
+            if row1[0] == row2[0]:
+                # Add the contents of the row to the combined rows list, removing the first element from row2
+                combined_rows.append(row1 + row2[1:])
+            else:
+                break
+        return combined_rows
+       
+
+def flatten_columns(args, columns):
+    if isinstance(columns[0], list):
+        genome_columns, proteome_columns = columns[0], columns[1:]
+        # Get the number of columns in the genome and proteome files
+        with open(args.genome_filename, 'r') as file:
+            reader = csv.reader(file)
+            num_genome_columns = len(next(reader))
+
+        # Flatten the columns
+        return genome_columns + [i + num_genome_columns for i in proteome_columns]
+    else:
+        # `columns` is a list of integers, so return it as is
+        return columns
+
+
+
+def ReadData(args, columns):
     domains = {
-        "viral":0, 
-        "bacteria":1,
-        "archaea":2, 
-        "fungi":3,
-        "protozoa":4,
+        "viral": 0, 
+        "bacteria": 1,
+        "archaea": 2, 
+        "fungi": 3,
+        "protozoa": 4,
     }
-    
+
     X_test, y_test = [], []
-    with open(filename, 'r') as file:
-        samples = csv.reader(file)
-        next(samples)
-        for row in samples:
-            #X_test.append([float(row[1]),float(row[2]),float(row[3]),float(row[4]),float(row[5])])
-            tmp = []
-            for column in columns:
-                tmp.append(float(row[column+1]))
-            X_test.append(tmp)
-            y_test.append(domains[row[0]])
-    return np.array(X_test).astype('float32'), np.array(y_test).astype('int32')
+
+    # Call the concatenate_csv function and store the returned list of rows
+    combined_rows = concatenate_csv(args)
+
+    # Discard the first row (header)
+    combined_rows = combined_rows[1:]
+
+    # Flatten the columns list
+    flattened_columns = flatten_columns(args,columns)
+
+    # Create a list of columns to keep
+    columns_to_keep = []
+    for column in flattened_columns:
+        # Check if any element in combined_rows at index i is empty
+        if all(row[column] != '' for row in combined_rows):
+            # If none of the elements are empty, append the index to columns_to_keep
+            columns_to_keep.append(column)
+    
+    if not columns_to_keep:
+            return None,None
+    
+    # Select the desired columns from the combined rows list
+    selected_columns = [[row[i] for i in columns_to_keep] for row in combined_rows]
+    # Iterate over the selected columns
+    for row in selected_columns:
+        tmp = []
+        for value in row:
+            tmp.append(float(value))
+        X_test.append(tmp)
+    
+    y_test = [domains[row[0]] for row in combined_rows]
+    
+    return np.array(X_test), np.array(y_test)
+
 
 
 def Classify(args, columns):
     domains = ["Viral", "Bacteria", "Archaea", "Fungi", "Protozoa"]
     accuracy_XGB = []
     f1score_XGB = []
-    data, labels = ReadData(args.filename, columns)
+
+    # Flatten the columns list
+    columns = flatten_columns(args,columns)
+
+    data, labels = ReadData(args, columns)
+    # Check if data and labels are empty
+    if data is None:
+        # If they are empty, skip the classification for this iteration
+        return
 
     if args.features_selection:
         clf = ExtraTreesClassifier(n_estimators=50)
@@ -99,13 +189,15 @@ def Classify(args, columns):
     print()
         
 
-
 def help(show=False):
     parser = argparse.ArgumentParser(description="")
     helper = parser.add_argument_group('System settings', 'System parameters to run the classifier in the different modes')
-    helper.add_argument('-f', '--filename', dest='filename', \
-                        type=str, default=featuresFilePath, \
-                        help=f'The system settings file (default: {featuresFilePath})')   
+    helper.add_argument('-g', '--genomeFilename', dest='genome_filename', \
+                        type=str, default=genomeFeaturesFilePath, \
+                        help=f'The system settings file (default: {genomeFeaturesFilePath})')
+    helper.add_argument('-p', '--proteomeFilename', dest='proteome_filename', \
+                        type=str, default=proteomeFeaturesFilePath, \
+                        help=f'The system settings file (default: {proteomeFeaturesFilePath})')     
     helper.add_argument('-f1', '--f1-score', default=False, action='store_true', \
                             help='This flag produces the classificarion report using the F1-score (default: False)')
     helper.add_argument('-a', '--accuracy', default=False, action='store_true', \
@@ -120,24 +212,38 @@ def help(show=False):
                             help='This flag generates the classification report (default: False)') 
     helper.add_argument('-bf', '--brute-force', default=False, action='store_true', \
                             help='This flag performs brute force classification of all possible combination of features (default: False)') 
+    helper.add_argument('-bg', '--brute-force-genome', default=False, action='store_true', \
+                            help='This flag performs brute force classification of all possible combination of features for the genome (default: False)') 
+    helper.add_argument('-bp', '--brute-force-proteome', default=False, action='store_true', \
+                            help='This flag performs brute force classification of all possible combination of features for the proteome (default: False)') 
+    
     if show:
         parser.print_help()
     return parser.parse_args()
     
 
 if __name__ == "__main__":
+    
     args = help()
     if args.accuracy or args.f1_score or args.both or args.classification_report:
         if args.all_columns:
-            Classify(args, [0,1,2,3,4])
-        
+            Classify(args, [[0,1,2,3,4],[0,1,2,3,4]])
+        elif args.brute_force_genome:
+            print("hello genome")
+            for x in range(1,18,1):
+                    com_list = list(combinations(range(1,18), x+1))
+                    [Classify(args,list(ele)) for ele in com_list]
+        elif args.brute_force_proteome:
+            for x in range(1,12,1):
+                com_list = list(combinations(range(18,29), x+1))
+                [Classify(args,list(ele)) for ele in com_list]
         elif args.brute_force:
             all_comb_list=[]
-            for x in range(1,5,1):
-                com_list = list(combinations(range(5), x+1))
+            for x in range(1,29,1):
+                com_list = list(combinations(range(1,29), x+1))
                 [Classify(args,list(ele)) for ele in com_list]
         else:
-            for column in range(5):
-                Classify(args, [column])
+            for column in range(1,29):
+                Classify(args, [[column]])
     else:
         help(True)
