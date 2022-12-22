@@ -72,14 +72,19 @@ def concatenate_csv(args):
        
 
 def flatten_columns(args, columns):
-    genome_columns, proteome_columns = columns[0], columns[1:]
-    # Get the number of columns in the genome and proteome files
-    with open(args.genome_filename, 'r') as file:
-        reader = csv.reader(file)
-        num_genome_columns = len(next(reader))
+    if isinstance(columns[0], list):
+        genome_columns, proteome_columns = columns[0], columns[1:]
+        # Get the number of columns in the genome and proteome files
+        with open(args.genome_filename, 'r') as file:
+            reader = csv.reader(file)
+            num_genome_columns = len(next(reader))
 
-    # Flatten the columns
-    return genome_columns + [i + num_genome_columns for i in proteome_columns]
+        # Flatten the columns
+        return genome_columns + [i + num_genome_columns for i in proteome_columns]
+    else:
+        # `columns` is a list of integers, so return it as is
+        return columns
+
 
 
 def ReadData(args, columns):
@@ -99,14 +104,32 @@ def ReadData(args, columns):
     # Discard the first row (header)
     combined_rows = combined_rows[1:]
 
-    # Select the desired columns from the combined rows list and convert them to floats
-    X_test = [[float(row[i]) for i in columns] for row in combined_rows]
+    # Flatten the columns list
+    flattened_columns = flatten_columns(args,columns)
 
-    # Get the labels from the first column of the combined rows
+    # Create a list of columns to keep
+    columns_to_keep = []
+    for column in flattened_columns:
+        # Check if any element in combined_rows at index i is empty
+        if all(row[column] != '' for row in combined_rows):
+            # If none of the elements are empty, append the index to columns_to_keep
+            columns_to_keep.append(column)
+    
+    if not columns_to_keep:
+            return None,None
+    
+    # Select the desired columns from the combined rows list
+    selected_columns = [[row[i] for i in columns_to_keep] for row in combined_rows]
+    # Iterate over the selected columns
+    for row in selected_columns:
+        tmp = []
+        for value in row:
+            tmp.append(float(value))
+        X_test.append(tmp)
+    
     y_test = [domains[row[0]] for row in combined_rows]
     
     return np.array(X_test), np.array(y_test)
-
 
 
 
@@ -119,6 +142,10 @@ def Classify(args, columns):
     columns = flatten_columns(args,columns)
 
     data, labels = ReadData(args, columns)
+    # Check if data and labels are empty
+    if data is None:
+        # If they are empty, skip the classification for this iteration
+        return
 
     if args.features_selection:
         clf = ExtraTreesClassifier(n_estimators=50)
@@ -185,6 +212,11 @@ def help(show=False):
                             help='This flag generates the classification report (default: False)') 
     helper.add_argument('-bf', '--brute-force', default=False, action='store_true', \
                             help='This flag performs brute force classification of all possible combination of features (default: False)') 
+    helper.add_argument('-bg', '--brute-force-genome', default=False, action='store_true', \
+                            help='This flag performs brute force classification of all possible combination of features for the genome (default: False)') 
+    helper.add_argument('-bp', '--brute-force-proteome', default=False, action='store_true', \
+                            help='This flag performs brute force classification of all possible combination of features for the proteome (default: False)') 
+    
     if show:
         parser.print_help()
     return parser.parse_args()
@@ -196,9 +228,16 @@ if __name__ == "__main__":
     if args.accuracy or args.f1_score or args.both or args.classification_report:
         if args.all_columns:
             Classify(args, [[0,1,2,3,4],[0,1,2,3,4]])
-        
+        elif args.brute_force_genome:
+            print("hello genome")
+            for x in range(1,18,1):
+                    com_list = list(combinations(range(1,18), x+1))
+                    [Classify(args,list(ele)) for ele in com_list]
+        elif args.brute_force_proteome:
+            for x in range(1,12,1):
+                com_list = list(combinations(range(18,29), x+1))
+                [Classify(args,list(ele)) for ele in com_list]
         elif args.brute_force:
-            print(2)
             all_comb_list=[]
             for x in range(1,29,1):
                 com_list = list(combinations(range(1,29), x+1))
