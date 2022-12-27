@@ -107,7 +107,7 @@ python3 classifier.py -cr > ../results/classification_reports_single.txt
 
 ```bash
 cd src/
-python3 classifier.py -bg -b > ../results/f1_score_accuracy_genome_all_combinations.txt
+python3.9 classifier.py -bg -b > ../results/f1_score_accuracy_genome_all_combinations.txt
 ```
 
 #### Classification f1-score and accuracy for all possible proteomic feature combinations
@@ -121,7 +121,7 @@ python3 classifier.py -bp -b > ../results/f1_score_accuracy_proteome_all_combina
 
 ```bash
 cd src/
-python3 classifier.py -bf -b > ../results/f1score_accuracy_all_combinations.txt
+python3.9 classifier.py -bf -b > ../results/f1score_accuracy_all_combinations.txt
 ```
 
 #### Classification report for all columns
