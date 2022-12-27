@@ -70,20 +70,28 @@ def concatenate_csv(args):
                 break
         return combined_rows
        
+def GetNumColumns(filepath):
+    with open(filepath, 'r') as f:
+        # Read the first line of the file
+        first_line = f.readline()
+        # Split the line by commas and return the length of the resulting list
+        return len(first_line.split(','))
 
 def flatten_columns(args, columns):
-    if isinstance(columns[0], list):
-        genome_columns, proteome_columns = columns[0], columns[1:]
-        # Get the number of columns in the genome and proteome files
-        with open(args.genome_filename, 'r') as file:
-            reader = csv.reader(file)
-            num_genome_columns = len(next(reader))
+    genome_columns = columns[0]
+    proteome_columns = columns[1]
+    num_genome_columns = GetNumColumns(args.genome_filename)
+    # If genome_columns is an integer, wrap it in a list
+    if isinstance(genome_columns, int):
+        genome_columns = [genome_columns]
+    # If proteome_columns is an integer, wrap it in a list
+    if isinstance(proteome_columns, int):
+        proteome_columns = [proteome_columns]
+    # If either genome_columns or proteome_columns is an empty list, return an empty list
+    if not genome_columns or not proteome_columns:
+        return []
+    return genome_columns + [i + num_genome_columns for i in proteome_columns]
 
-        # Flatten the columns
-        return genome_columns + [i + num_genome_columns for i in proteome_columns]
-    else:
-        # `columns` is a list of integers, so return it as is
-        return columns
 
 
 
@@ -146,7 +154,6 @@ def Classify(args, columns):
     if data is None:
         # If they are empty, skip the classification for this iteration
         return
-
     if args.features_selection:
         clf = ExtraTreesClassifier(n_estimators=50)
         clf = clf.fit(data, labels)
@@ -227,9 +234,8 @@ if __name__ == "__main__":
     args = help()
     if args.accuracy or args.f1_score or args.both or args.classification_report:
         if args.all_columns:
-            Classify(args, [[0,1,2,3,4],[0,1,2,3,4]])
+            Classify(args, [list(range(1,18,1)),list(range(1,11))])
         elif args.brute_force_genome:
-            print("hello genome")
             for x in range(1,18,1):
                     com_list = list(combinations(range(1,18), x+1))
                     [Classify(args,list(ele)) for ele in com_list]
