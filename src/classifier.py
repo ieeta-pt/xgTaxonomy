@@ -78,8 +78,13 @@ def GetNumColumns(filepath):
         return len(first_line.split(','))
 
 def flatten_columns(args, columns):
-    genome_columns = columns[0]
-    proteome_columns = columns[1]
+    if isinstance(columns, list):
+    # columns is a list
+        if isinstance(columns[0], list):
+            genome_columns = columns[0]
+            proteome_columns = columns[1]
+        else:
+            return columns
     num_genome_columns = GetNumColumns(args.genome_filename)
     # If genome_columns is an integer, wrap it in a list
     if isinstance(genome_columns, int):
@@ -114,7 +119,6 @@ def ReadData(args, columns):
 
     # Flatten the columns list
     flattened_columns = flatten_columns(args,columns)
-
     # Create a list of columns to keep
     columns_to_keep = []
     for column in flattened_columns:
