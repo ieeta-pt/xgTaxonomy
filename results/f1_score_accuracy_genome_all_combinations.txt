@@ -1,0 +1,4911 @@
+Accuracy of XGB, using: blzpack_g bsc_g
+0.7454545454545454
+F1 score of XGB, using: blzpack_g bsc_g
+0.7449986387591888
+
+Accuracy of XGB, using: blzpack_g bzip2_g
+0.6643763213530656
+F1 score of XGB, using: blzpack_g bzip2_g
+0.6633614940673296
+
+Accuracy of XGB, using: blzpack_g GeCo3_g
+0.6384778012684988
+F1 score of XGB, using: blzpack_g GeCo3_g
+0.6389536201287538
+
+Accuracy of XGB, using: blzpack_g gzip_g
+0.6965116279069767
+F1 score of XGB, using: blzpack_g gzip_g
+0.6959752804601561
+
+Accuracy of XGB, using: blzpack_g JARVIS_g
+0.7239957716701904
+F1 score of XGB, using: blzpack_g JARVIS_g
+0.7241487294424863
+
+Accuracy of XGB, using: blzpack_g lizard_g
+0.7616279069767442
+F1 score of XGB, using: blzpack_g lizard_g
+0.7604476279906544
+
+Accuracy of XGB, using: blzpack_g lz4_g
+0.7686046511627908
+F1 score of XGB, using: blzpack_g lz4_g
+0.7682943956365829
+
+Accuracy of XGB, using: blzpack_g lzop_g
+0.6890063424947146
+F1 score of XGB, using: blzpack_g lzop_g
+0.6872912078040777
+
+Accuracy of XGB, using: blzpack_g mbgc_g
+0.8186046511627906
+F1 score of XGB, using: blzpack_g mbgc_g
+0.8171226140535734
+
+Accuracy of XGB, using: blzpack_g MFCompress_g
+0.7236786469344609
+F1 score of XGB, using: blzpack_g MFCompress_g
+0.7236452443028892
+
+Accuracy of XGB, using: blzpack_g naf_g
+0.5430232558139536
+F1 score of XGB, using: blzpack_g naf_g
+0.5429433880491027
+
+Accuracy of XGB, using: blzpack_g NUHT_g
+0.7290697674418605
+F1 score of XGB, using: blzpack_g NUHT_g
+0.7278467515296793
+
+Accuracy of XGB, using: blzpack_g snzip_g
+0.7035940803382664
+F1 score of XGB, using: blzpack_g snzip_g
+0.703650968446808
+
+Accuracy of XGB, using: blzpack_g zip_g
+0.7979915433403806
+F1 score of XGB, using: blzpack_g zip_g
+0.7964506992142363
+
+Accuracy of XGB, using: blzpack_g xz_g
+0.8135306553911205
+F1 score of XGB, using: blzpack_g xz_g
+0.8120236643219274
+
+Accuracy of XGB, using: blzpack_g zstd_g
+0.6917547568710358
+F1 score of XGB, using: blzpack_g zstd_g
+0.691052282108504
+
+Accuracy of XGB, using: bsc_g bzip2_g
+0.7324524312896405
+F1 score of XGB, using: bsc_g bzip2_g
+0.7320780181064865
+
+Accuracy of XGB, using: bsc_g GeCo3_g
+0.676955602536998
+F1 score of XGB, using: bsc_g GeCo3_g
+0.6758448631018924
+
+Accuracy of XGB, using: bsc_g gzip_g
+0.7517970401691331
+F1 score of XGB, using: bsc_g gzip_g
+0.7515945897422718
+
+Accuracy of XGB, using: bsc_g JARVIS_g
+0.6619450317124735
+F1 score of XGB, using: bsc_g JARVIS_g
+0.6619364407647143
+
+Accuracy of XGB, using: bsc_g lizard_g
+0.7522198731501057
+F1 score of XGB, using: bsc_g lizard_g
+0.751427218832587
+
+Accuracy of XGB, using: bsc_g lz4_g
+0.7542283298097251
+F1 score of XGB, using: bsc_g lz4_g
+0.7540272325311633
+
+Accuracy of XGB, using: bsc_g lzop_g
+0.7540169133192389
+F1 score of XGB, using: bsc_g lzop_g
+0.75305138371105
+
+Accuracy of XGB, using: bsc_g mbgc_g
+0.7805496828752643
+F1 score of XGB, using: bsc_g mbgc_g
+0.7794071016486238
+
+Accuracy of XGB, using: bsc_g MFCompress_g
+0.6829809725158562
+F1 score of XGB, using: bsc_g MFCompress_g
+0.6835500036193832
+
+Accuracy of XGB, using: bsc_g naf_g
+0.5618393234672304
+F1 score of XGB, using: bsc_g naf_g
+0.5626246193725016
+
+Accuracy of XGB, using: bsc_g NUHT_g
+0.7312896405919662
+F1 score of XGB, using: bsc_g NUHT_g
+0.7276864565338751
+
+Accuracy of XGB, using: bsc_g snzip_g
+0.7642706131078224
+F1 score of XGB, using: bsc_g snzip_g
+0.7636733942022162
+
+Accuracy of XGB, using: bsc_g zip_g
+0.7428118393234672
+F1 score of XGB, using: bsc_g zip_g
+0.7420369140611933
+
+Accuracy of XGB, using: bsc_g xz_g
+0.7658562367864693
+F1 score of XGB, using: bsc_g xz_g
+0.7653003220292326
+
+Accuracy of XGB, using: bsc_g zstd_g
+0.7140591966173361
+F1 score of XGB, using: bsc_g zstd_g
+0.7136137224834371
+
+Accuracy of XGB, using: bzip2_g GeCo3_g
+0.6564482029598308
+F1 score of XGB, using: bzip2_g GeCo3_g
+0.6561103436972525
+
+Accuracy of XGB, using: bzip2_g gzip_g
+0.7210359408033826
+F1 score of XGB, using: bzip2_g gzip_g
+0.7201665990727948
+
+Accuracy of XGB, using: bzip2_g JARVIS_g
+0.7072938689217759
+F1 score of XGB, using: bzip2_g JARVIS_g
+0.7076302936997149
+
+Accuracy of XGB, using: bzip2_g lizard_g
+0.760676532769556
+F1 score of XGB, using: bzip2_g lizard_g
+0.758681385845082
+
+Accuracy of XGB, using: bzip2_g lz4_g
+0.764693446088795
+F1 score of XGB, using: bzip2_g lz4_g
+0.7644949302658198
+
+Accuracy of XGB, using: bzip2_g lzop_g
+0.6683932346723045
+F1 score of XGB, using: bzip2_g lzop_g
+0.6684930271762043
+
+Accuracy of XGB, using: bzip2_g mbgc_g
+0.7896405919661733
+F1 score of XGB, using: bzip2_g mbgc_g
+0.7886424532251868
+
+Accuracy of XGB, using: bzip2_g MFCompress_g
+0.7113107822410147
+F1 score of XGB, using: bzip2_g MFCompress_g
+0.7126480433651924
+
+Accuracy of XGB, using: bzip2_g naf_g
+0.5366807610993658
+F1 score of XGB, using: bzip2_g naf_g
+0.5369867874998727
+
+Accuracy of XGB, using: bzip2_g NUHT_g
+0.7256871035940803
+F1 score of XGB, using: bzip2_g NUHT_g
+0.7249272776733596
+
+Accuracy of XGB, using: bzip2_g snzip_g
+0.710782241014799
+F1 score of XGB, using: bzip2_g snzip_g
+0.7113667586897424
+
+Accuracy of XGB, using: bzip2_g zip_g
+0.7709302325581395
+F1 score of XGB, using: bzip2_g zip_g
+0.7685766481528384
+
+Accuracy of XGB, using: bzip2_g xz_g
+0.7806553911205073
+F1 score of XGB, using: bzip2_g xz_g
+0.779373274395861
+
+Accuracy of XGB, using: bzip2_g zstd_g
+0.7128964059196617
+F1 score of XGB, using: bzip2_g zstd_g
+0.711524373338805
+
+Accuracy of XGB, using: GeCo3_g gzip_g
+0.6990486257928119
+F1 score of XGB, using: GeCo3_g gzip_g
+0.699031892002738
+
+Accuracy of XGB, using: GeCo3_g JARVIS_g
+0.7266384778012686
+F1 score of XGB, using: GeCo3_g JARVIS_g
+0.7266863613654577
+
+Accuracy of XGB, using: GeCo3_g lizard_g
+0.7339323467230445
+F1 score of XGB, using: GeCo3_g lizard_g
+0.7330056850459953
+
+Accuracy of XGB, using: GeCo3_g lz4_g
+0.7225158562367865
+F1 score of XGB, using: GeCo3_g lz4_g
+0.7226227289854293
+
+Accuracy of XGB, using: GeCo3_g lzop_g
+0.6686046511627908
+F1 score of XGB, using: GeCo3_g lzop_g
+0.6686037846036552
+
+Accuracy of XGB, using: GeCo3_g mbgc_g
+0.7810782241014801
+F1 score of XGB, using: GeCo3_g mbgc_g
+0.7795137938720517
+
+Accuracy of XGB, using: GeCo3_g MFCompress_g
+0.7446088794926004
+F1 score of XGB, using: GeCo3_g MFCompress_g
+0.7456665601240514
+
+Accuracy of XGB, using: GeCo3_g naf_g
+0.5051797040169133
+F1 score of XGB, using: GeCo3_g naf_g
+0.5057218970083163
+
+Accuracy of XGB, using: GeCo3_g NUHT_g
+0.6957716701902747
+F1 score of XGB, using: GeCo3_g NUHT_g
+0.6936633935675063
+
+Accuracy of XGB, using: GeCo3_g snzip_g
+0.6792811839323466
+F1 score of XGB, using: GeCo3_g snzip_g
+0.6792860604479606
+
+Accuracy of XGB, using: GeCo3_g zip_g
+0.749048625792812
+F1 score of XGB, using: GeCo3_g zip_g
+0.7467459851990862
+
+Accuracy of XGB, using: GeCo3_g xz_g
+0.7946088794926005
+F1 score of XGB, using: GeCo3_g xz_g
+0.792081289331493
+
+Accuracy of XGB, using: GeCo3_g zstd_g
+0.6728329809725159
+F1 score of XGB, using: GeCo3_g zstd_g
+0.672022615233466
+
+Accuracy of XGB, using: gzip_g JARVIS_g
+0.6982029598308668
+F1 score of XGB, using: gzip_g JARVIS_g
+0.6979800230423612
+
+Accuracy of XGB, using: gzip_g lizard_g
+0.7577167019027484
+F1 score of XGB, using: gzip_g lizard_g
+0.7553793657675947
+
+Accuracy of XGB, using: gzip_g lz4_g
+0.8060253699788582
+F1 score of XGB, using: gzip_g lz4_g
+0.8051474119364317
+
+Accuracy of XGB, using: gzip_g lzop_g
+0.7105708245243129
+F1 score of XGB, using: gzip_g lzop_g
+0.7104406509538566
+
+Accuracy of XGB, using: gzip_g mbgc_g
+0.8149048625792812
+F1 score of XGB, using: gzip_g mbgc_g
+0.8142069689151873
+
+Accuracy of XGB, using: gzip_g MFCompress_g
+0.7200845665961946
+F1 score of XGB, using: gzip_g MFCompress_g
+0.7211667457191847
+
+Accuracy of XGB, using: gzip_g naf_g
+0.593446088794926
+F1 score of XGB, using: gzip_g naf_g
+0.5934103279085636
+
+Accuracy of XGB, using: gzip_g NUHT_g
+0.7770613107822408
+F1 score of XGB, using: gzip_g NUHT_g
+0.7751746087893954
+
+Accuracy of XGB, using: gzip_g snzip_g
+0.7668076109936576
+F1 score of XGB, using: gzip_g snzip_g
+0.7671499631265143
+
+Accuracy of XGB, using: gzip_g zip_g
+0.7765327695560253
+F1 score of XGB, using: gzip_g zip_g
+0.7754465638438928
+
+Accuracy of XGB, using: gzip_g xz_g
+0.775475687103594
+F1 score of XGB, using: gzip_g xz_g
+0.7746753653404796
+
+Accuracy of XGB, using: gzip_g zstd_g
+0.7015856236786469
+             F1 score of XGB, using: gzip_g zstd_g
+0.7007751969395836
+
+Accuracy of XGB, using: JARVIS_g lizard_g
+0.7113107822410148
+F1 score of XGB, using: JARVIS_g lizard_g
+0.7107186617438968
+
+Accuracy of XGB, using: JARVIS_g lz4_g
+0.7273784355179704
+F1 score of XGB, using: JARVIS_g lz4_g
+0.7270262821906501
+
+Accuracy of XGB, using: JARVIS_g lzop_g
+0.7307610993657506
+F1 score of XGB, using: JARVIS_g lzop_g
+0.7306476411170543
+
+Accuracy of XGB, using: JARVIS_g mbgc_g
+0.7617336152219873
+F1 score of XGB, using: JARVIS_g mbgc_g
+0.7607135224251124
+
+Accuracy of XGB, using: JARVIS_g MFCompress_g
+0.6661733615221989
+F1 score of XGB, using: JARVIS_g MFCompress_g
+0.6641792451895483
+
+Accuracy of XGB, using: JARVIS_g naf_g
+0.5409090909090909
+F1 score of XGB, using: JARVIS_g naf_g
+0.5422704422527358
+
+Accuracy of XGB, using: JARVIS_g NUHT_g
+0.7085623678646934
+F1 score of XGB, using: JARVIS_g NUHT_g
+0.7043483011437379
+
+Accuracy of XGB, using: JARVIS_g snzip_g
+0.7229386892177588
+F1 score of XGB, using: JARVIS_g snzip_g
+0.7223146826084365
+
+Accuracy of XGB, using: JARVIS_g zip_g
+0.7136363636363636
+F1 score of XGB, using: JARVIS_g zip_g
+0.7121597636388612
+
+Accuracy of XGB, using: JARVIS_g xz_g
+0.7665961945031713
+F1 score of XGB, using: JARVIS_g xz_g
+0.7642943140090617
+
+Accuracy of XGB, using: JARVIS_g zstd_g
+0.7070824524312896
+F1 score of XGB, using: JARVIS_g zstd_g
+0.707397681197531
+
+Accuracy of XGB, using: lizard_g lz4_g
+0.7504228329809726
+F1 score of XGB, using: lizard_g lz4_g
+0.7498599379637173
+
+Accuracy of XGB, using: lizard_g lzop_g
+0.7465116279069768
+F1 score of XGB, using: lizard_g lzop_g
+0.7454860029711574
+
+Accuracy of XGB, using: lizard_g mbgc_g
+0.772093023255814
+F1 score of XGB, using: lizard_g mbgc_g
+0.7724205580794508
+
+Accuracy of XGB, using: lizard_g MFCompress_g
+0.7143763213530655
+F1 score of XGB, using: lizard_g MFCompress_g
+0.7134221242481886
+
+Accuracy of XGB, using: lizard_g naf_g
+0.6511627906976745
+F1 score of XGB, using: lizard_g naf_g
+0.6511796988724132
+
+Accuracy of XGB, using: lizard_g NUHT_g
+0.7954545454545456
+F1 score of XGB, using: lizard_g NUHT_g
+0.7931910689951225
+
+Accuracy of XGB, using: lizard_g snzip_g
+0.7643763213530655
+F1 score of XGB, using: lizard_g snzip_g
+0.7629181594823748
+
+Accuracy of XGB, using: lizard_g zip_g
+0.7548625792811839
+F1 score of XGB, using: lizard_g zip_g
+0.7532648704205541
+
+Accuracy of XGB, using: lizard_g xz_g
+0.7282241014799156
+F1 score of XGB, using: lizard_g xz_g
+0.727713172684698
+
+Accuracy of XGB, using: lizard_g zstd_g
+0.750845665961945
+F1 score of XGB, using: lizard_g zstd_g
+0.7488050008400823
+
+Accuracy of XGB, using: lz4_g lzop_g
+0.7848837209302325
+F1 score of XGB, using: lz4_g lzop_g
+0.7844816575667141
+
+Accuracy of XGB, using: lz4_g mbgc_g
+0.7958773784355181
+F1 score of XGB, using: lz4_g mbgc_g
+0.7948760328474314
+
+Accuracy of XGB, using: lz4_g MFCompress_g
+0.7402748414376321
+F1 score of XGB, using: lz4_g MFCompress_g
+0.7402120913382377
+
+Accuracy of XGB, using: lz4_g naf_g
+0.6453488372093024
+F1 score of XGB, using: lz4_g naf_g
+0.6455511160558427
+
+Accuracy of XGB, using: lz4_g NUHT_g
+0.8124735729386892
+F1 score of XGB, using: lz4_g NUHT_g
+0.8106532857476315
+
+Accuracy of XGB, using: lz4_g snzip_g
+0.7853065539112051
+F1 score of XGB, using: lz4_g snzip_g
+0.7850034701896234
+
+Accuracy of XGB, using: lz4_g zip_g
+0.8180761099365752
+F1 score of XGB, using: lz4_g zip_g
+0.8179473907250072
+
+Accuracy of XGB, using: lz4_g xz_g
+0.7570824524312898
+F1 score of XGB, using: lz4_g xz_g
+0.7571289481719938
+
+Accuracy of XGB, using: lz4_g zstd_g
+0.7706131078224102
+F1 score of XGB, using: lz4_g zstd_g
+0.7706011106084396
+
+Accuracy of XGB, using: lzop_g mbgc_g
+0.8066596194503172
+F1 score of XGB, using: lzop_g mbgc_g
+0.8056824634992118
+
+Accuracy of XGB, using: lzop_g MFCompress_g
+0.7350951374207189
+F1 score of XGB, using: lzop_g MFCompress_g
+0.7349128874877016
+
+Accuracy of XGB, using: lzop_g naf_g
+0.5465116279069767
+F1 score of XGB, using: lzop_g naf_g
+0.5466173005458831
+
+Accuracy of XGB, using: lzop_g NUHT_g
+0.7241014799154334
+F1 score of XGB, using: lzop_g NUHT_g
+0.7228875047686649
+
+Accuracy of XGB, using: lzop_g snzip_g
+0.6939746300211416
+F1 score of XGB, using: lzop_g snzip_g
+0.695316543711745
+
+Accuracy of XGB, using: lzop_g zip_g
+0.7900634249471459
+F1 score of XGB, using: lzop_g zip_g
+0.787847371265428
+
+Accuracy of XGB, using: lzop_g xz_g
+0.7908033826638479
+F1 score of XGB, using: lzop_g xz_g
+0.789097242641738
+
+Accuracy of XGB, using: lzop_g zstd_g
+0.6921775898520085
+F1 score of XGB, using: lzop_g zstd_g
+0.6902091912191515
+
+Accuracy of XGB, using: mbgc_g MFCompress_g
+0.7550739957716704
+F1 score of XGB, using: mbgc_g MFCompress_g
+0.7539315715294356
+
+Accuracy of XGB, using: mbgc_g naf_g
+0.6404862579281185
+F1 score of XGB, using: mbgc_g naf_g
+0.6418210991100096
+
+Accuracy of XGB, using: mbgc_g NUHT_g
+0.7912262156448202
+F1 score of XGB, using: mbgc_g NUHT_g
+0.7879259225624415
+
+Accuracy of XGB, using: mbgc_g snzip_g
+0.8059196617336152
+F1 score of XGB, using: mbgc_g snzip_g
+0.8051825384562559
+
+Accuracy of XGB, using: mbgc_g zip_g
+0.7933403805496828
+F1 score of XGB, using: mbgc_g zip_g
+0.7931176033928078
+
+Accuracy of XGB, using: mbgc_g xz_g
+0.7514799154334038
+F1 score of XGB, using: mbgc_g xz_g
+0.7514971530396806
+
+Accuracy of XGB, using: mbgc_g zstd_g
+0.7972515856236787
+F1 score of XGB, using: mbgc_g zstd_g
+0.796402986080431
+
+Accuracy of XGB, using: MFCompress_g naf_g
+0.5577167019027484
+F1 score of XGB, using: MFCompress_g naf_g
+0.5580636969127981
+
+Accuracy of XGB, using: MFCompress_g NUHT_g
+0.709090909090909
+F1 score of XGB, using: MFCompress_g NUHT_g
+0.7076952161367045
+
+Accuracy of XGB, using: MFCompress_g snzip_g
+0.7287526427061312
+F1 score of XGB, using: MFCompress_g snzip_g
+0.7283688678770821
+
+Accuracy of XGB, using: MFCompress_g zip_g
+0.7130021141649049
+F1 score of XGB, using: MFCompress_g zip_g
+0.7121635010464524
+
+Accuracy of XGB, using: MFCompress_g xz_g
+0.7400634249471458
+F1 score of XGB, using: MFCompress_g xz_g
+0.7382154250053313
+
+Accuracy of XGB, using: MFCompress_g zstd_g
+0.7136363636363636
+F1 score of XGB, using: MFCompress_g zstd_g
+0.7137195544413704
+
+Accuracy of XGB, using: naf_g NUHT_g
+0.5321353065539112
+F1 score of XGB, using: naf_g NUHT_g
+0.5307754989603877
+
+Accuracy of XGB, using: naf_g snzip_g
+0.5339323467230443
+F1 score of XGB, using: naf_g snzip_g
+0.5337381634886355
+
+Accuracy of XGB, using: naf_g zip_g
+0.6241014799154334
+F1 score of XGB, using: naf_g zip_g
+0.6242796448363416
+
+Accuracy of XGB, using: naf_g xz_g
+0.6150105708245244
+F1 score of XGB, using: naf_g xz_g
+0.6160302939600425
+
+Accuracy of XGB, using: naf_g zstd_g
+0.5757928118393234
+F1 score of XGB, using: naf_g zstd_g
+0.5750241209994205
+
+Accuracy of XGB, using: NUHT_g snzip_g
+0.7539112050739958
+F1 score of XGB, using: NUHT_g snzip_g
+0.7522507269840413
+
+Accuracy of XGB, using: NUHT_g zip_g
+0.8088794926004228
+F1 score of XGB, using: NUHT_g zip_g
+0.8059403594670723
+
+Accuracy of XGB, using: NUHT_g xz_g
+0.775475687103594
+F1 score of XGB, using: NUHT_g xz_g
+0.7727214160669585
+
+Accuracy of XGB, using: NUHT_g zstd_g
+0.7665961945031712
+F1 score of XGB, using: NUHT_g zstd_g
+0.7644043287994498
+
+Accuracy of XGB, using: snzip_g zip_g
+0.7993657505285413
+F1 score of XGB, using: snzip_g zip_g
+0.7977610448441474
+
+Accuracy of XGB, using: snzip_g xz_g
+0.779492600422833
+F1 score of XGB, using: snzip_g xz_g
+0.7784587383660695
+
+Accuracy of XGB, using: snzip_g zstd_g
+0.7468287526427061
+F1 score of XGB, using: snzip_g zstd_g
+0.7461306959990103
+
+Accuracy of XGB, using: zip_g xz_g
+0.7620507399577168
+F1 score of XGB, using: zip_g xz_g
+0.7612415865333336
+
+Accuracy of XGB, using: zip_g zstd_g
+0.7857293868921775
+F1 score of XGB, using: zip_g zstd_g
+0.7832367096618527
+
+Accuracy of XGB, using: xz_g zstd_g
+0.7889006342494714
+F1 score of XGB, using: xz_g zstd_g
+0.7873799406126325
+
+Accuracy of XGB, using: blzpack_g bsc_g bzip2_g
+0.7924947145877379
+F1 score of XGB, using: blzpack_g bsc_g bzip2_g
+0.7917729450246429
+
+Accuracy of XGB, using: blzpack_g bsc_g GeCo3_g
+0.7697674418604652
+F1 score of XGB, using: blzpack_g bsc_g GeCo3_g
+0.7694947114642695
+
+Accuracy of XGB, using: blzpack_g bsc_g gzip_g
+0.8115221987315012
+F1 score of XGB, using: blzpack_g bsc_g gzip_g
+0.8107881700260615
+
+Accuracy of XGB, using: blzpack_g bsc_g JARVIS_g
+0.8014799154334037
+F1 score of XGB, using: blzpack_g bsc_g JARVIS_g
+0.8009789657421985
+
+Accuracy of XGB, using: blzpack_g bsc_g lizard_g
+0.8170190274841438
+F1 score of XGB, using: blzpack_g bsc_g lizard_g
+0.8155507483163025
+
+Accuracy of XGB, using: blzpack_g bsc_g lz4_g
+0.8100422832980974
+F1 score of XGB, using: blzpack_g bsc_g lz4_g
+0.8096409996919333
+
+Accuracy of XGB, using: blzpack_g bsc_g lzop_g
+0.8072938689217759
+F1 score of XGB, using: blzpack_g bsc_g lzop_g
+0.80592691299863
+
+Accuracy of XGB, using: blzpack_g bsc_g mbgc_g
+0.8527484143763214
+F1 score of XGB, using: blzpack_g bsc_g mbgc_g
+0.851979276552133
+
+Accuracy of XGB, using: blzpack_g bsc_g MFCompress_g
+0.7902748414376323
+F1 score of XGB, using: blzpack_g bsc_g MFCompress_g
+0.7901805812039308
+
+Accuracy of XGB, using: blzpack_g bsc_g naf_g
+0.7454545454545454
+F1 score of XGB, using: blzpack_g bsc_g naf_g
+0.7449986387591888
+
+Accuracy of XGB, using: blzpack_g bsc_g NUHT_g
+0.8365750528541227
+F1 score of XGB, using: blzpack_g bsc_g NUHT_g
+0.835607238727213
+
+Accuracy of XGB, using: blzpack_g bsc_g snzip_g
+0.8044397463002115
+F1 score of XGB, using: blzpack_g bsc_g snzip_g
+0.8035350823120051
+
+Accuracy of XGB, using: blzpack_g bsc_g zip_g
+0.8523255813953489
+F1 score of XGB, using: blzpack_g bsc_g zip_g
+0.8510304572110966
+
+Accuracy of XGB, using: blzpack_g bsc_g xz_g
+0.8496828752642707
+F1 score of XGB, using: blzpack_g bsc_g xz_g
+0.8485638237873706
+
+Accuracy of XGB, using: blzpack_g bsc_g zstd_g
+0.7798097251585624
+F1 score of XGB, using: blzpack_g bsc_g zstd_g
+0.7792237328060029
+
+Accuracy of XGB, using: blzpack_g bzip2_g GeCo3_g
+0.7158562367864694
+F1 score of XGB, using: blzpack_g bzip2_g GeCo3_g
+0.7159237793875627
+
+Accuracy of XGB, using: blzpack_g bzip2_g gzip_g
+0.7775898520084567
+F1 score of XGB, using: blzpack_g bzip2_g gzip_g
+0.7763155368632393
+
+Accuracy of XGB, using: blzpack_g bzip2_g JARVIS_g
+0.7881606765327696
+F1 score of XGB, using: blzpack_g bzip2_g JARVIS_g
+0.7877857700462746
+
+Accuracy of XGB, using: blzpack_g bzip2_g lizard_g
+0.8131078224101479
+F1 score of XGB, using: blzpack_g bzip2_g lizard_g
+0.8113746505430319
+
+Accuracy of XGB, using: blzpack_g bzip2_g lz4_g
+0.8002114164904862
+F1 score of XGB, using: blzpack_g bzip2_g lz4_g
+0.799500153909124
+
+Accuracy of XGB, using: blzpack_g bzip2_g lzop_g
+0.7494714587737845
+F1 score of XGB, using: blzpack_g bzip2_g lzop_g
+0.748259286860834
+
+Accuracy of XGB, using: blzpack_g bzip2_g mbgc_g
+0.8531712473572938
+F1 score of XGB, using: blzpack_g bzip2_g mbgc_g
+0.8518293982040799
+
+Accuracy of XGB, using: blzpack_g bzip2_g MFCompress_g
+0.770507399577167
+F1 score of XGB, using: blzpack_g bzip2_g MFCompress_g
+0.7707791214855719
+
+Accuracy of XGB, using: blzpack_g bzip2_g naf_g
+0.6643763213530656
+F1 score of XGB, using: blzpack_g bzip2_g naf_g
+0.6633614940673296
+
+Accuracy of XGB, using: blzpack_g bzip2_g NUHT_g
+0.7917547568710358
+F1 score of XGB, using: blzpack_g bzip2_g NUHT_g
+0.7905304230149206
+
+Accuracy of XGB, using: blzpack_g bzip2_g snzip_g
+0.7657505285412263
+F1 score of XGB, using: blzpack_g bzip2_g snzip_g
+0.7660720405813537
+
+Accuracy of XGB, using: blzpack_g bzip2_g zip_g
+0.8392177589852009
+F1 score of XGB, using: blzpack_g bzip2_g zip_g
+0.8371293816135854
+
+Accuracy of XGB, using: blzpack_g bzip2_g xz_g
+0.8564482029598309
+F1 score of XGB, using: blzpack_g bzip2_g xz_g
+0.8542471399216962
+
+Accuracy of XGB, using: blzpack_g bzip2_g zstd_g
+0.7727272727272727
+F1 score of XGB, using: blzpack_g bzip2_g zstd_g
+0.7717679698335954
+
+Accuracy of XGB, using: blzpack_g GeCo3_g gzip_g
+0.7549682875264271
+F1 score of XGB, using: blzpack_g GeCo3_g gzip_g
+0.7541816775892334
+
+Accuracy of XGB, using: blzpack_g GeCo3_g JARVIS_g
+0.7792811839323467
+F1 score of XGB, using: blzpack_g GeCo3_g JARVIS_g
+0.7798725708335933
+
+Accuracy of XGB, using: blzpack_g GeCo3_g lizard_g
+0.7908033826638479
+F1 score of XGB, using: blzpack_g GeCo3_g lizard_g
+0.7893992935816103
+
+Accuracy of XGB, using: blzpack_g GeCo3_g lz4_g
+0.7900634249471459
+F1 score of XGB, using: blzpack_g GeCo3_g lz4_g
+0.7896572337044087
+
+Accuracy of XGB, using: blzpack_g GeCo3_g lzop_g
+0.7214587737843552
+F1 score of XGB, using: blzpack_g GeCo3_g lzop_g
+0.7210413804512259
+
+Accuracy of XGB, using: blzpack_g GeCo3_g mbgc_g
+0.8364693446088796
+F1 score of XGB, using: blzpack_g GeCo3_g mbgc_g
+0.8351828912028438
+
+Accuracy of XGB, using: blzpack_g GeCo3_g MFCompress_g
+0.7795983086680761
+F1 score of XGB, using: blzpack_g GeCo3_g MFCompress_g
+0.7799965198366646
+
+Accuracy of XGB, using: blzpack_g GeCo3_g naf_g
+0.6384778012684988
+F1 score of XGB, using: blzpack_g GeCo3_g naf_g
+0.6389536201287538
+
+Accuracy of XGB, using: blzpack_g GeCo3_g NUHT_g
+0.7747357293868922
+F1 score of XGB, using: blzpack_g GeCo3_g NUHT_g
+0.7732241612941524
+
+Accuracy of XGB, using: blzpack_g GeCo3_g snzip_g
+0.7372093023255814
+F1 score of XGB, using: blzpack_g GeCo3_g snzip_g
+0.737433092727845
+
+Accuracy of XGB, using: blzpack_g GeCo3_g zip_g
+0.8300211416490486
+F1 score of XGB, using: blzpack_g GeCo3_g zip_g
+0.8280769322686137
+
+Accuracy of XGB, using: blzpack_g GeCo3_g xz_g
+0.8445031712473574
+F1 score of XGB, using: blzpack_g GeCo3_g xz_g
+0.8432034538540492
+
+Accuracy of XGB, using: blzpack_g GeCo3_g zstd_g
+0.7322410147991543
+F1 score of XGB, using: blzpack_g GeCo3_g zstd_g
+0.7318611514770065
+
+Accuracy of XGB, using: blzpack_g gzip_g JARVIS_g
+0.7903805496828753
+F1 score of XGB, using: blzpack_g gzip_g JARVIS_g
+0.7897967949570825
+
+Accuracy of XGB, using: blzpack_g gzip_g lizard_g
+0.8261099365750528
+F1 score of XGB, using: blzpack_g gzip_g lizard_g
+0.82489849234675
+
+Accuracy of XGB, using: blzpack_g gzip_g lz4_g
+0.8376321353065539
+F1 score of XGB, using: blzpack_g gzip_g lz4_g
+0.8370012378836942
+
+Accuracy of XGB, using: blzpack_g gzip_g lzop_g
+0.7744186046511626
+F1 score of XGB, using: blzpack_g gzip_g lzop_g
+0.7730198080928729
+
+Accuracy of XGB, using: blzpack_g gzip_g mbgc_g
+0.8793868921775898
+F1 score of XGB, using: blzpack_g gzip_g mbgc_g
+0.8783933408937143
+
+Accuracy of XGB, using: blzpack_g gzip_g MFCompress_g
+0.7943974630021142
+F1 score of XGB, using: blzpack_g gzip_g MFCompress_g
+0.793586038797021
+
+Accuracy of XGB, using: blzpack_g gzip_g naf_g
+0.6965116279069767
+F1 score of XGB, using: blzpack_g gzip_g naf_g
+0.6959752804601561
+
+Accuracy of XGB, using: blzpack_g gzip_g NUHT_g
+0.8264270613107823
+F1 score of XGB, using: blzpack_g gzip_g NUHT_g
+0.8249998540457499
+
+Accuracy of XGB, using: blzpack_g gzip_g snzip_g
+0.8109936575052853
+F1 score of XGB, using: blzpack_g gzip_g snzip_g
+0.8107969880807773
+
+Accuracy of XGB, using: blzpack_g gzip_g zip_g
+0.8455602536997887
+F1 score of XGB, using: blzpack_g gzip_g zip_g
+0.8438571309834002
+
+Accuracy of XGB, using: blzpack_g gzip_g xz_g
+0.8498942917547568
+F1 score of XGB, using: blzpack_g gzip_g xz_g
+0.8484759856938547
+
+Accuracy of XGB, using: blzpack_g gzip_g zstd_g
+0.7548625792811839
+F1 score of XGB, using: blzpack_g gzip_g zstd_g
+0.7544864436883886
+
+Accuracy of XGB, using: blzpack_g JARVIS_g lizard_g
+0.8065539112050741
+F1 score of XGB, using: blzpack_g JARVIS_g lizard_g
+0.8055325485813691
+
+Accuracy of XGB, using: blzpack_g JARVIS_g lz4_g
+0.8063424947145876
+F1 score of XGB, using: blzpack_g JARVIS_g lz4_g
+0.8056859061833986
+
+Accuracy of XGB, using: blzpack_g JARVIS_g lzop_g
+0.781923890063425
+F1 score of XGB, using: blzpack_g JARVIS_g lzop_g
+0.7814324638085993
+
+Accuracy of XGB, using: blzpack_g JARVIS_g mbgc_g
+0.8353065539112052
+F1 score of XGB, using: blzpack_g JARVIS_g mbgc_g
+0.8347391416300898
+
+Accuracy of XGB, using: blzpack_g JARVIS_g MFCompress_g
+0.7872093023255815
+F1 score of XGB, using: blzpack_g JARVIS_g MFCompress_g
+0.7864583572957227
+
+Accuracy of XGB, using: blzpack_g JARVIS_g naf_g
+0.7239957716701904
+F1 score of XGB, using: blzpack_g JARVIS_g naf_g
+0.7241487294424863
+
+Accuracy of XGB, using: blzpack_g JARVIS_g NUHT_g
+0.8282241014799154
+F1 score of XGB, using: blzpack_g JARVIS_g NUHT_g
+0.826808622701307
+
+Accuracy of XGB, using: blzpack_g JARVIS_g snzip_g
+0.7815010570824524
+F1 score of XGB, using: blzpack_g JARVIS_g snzip_g
+0.781158038346165
+
+Accuracy of XGB, using: blzpack_g JARVIS_g zip_g
+0.8349894291754756
+F1 score of XGB, using: blzpack_g JARVIS_g zip_g
+0.8335433115754588
+
+Accuracy of XGB, using: blzpack_g JARVIS_g xz_g
+0.85
+F1 score of XGB, using: blzpack_g JARVIS_g xz_g
+0.8488960434810583
+
+Accuracy of XGB, using: blzpack_g JARVIS_g zstd_g
+0.7750528541226216
+F1 score of XGB, using: blzpack_g JARVIS_g zstd_g
+0.7740753065465373
+
+Accuracy of XGB, using: blzpack_g lizard_g lz4_g
+0.8145877378435518
+F1 score of XGB, using: blzpack_g lizard_g lz4_g
+0.8144417684193229
+
+Accuracy of XGB, using: blzpack_g lizard_g lzop_g
+0.8114164904862579
+F1 score of XGB, using: blzpack_g lizard_g lzop_g
+0.809831542965447
+
+Accuracy of XGB, using: blzpack_g lizard_g mbgc_g
+0.8426004228329809
+F1 score of XGB, using: blzpack_g lizard_g mbgc_g
+0.8414392365054371
+
+Accuracy of XGB, using: blzpack_g lizard_g MFCompress_g
+0.8027484143763214
+F1 score of XGB, using: blzpack_g lizard_g MFCompress_g
+0.8014992029429614
+
+Accuracy of XGB, using: blzpack_g lizard_g naf_g
+0.7616279069767442
+F1 score of XGB, using: blzpack_g lizard_g naf_g
+0.7604476279906544
+
+Accuracy of XGB, using: blzpack_g lizard_g NUHT_g
+0.8522198731501058
+F1 score of XGB, using: blzpack_g lizard_g NUHT_g
+0.8501125972952985
+
+Accuracy of XGB, using: blzpack_g lizard_g snzip_g
+0.8135306553911205
+F1 score of XGB, using: blzpack_g lizard_g snzip_g
+0.8127102757587682
+
+Accuracy of XGB, using: blzpack_g lizard_g zip_g
+0.833615221987315
+F1 score of XGB, using: blzpack_g lizard_g zip_g
+0.8321548396358522
+
+Accuracy of XGB, using: blzpack_g lizard_g xz_g
+0.8310782241014799
+F1 score of XGB, using: blzpack_g lizard_g xz_g
+0.8297737762213039
+
+Accuracy of XGB, using: blzpack_g lizard_g zstd_g
+0.812262156448203
+F1 score of XGB, using: blzpack_g lizard_g zstd_g
+0.8112537672434389
+
+Accuracy of XGB, using: blzpack_g lz4_g lzop_g
+0.813953488372093
+F1 score of XGB, using: blzpack_g lz4_g lzop_g
+0.8131459776687311
+
+Accuracy of XGB, using: blzpack_g lz4_g mbgc_g
+0.8515856236786469
+F1 score of XGB, using: blzpack_g lz4_g mbgc_g
+0.8505867886560055
+
+Accuracy of XGB, using: blzpack_g lz4_g MFCompress_g
+0.8086680761099366
+F1 score of XGB, using: blzpack_g lz4_g MFCompress_g
+0.8078052535830107
+
+Accuracy of XGB, using: blzpack_g lz4_g naf_g
+0.7686046511627908
+F1 score of XGB, using: blzpack_g lz4_g naf_g
+0.7682943956365829
+
+Accuracy of XGB, using: blzpack_g lz4_g NUHT_g
+0.8541226215644819
+F1 score of XGB, using: blzpack_g lz4_g NUHT_g
+0.8522125464392174
+
+Accuracy of XGB, using: blzpack_g lz4_g snzip_g
+0.8164904862579281
+F1 score of XGB, using: blzpack_g lz4_g snzip_g
+0.8162437642682612
+
+Accuracy of XGB, using: blzpack_g lz4_g zip_g
+0.861416490486258
+F1 score of XGB, using: blzpack_g lz4_g zip_g
+0.8609312984067321
+
+Accuracy of XGB, using: blzpack_g lz4_g xz_g
+0.8509513742071881
+F1 score of XGB, using: blzpack_g lz4_g xz_g
+0.8499749541056649
+
+Accuracy of XGB, using: blzpack_g lz4_g zstd_g
+0.8116279069767443
+F1 score of XGB, using: blzpack_g lz4_g zstd_g
+0.8112587373779967
+
+Accuracy of XGB, using: blzpack_g lzop_g mbgc_g
+0.8476744186046512
+F1 score of XGB, using: blzpack_g lzop_g mbgc_g
+0.8462222309308673
+
+Accuracy of XGB, using: blzpack_g lzop_g MFCompress_g
+0.7773784355179705
+F1 score of XGB, using: blzpack_g lzop_g MFCompress_g
+0.77663804116225
+
+Accuracy of XGB, using: blzpack_g lzop_g naf_g
+0.6890063424947146
+F1 score of XGB, using: blzpack_g lzop_g naf_g
+0.6872912078040777
+
+Accuracy of XGB, using: blzpack_g lzop_g NUHT_g
+0.7914376321353065
+F1 score of XGB, using: blzpack_g lzop_g NUHT_g
+0.7891886436755309
+
+Accuracy of XGB, using: blzpack_g lzop_g snzip_g
+0.7804439746300212
+F1 score of XGB, using: blzpack_g lzop_g snzip_g
+0.7801453295727134
+
+Accuracy of XGB, using: blzpack_g lzop_g zip_g
+0.8366807610993657
+F1 score of XGB, using: blzpack_g lzop_g zip_g
+0.8340493932303028
+
+Accuracy of XGB, using: blzpack_g lzop_g xz_g
+0.843446088794926
+F1 score of XGB, using: blzpack_g lzop_g xz_g
+0.8419389508824558
+
+Accuracy of XGB, using: blzpack_g lzop_g zstd_g
+0.7554968287526427
+F1 score of XGB, using: blzpack_g lzop_g zstd_g
+0.7536679799547327
+
+Accuracy of XGB, using: blzpack_g mbgc_g MFCompress_g
+0.8400634249471459
+F1 score of XGB, using: blzpack_g mbgc_g MFCompress_g
+0.8390585516718989
+
+Accuracy of XGB, using: blzpack_g mbgc_g naf_g
+0.8186046511627906
+F1 score of XGB, using: blzpack_g mbgc_g naf_g
+0.8171226140535734
+
+Accuracy of XGB, using: blzpack_g mbgc_g NUHT_g
+0.8829809725158562
+F1 score of XGB, using: blzpack_g mbgc_g NUHT_g
+0.8805313460706641
+
+Accuracy of XGB, using: blzpack_g mbgc_g snzip_g
+0.8526427061310782
+F1 score of XGB, using: blzpack_g mbgc_g snzip_g
+0.8519592742691697
+
+Accuracy of XGB, using: blzpack_g mbgc_g zip_g
+0.8717758985200845
+F1 score of XGB, using: blzpack_g mbgc_g zip_g
+0.8704721827186118
+
+Accuracy of XGB, using: blzpack_g mbgc_g xz_g
+0.8546511627906976
+F1 score of XGB, using: blzpack_g mbgc_g xz_g
+0.8530879329650126
+
+Accuracy of XGB, using: blzpack_g mbgc_g zstd_g
+0.8454545454545453
+F1 score of XGB, using: blzpack_g mbgc_g zstd_g
+0.8444205731055071
+
+Accuracy of XGB, using: blzpack_g MFCompress_g naf_g
+0.7236786469344609
+F1 score of XGB, using: blzpack_g MFCompress_g naf_g
+0.7236452443028892
+
+Accuracy of XGB, using: blzpack_g MFCompress_g NUHT_g
+0.8149048625792812
+F1 score of XGB, using: blzpack_g MFCompress_g NUHT_g
+0.8136693254623362
+
+Accuracy of XGB, using: blzpack_g MFCompress_g snzip_g
+0.7765327695560255
+F1 score of XGB, using: blzpack_g MFCompress_g snzip_g
+0.7762052955846743
+
+Accuracy of XGB, using: blzpack_g MFCompress_g zip_g
+0.8339323467230445
+F1 score of XGB, using: blzpack_g MFCompress_g zip_g
+0.8328022482002012
+
+Accuracy of XGB, using: blzpack_g MFCompress_g xz_g
+0.8402748414376321
+F1 score of XGB, using: blzpack_g MFCompress_g xz_g
+0.8387225581595003
+
+Accuracy of XGB, using: blzpack_g MFCompress_g zstd_g
+0.7772727272727271
+F1 score of XGB, using: blzpack_g MFCompress_g zstd_g
+0.776784242589643
+
+Accuracy of XGB, using: blzpack_g naf_g NUHT_g
+0.7290697674418605
+F1 score of XGB, using: blzpack_g naf_g NUHT_g
+0.7278467515296793
+
+Accuracy of XGB, using: blzpack_g naf_g snzip_g
+0.7035940803382664
+F1 score of XGB, using: blzpack_g naf_g snzip_g
+0.703650968446808
+
+Accuracy of XGB, using: blzpack_g naf_g zip_g
+0.7979915433403806
+F1 score of XGB, using: blzpack_g naf_g zip_g
+0.7964506992142363
+
+Accuracy of XGB, using: blzpack_g naf_g xz_g
+0.8135306553911205
+F1 score of XGB, using: blzpack_g naf_g xz_g
+0.8120236643219274
+
+Accuracy of XGB, using: blzpack_g naf_g zstd_g
+0.6917547568710358
+F1 score of XGB, using: blzpack_g naf_g zstd_g
+0.691052282108504
+
+Accuracy of XGB, using: blzpack_g NUHT_g snzip_g
+0.8141649048625792
+F1 score of XGB, using: blzpack_g NUHT_g snzip_g
+0.8132373793332338
+
+Accuracy of XGB, using: blzpack_g NUHT_g zip_g
+0.8741014799154335
+F1 score of XGB, using: blzpack_g NUHT_g zip_g
+0.8713808071820722
+
+Accuracy of XGB, using: blzpack_g NUHT_g xz_g
+0.885200845665962
+F1 score of XGB, using: blzpack_g NUHT_g xz_g
+0.8828853768562649
+
+Accuracy of XGB, using: blzpack_g NUHT_g zstd_g
+0.8048625792811839
+F1 score of XGB, using: blzpack_g NUHT_g zstd_g
+0.8033577966919874
+
+Accuracy of XGB, using: blzpack_g snzip_g zip_g
+0.8511627906976743
+F1 score of XGB, using: blzpack_g snzip_g zip_g
+0.8498982603580091
+
+Accuracy of XGB, using: blzpack_g snzip_g xz_g
+0.8436575052854124
+F1 score of XGB, using: blzpack_g snzip_g xz_g
+0.8428004023485816
+
+Accuracy of XGB, using: blzpack_g snzip_g zstd_g
+0.7862579281183933
+F1 score of XGB, using: blzpack_g snzip_g zstd_g
+0.7859469488599252
+
+Accuracy of XGB, using: blzpack_g zip_g xz_g
+0.8623678646934462
+F1 score of XGB, using: blzpack_g zip_g xz_g
+0.860927903377888
+
+Accuracy of XGB, using: blzpack_g zip_g zstd_g
+0.8303382663847779
+F1 score of XGB, using: blzpack_g zip_g zstd_g
+0.8282915845514521
+
+Accuracy of XGB, using: blzpack_g xz_g zstd_g
+0.8471458773784356
+F1 score of XGB, using: blzpack_g xz_g zstd_g
+0.8459989282713469
+
+Accuracy of XGB, using: bsc_g bzip2_g GeCo3_g
+0.7791754756871034
+F1 score of XGB, using: bsc_g bzip2_g GeCo3_g
+0.7789223398877393
+
+Accuracy of XGB, using: bsc_g bzip2_g gzip_g
+0.8046511627906977
+F1 score of XGB, using: bsc_g bzip2_g gzip_g
+0.8033983985777382
+
+Accuracy of XGB, using: bsc_g bzip2_g JARVIS_g
+0.7727272727272727
+F1 score of XGB, using: bsc_g bzip2_g JARVIS_g
+0.772710467134415
+
+Accuracy of XGB, using: bsc_g bzip2_g lizard_g
+0.8009513742071881
+F1 score of XGB, using: bsc_g bzip2_g lizard_g
+0.7989316209708666
+
+Accuracy of XGB, using: bsc_g bzip2_g lz4_g
+0.7982029598308669
+F1 score of XGB, using: bsc_g bzip2_g lz4_g
+0.7981785236665682
+
+Accuracy of XGB, using: bsc_g bzip2_g lzop_g
+0.7970401691331923
+F1 score of XGB, using: bsc_g bzip2_g lzop_g
+0.7961699261773163
+
+Accuracy of XGB, using: bsc_g bzip2_g mbgc_g
+0.8220930232558139
+F1 score of XGB, using: bsc_g bzip2_g mbgc_g
+0.8216899632375154
+
+Accuracy of XGB, using: bsc_g bzip2_g MFCompress_g
+0.7836152219873151
+F1 score of XGB, using: bsc_g bzip2_g MFCompress_g
+0.7836165655808411
+
+Accuracy of XGB, using: bsc_g bzip2_g naf_g
+0.7324524312896405
+F1 score of XGB, using: bsc_g bzip2_g naf_g
+0.7320780181064865
+
+Accuracy of XGB, using: bsc_g bzip2_g NUHT_g
+0.8371035940803383
+F1 score of XGB, using: bsc_g bzip2_g NUHT_g
+0.8359510587702227
+
+Accuracy of XGB, using: bsc_g bzip2_g snzip_g
+0.8035940803382664
+F1 score of XGB, using: bsc_g bzip2_g snzip_g
+0.8022945768736772
+
+Accuracy of XGB, using: bsc_g bzip2_g zip_g
+0.8183932346723045
+F1 score of XGB, using: bsc_g bzip2_g zip_g
+0.8168142018620834
+
+Accuracy of XGB, using: bsc_g bzip2_g xz_g
+0.820507399577167
+F1 score of XGB, using: bsc_g bzip2_g xz_g
+0.8198014947685118
+
+Accuracy of XGB, using: bsc_g bzip2_g zstd_g
+0.7869978858350952
+F1 score of XGB, using: bsc_g bzip2_g zstd_g
+0.7853933707691357
+
+Accuracy of XGB, using: bsc_g GeCo3_g gzip_g
+0.79661733615222
+F1 score of XGB, using: bsc_g GeCo3_g gzip_g
+0.7957569965718692
+
+Accuracy of XGB, using: bsc_g GeCo3_g JARVIS_g
+0.7758985200845666
+F1 score of XGB, using: bsc_g GeCo3_g JARVIS_g
+0.7753460377052882
+
+Accuracy of XGB, using: bsc_g GeCo3_g lizard_g
+0.7867864693446089
+F1 score of XGB, using: bsc_g GeCo3_g lizard_g
+0.7848513657141898
+
+Accuracy of XGB, using: bsc_g GeCo3_g lz4_g
+0.7791754756871037
+F1 score of XGB, using: bsc_g GeCo3_g lz4_g
+0.7781398290862318
+
+Accuracy of XGB, using: bsc_g GeCo3_g lzop_g
+0.7899577167019027
+F1 score of XGB, using: bsc_g GeCo3_g lzop_g
+0.7888627572581021
+
+Accuracy of XGB, using: bsc_g GeCo3_g mbgc_g
+0.8341437632135307
+F1 score of XGB, using: bsc_g GeCo3_g mbgc_g
+0.8333228527094771
+
+Accuracy of XGB, using: bsc_g GeCo3_g MFCompress_g
+0.7841437632135305
+F1 score of XGB, using: bsc_g GeCo3_g MFCompress_g
+0.7846820416607871
+
+Accuracy of XGB, using: bsc_g GeCo3_g naf_g
+0.676955602536998
+F1 score of XGB, using: bsc_g GeCo3_g naf_g
+0.6758448631018924
+
+Accuracy of XGB, using: bsc_g GeCo3_g NUHT_g
+0.7831923890063425
+F1 score of XGB, using: bsc_g GeCo3_g NUHT_g
+0.7804476535655227
+
+Accuracy of XGB, using: bsc_g GeCo3_g snzip_g
+0.7941860465116279
+F1 score of XGB, using: bsc_g GeCo3_g snzip_g
+0.7930474144133173
+
+Accuracy of XGB, using: bsc_g GeCo3_g zip_g
+0.8110993657505284
+F1 score of XGB, using: bsc_g GeCo3_g zip_g
+0.8096547761821713
+
+Accuracy of XGB, using: bsc_g GeCo3_g xz_g
+0.8412262156448203
+F1 score of XGB, using: bsc_g GeCo3_g xz_g
+0.8387951747634007
+
+Accuracy of XGB, using: bsc_g GeCo3_g zstd_g
+0.7573995771670191
+F1 score of XGB, using: bsc_g GeCo3_g zstd_g
+0.7569343605281746
+
+Accuracy of XGB, using: bsc_g gzip_g JARVIS_g
+0.7806553911205074
+F1 score of XGB, using: bsc_g gzip_g JARVIS_g
+0.7803450034231101
+
+Accuracy of XGB, using: bsc_g gzip_g lizard_g
+0.8243128964059198
+F1 score of XGB, using: bsc_g gzip_g lizard_g
+0.8228382732121012
+
+Accuracy of XGB, using: bsc_g gzip_g lz4_g
+0.8406976744186044
+F1 score of XGB, using: bsc_g gzip_g lz4_g
+0.8402022361088424
+
+Accuracy of XGB, using: bsc_g gzip_g lzop_g
+0.8140591966173361
+F1 score of XGB, using: bsc_g gzip_g lzop_g
+0.8126551039193431
+
+Accuracy of XGB, using: bsc_g gzip_g mbgc_g
+0.8520084566596194
+F1 score of XGB, using: bsc_g gzip_g mbgc_g
+0.8513022752985417
+
+Accuracy of XGB, using: bsc_g gzip_g MFCompress_g
+0.8008456659619452
+F1 score of XGB, using: bsc_g gzip_g MFCompress_g
+0.8012142646124927
+
+Accuracy of XGB, using: bsc_g gzip_g naf_g
+0.7517970401691331
+F1 score of XGB, using: bsc_g gzip_g naf_g
+0.7515945897422718
+
+Accuracy of XGB, using: bsc_g gzip_g NUHT_g
+0.8527484143763214
+F1 score of XGB, using: bsc_g gzip_g NUHT_g
+0.8514212970381208
+
+Accuracy of XGB, using: bsc_g gzip_g snzip_g
+0.8335095137420717
+F1 score of XGB, using: bsc_g gzip_g snzip_g
+0.8328289966029144
+
+Accuracy of XGB, using: bsc_g gzip_g zip_g
+0.8300211416490486
+F1 score of XGB, using: bsc_g gzip_g zip_g
+0.8286750254766669
+
+Accuracy of XGB, using: bsc_g gzip_g xz_g
+0.8406976744186048
+F1 score of XGB, using: bsc_g gzip_g xz_g
+0.8393083467732279
+
+Accuracy of XGB, using: bsc_g gzip_g zstd_g
+0.7946088794926005
+F1 score of XGB, using: bsc_g gzip_g zstd_g
+0.7937475706560461
+
+Accuracy of XGB, using: bsc_g JARVIS_g lizard_g
+0.7829809725158562
+F1 score of XGB, using: bsc_g JARVIS_g lizard_g
+0.7819698042467799
+
+Accuracy of XGB, using: bsc_g JARVIS_g lz4_g
+0.7769556025369979
+F1 score of XGB, using: bsc_g JARVIS_g lz4_g
+0.7762536864170169
+
+Accuracy of XGB, using: bsc_g JARVIS_g lzop_g
+0.7923890063424949
+F1 score of XGB, using: bsc_g JARVIS_g lzop_g
+0.7912312433179859
+
+Accuracy of XGB, using: bsc_g JARVIS_g mbgc_g
+0.831183932346723
+F1 score of XGB, using: bsc_g JARVIS_g mbgc_g
+0.8303031199153491
+
+Accuracy of XGB, using: bsc_g JARVIS_g MFCompress_g
+0.7376321353065538
+F1 score of XGB, using: bsc_g JARVIS_g MFCompress_g
+0.7378127032371301
+
+Accuracy of XGB, using: bsc_g JARVIS_g naf_g
+0.6619450317124735
+F1 score of XGB, using: bsc_g JARVIS_g naf_g
+0.6619364407647143
+
+Accuracy of XGB, using: bsc_g JARVIS_g NUHT_g
+0.7784355179704017
+F1 score of XGB, using: bsc_g JARVIS_g NUHT_g
+0.7765642202530587
+
+Accuracy of XGB, using: bsc_g JARVIS_g snzip_g
+0.7938689217758984
+F1 score of XGB, using: bsc_g JARVIS_g snzip_g
+0.7933150031906464
+
+Accuracy of XGB, using: bsc_g JARVIS_g zip_g
+0.7894291754756873
+F1 score of XGB, using: bsc_g JARVIS_g zip_g
+0.7884683457110644
+
+Accuracy of XGB, using: bsc_g JARVIS_g xz_g
+0.8230443974630021
+F1 score of XGB, using: bsc_g JARVIS_g xz_g
+0.8209851273195656
+
+Accuracy of XGB, using: bsc_g JARVIS_g zstd_g
+0.7619450317124735
+F1 score of XGB, using: bsc_g JARVIS_g zstd_g
+0.7616311667701772
+
+Accuracy of XGB, using: bsc_g lizard_g lz4_g
+0.7980972515856236
+F1 score of XGB, using: bsc_g lizard_g lz4_g
+0.7976301389298569
+
+Accuracy of XGB, using: bsc_g lizard_g lzop_g
+0.802536997885835
+F1 score of XGB, using: bsc_g lizard_g lzop_g
+0.801645767637814
+
+Accuracy of XGB, using: bsc_g lizard_g mbgc_g
+0.8376321353065539
+F1 score of XGB, using: bsc_g lizard_g mbgc_g
+0.8372728212538038
+
+Accuracy of XGB, using: bsc_g lizard_g MFCompress_g
+0.786046511627907
+F1 score of XGB, using: bsc_g lizard_g MFCompress_g
+0.7845288471461016
+
+Accuracy of XGB, using: bsc_g lizard_g naf_g
+0.7522198731501057
+F1 score of XGB, using: bsc_g lizard_g naf_g
+0.751427218832587
+
+Accuracy of XGB, using: bsc_g lizard_g NUHT_g
+0.8522198731501056
+F1 score of XGB, using: bsc_g lizard_g NUHT_g
+0.851000291216929
+
+Accuracy of XGB, using: bsc_g lizard_g snzip_g
+0.8183932346723045
+F1 score of XGB, using: bsc_g lizard_g snzip_g
+0.8169817863755687
+
+Accuracy of XGB, using: bsc_g lizard_g zip_g
+0.8218816067653277
+F1 score of XGB, using: bsc_g lizard_g zip_g
+0.8203513494168245
+
+Accuracy of XGB, using: bsc_g lizard_g xz_g
+0.814693446088795
+F1 score of XGB, using: bsc_g lizard_g xz_g
+0.8131428817298125
+
+Accuracy of XGB, using: bsc_g lizard_g zstd_g
+0.7932346723044398
+F1 score of XGB, using: bsc_g lizard_g zstd_g
+0.7917992580184628
+
+Accuracy of XGB, using: bsc_g lz4_g lzop_g
+0.8160676532769555
+F1 score of XGB, using: bsc_g lz4_g lzop_g
+0.8156730864116278
+
+Accuracy of XGB, using: bsc_g lz4_g mbgc_g
+0.8340380549682875
+F1 score of XGB, using: bsc_g lz4_g mbgc_g
+0.8328424350179418
+
+Accuracy of XGB, using: bsc_g lz4_g MFCompress_g
+0.793446088794926
+F1 score of XGB, using: bsc_g lz4_g MFCompress_g
+0.7925960387580632
+
+Accuracy of XGB, using: bsc_g lz4_g naf_g
+0.7542283298097251
+F1 score of XGB, using: bsc_g lz4_g naf_g
+0.7540272325311633
+
+Accuracy of XGB, using: bsc_g lz4_g NUHT_g
+0.8426004228329809
+F1 score of XGB, using: bsc_g lz4_g NUHT_g
+0.8409740951079321
+
+Accuracy of XGB, using: bsc_g lz4_g snzip_g
+0.8193446088794927
+F1 score of XGB, using: bsc_g lz4_g snzip_g
+0.8192226234941616
+
+Accuracy of XGB, using: bsc_g lz4_g zip_g
+0.8455602536997885
+F1 score of XGB, using: bsc_g lz4_g zip_g
+0.8453170177068963
+
+Accuracy of XGB, using: bsc_g lz4_g xz_g
+0.8135306553911207
+F1 score of XGB, using: bsc_g lz4_g xz_g
+0.8125662418230736
+
+Accuracy of XGB, using: bsc_g lz4_g zstd_g
+0.8136363636363635
+F1 score of XGB, using: bsc_g lz4_g zstd_g
+0.8136285807696362
+
+Accuracy of XGB, using: bsc_g lzop_g mbgc_g
+0.8403805496828752
+F1 score of XGB, using: bsc_g lzop_g mbgc_g
+0.8397268748997252
+
+Accuracy of XGB, using: bsc_g lzop_g MFCompress_g
+0.7984143763213531
+F1 score of XGB, using: bsc_g lzop_g MFCompress_g
+0.7978046801406791
+
+Accuracy of XGB, using: bsc_g lzop_g naf_g
+0.7540169133192389
+F1 score of XGB, using: bsc_g lzop_g naf_g
+0.75305138371105
+
+Accuracy of XGB, using: bsc_g lzop_g NUHT_g
+0.845983086680761
+F1 score of XGB, using: bsc_g lzop_g NUHT_g
+0.8442427397803591
+
+Accuracy of XGB, using: bsc_g lzop_g snzip_g
+0.7997885835095138
+F1 score of XGB, using: bsc_g lzop_g snzip_g
+0.7991405815610805
+
+Accuracy of XGB, using: bsc_g lzop_g zip_g
+0.8362579281183932
+F1 score of XGB, using: bsc_g lzop_g zip_g
+0.8345650832851715
+
+Accuracy of XGB, using: bsc_g lzop_g xz_g
+0.8226215644820296
+F1 score of XGB, using: bsc_g lzop_g xz_g
+0.8215811730474378
+
+Accuracy of XGB, using: bsc_g lzop_g zstd_g
+0.7744186046511627
+F1 score of XGB, using: bsc_g lzop_g zstd_g
+0.7733621788761506
+
+Accuracy of XGB, using: bsc_g mbgc_g MFCompress_g
+0.8288583509513743
+F1 score of XGB, using: bsc_g mbgc_g MFCompress_g
+0.8278195477616578
+
+Accuracy of XGB, using: bsc_g mbgc_g naf_g
+0.7805496828752643
+F1 score of XGB, using: bsc_g mbgc_g naf_g
+0.7794071016486238
+
+Accuracy of XGB, using: bsc_g mbgc_g NUHT_g
+0.8676532769556026
+F1 score of XGB, using: bsc_g mbgc_g NUHT_g
+0.8656167984062302
+
+Accuracy of XGB, using: bsc_g mbgc_g snzip_g
+0.8471458773784356
+F1 score of XGB, using: bsc_g mbgc_g snzip_g
+0.8462971265483002
+
+Accuracy of XGB, using: bsc_g mbgc_g zip_g
+0.852431289640592
+F1 score of XGB, using: bsc_g mbgc_g zip_g
+0.8516308267704801
+
+Accuracy of XGB, using: bsc_g mbgc_g xz_g
+0.8293868921775898
+F1 score of XGB, using: bsc_g mbgc_g xz_g
+0.8281648433125662
+
+Accuracy of XGB, using: bsc_g mbgc_g zstd_g
+0.8329809725158561
+F1 score of XGB, using: bsc_g mbgc_g zstd_g
+0.8324428364353628
+
+Accuracy of XGB, using: bsc_g MFCompress_g naf_g
+0.6829809725158562
+F1 score of XGB, using: bsc_g MFCompress_g naf_g
+0.6835500036193832
+
+Accuracy of XGB, using: bsc_g MFCompress_g NUHT_g
+0.7876321353065538
+F1 score of XGB, using: bsc_g MFCompress_g NUHT_g
+0.7857238893313364
+
+Accuracy of XGB, using: bsc_g MFCompress_g snzip_g
+0.7937632135306554
+F1 score of XGB, using: bsc_g MFCompress_g snzip_g
+0.7936160405345146
+
+Accuracy of XGB, using: bsc_g MFCompress_g zip_g
+0.8078224101479916
+F1 score of XGB, using: bsc_g MFCompress_g zip_g
+0.8069936025704726
+
+Accuracy of XGB, using: bsc_g MFCompress_g xz_g
+0.8231501057082452
+F1 score of XGB, using: bsc_g MFCompress_g xz_g
+0.8217542098442076
+
+Accuracy of XGB, using: bsc_g MFCompress_g zstd_g
+0.7708245243128963
+F1 score of XGB, using: bsc_g MFCompress_g zstd_g
+0.7713991017854107
+
+Accuracy of XGB, using: bsc_g naf_g NUHT_g
+0.7312896405919662
+F1 score of XGB, using: bsc_g naf_g NUHT_g
+0.7276864565338751
+
+Accuracy of XGB, using: bsc_g naf_g snzip_g
+0.7642706131078224
+F1 score of XGB, using: bsc_g naf_g snzip_g
+0.7636733942022162
+
+Accuracy of XGB, using: bsc_g naf_g zip_g
+0.7428118393234672
+F1 score of XGB, using: bsc_g naf_g zip_g
+0.7420369140611933
+
+Accuracy of XGB, using: bsc_g naf_g xz_g
+0.7658562367864693
+F1 score of XGB, using: bsc_g naf_g xz_g
+0.7653003220292326
+
+Accuracy of XGB, using: bsc_g naf_g zstd_g
+0.7140591966173361
+F1 score of XGB, using: bsc_g naf_g zstd_g
+0.7136137224834371
+
+Accuracy of XGB, using: bsc_g NUHT_g snzip_g
+0.8533826638477802
+F1 score of XGB, using: bsc_g NUHT_g snzip_g
+0.8526023935980179
+
+Accuracy of XGB, using: bsc_g NUHT_g zip_g
+0.8516913319238901
+F1 score of XGB, using: bsc_g NUHT_g zip_g
+0.8497420121447317
+
+Accuracy of XGB, using: bsc_g NUHT_g xz_g
+0.8584566596194504
+F1 score of XGB, using: bsc_g NUHT_g xz_g
+0.8555006392001621
+
+Accuracy of XGB, using: bsc_g NUHT_g zstd_g
+0.8326638477801268
+F1 score of XGB, using: bsc_g NUHT_g zstd_g
+0.8316144701379995
+
+Accuracy of XGB, using: bsc_g snzip_g zip_g
+0.8402748414376321
+F1 score of XGB, using: bsc_g snzip_g zip_g
+0.8391808221254984
+
+Accuracy of XGB, using: bsc_g snzip_g xz_g
+0.8307610993657505
+F1 score of XGB, using: bsc_g snzip_g xz_g
+0.8298031862183866
+
+Accuracy of XGB, using: bsc_g snzip_g zstd_g
+0.7915433403805496
+F1 score of XGB, using: bsc_g snzip_g zstd_g
+0.789993044431982
+
+Accuracy of XGB, using: bsc_g zip_g xz_g
+0.8312896405919661
+F1 score of XGB, using: bsc_g zip_g xz_g
+0.8301478887464802
+
+Accuracy of XGB, using: bsc_g zip_g zstd_g
+0.8214587737843553
+F1 score of XGB, using: bsc_g zip_g zstd_g
+0.819777326795772
+
+Accuracy of XGB, using: bsc_g xz_g zstd_g
+0.8273784355179705
+F1 score of XGB, using: bsc_g xz_g zstd_g
+0.826372923275579
+
+Accuracy of XGB, using: bzip2_g GeCo3_g gzip_g
+0.777061310782241
+F1 score of XGB, using: bzip2_g GeCo3_g gzip_g
+0.7751522687281237
+
+Accuracy of XGB, using: bzip2_g GeCo3_g JARVIS_g
+0.7918604651162792
+F1 score of XGB, using: bzip2_g GeCo3_g JARVIS_g
+0.7919915597072025
+
+Accuracy of XGB, using: bzip2_g GeCo3_g lizard_g
+0.795031712473573
+F1 score of XGB, using: bzip2_g GeCo3_g lizard_g
+0.7931134364457919
+
+Accuracy of XGB, using: bzip2_g GeCo3_g lz4_g
+0.7880549682875264
+F1 score of XGB, using: bzip2_g GeCo3_g lz4_g
+0.7876585810154375
+
+Accuracy of XGB, using: bzip2_g GeCo3_g lzop_g
+0.749365750528541
+F1 score of XGB, using: bzip2_g GeCo3_g lzop_g
+0.7487465647267992
+
+Accuracy of XGB, using: bzip2_g GeCo3_g mbgc_g
+0.8472515856236786
+F1 score of XGB, using: bzip2_g GeCo3_g mbgc_g
+0.8461557809551398
+
+Accuracy of XGB, using: bzip2_g GeCo3_g MFCompress_g
+0.7804439746300211
+F1 score of XGB, using: bzip2_g GeCo3_g MFCompress_g
+0.7812403404819339
+
+Accuracy of XGB, using: bzip2_g GeCo3_g naf_g
+0.6564482029598308
+F1 score of XGB, using: bzip2_g GeCo3_g naf_g
+0.6561103436972525
+
+Accuracy of XGB, using: bzip2_g GeCo3_g NUHT_g
+0.7869978858350951
+F1 score of XGB, using: bzip2_g GeCo3_g NUHT_g
+0.7848073794831926
+
+Accuracy of XGB, using: bzip2_g GeCo3_g snzip_g
+0.76384778012685
+F1 score of XGB, using: bzip2_g GeCo3_g snzip_g
+0.7631677831858713
+
+Accuracy of XGB, using: bzip2_g GeCo3_g zip_g
+0.8209302325581396
+F1 score of XGB, using: bzip2_g GeCo3_g zip_g
+0.818694257300781
+
+Accuracy of XGB, using: bzip2_g GeCo3_g xz_g
+0.8500000000000002
+F1 score of XGB, using: bzip2_g GeCo3_g xz_g
+0.8486857338271566
+
+Accuracy of XGB, using: bzip2_g GeCo3_g zstd_g
+0.7620507399577167
+F1 score of XGB, using: bzip2_g GeCo3_g zstd_g
+0.7606896144311884
+
+Accuracy of XGB, using: bzip2_g gzip_g JARVIS_g
+0.7839323467230446
+F1 score of XGB, using: bzip2_g gzip_g JARVIS_g
+0.783300352803574
+
+Accuracy of XGB, using: bzip2_g gzip_g lizard_g
+0.8219873150105709
+F1 score of XGB, using: bzip2_g gzip_g lizard_g
+0.8194380276422637
+
+Accuracy of XGB, using: bzip2_g gzip_g lz4_g
+0.8426004228329811
+F1 score of XGB, using: bzip2_g gzip_g lz4_g
+0.8417408284862326
+
+Accuracy of XGB, using: bzip2_g gzip_g lzop_g
+0.7864693446088794
+F1 score of XGB, using: bzip2_g gzip_g lzop_g
+0.7862935350642054
+
+Accuracy of XGB, using: bzip2_g gzip_g mbgc_g
+0.8559196617336152
+F1 score of XGB, using: bzip2_g gzip_g mbgc_g
+0.8554459678514151
+
+Accuracy of XGB, using: bzip2_g gzip_g MFCompress_g
+0.7979915433403806
+F1 score of XGB, using: bzip2_g gzip_g MFCompress_g
+0.7978394186825318
+
+Accuracy of XGB, using: bzip2_g gzip_g naf_g
+0.7210359408033826
+F1 score of XGB, using: bzip2_g gzip_g naf_g
+0.7201665990727948
+
+Accuracy of XGB, using: bzip2_g gzip_g NUHT_g
+0.830126849894292
+F1 score of XGB, using: bzip2_g gzip_g NUHT_g
+0.827781266733423
+
+Accuracy of XGB, using: bzip2_g gzip_g snzip_g
+0.8173361522198732
+F1 score of XGB, using: bzip2_g gzip_g snzip_g
+0.8172592539095301
+
+Accuracy of XGB, using: bzip2_g gzip_g zip_g
+0.8346723044397463
+F1 score of XGB, using: bzip2_g gzip_g zip_g
+0.8328005929874159
+
+Accuracy of XGB, using: bzip2_g gzip_g xz_g
+0.8313953488372092
+F1 score of XGB, using: bzip2_g gzip_g xz_g
+0.8288891275005639
+
+Accuracy of XGB, using: bzip2_g gzip_g zstd_g
+0.7889006342494714
+F1 score of XGB, using: bzip2_g gzip_g zstd_g
+0.7871670058621276
+
+Accuracy of XGB, using: bzip2_g JARVIS_g lizard_g
+0.7942917547568709
+F1 score of XGB, using: bzip2_g JARVIS_g lizard_g
+0.7927292557913368
+
+Accuracy of XGB, using: bzip2_g JARVIS_g lz4_g
+0.7956659619450317
+F1 score of XGB, using: bzip2_g JARVIS_g lz4_g
+0.794979859049856
+
+Accuracy of XGB, using: bzip2_g JARVIS_g lzop_g
+0.790063424947146
+F1 score of XGB, using: bzip2_g JARVIS_g lzop_g
+0.7895705695920447
+
+Accuracy of XGB, using: bzip2_g JARVIS_g mbgc_g
+0.8415433403805498
+F1 score of XGB, using: bzip2_g JARVIS_g mbgc_g
+0.8410984052481176
+
+Accuracy of XGB, using: bzip2_g JARVIS_g MFCompress_g
+0.7690274841437631
+F1 score of XGB, using: bzip2_g JARVIS_g MFCompress_g
+0.7689711786085105
+
+Accuracy of XGB, using: bzip2_g JARVIS_g naf_g
+0.7072938689217759
+F1 score of XGB, using: bzip2_g JARVIS_g naf_g
+0.7076302936997149
+
+Accuracy of XGB, using: bzip2_g JARVIS_g NUHT_g
+0.8162790697674419
+F1 score of XGB, using: bzip2_g JARVIS_g NUHT_g
+0.8152614564612138
+
+Accuracy of XGB, using: bzip2_g JARVIS_g snzip_g
+0.7885835095137421
+F1 score of XGB, using: bzip2_g JARVIS_g snzip_g
+0.7878824984299867
+
+Accuracy of XGB, using: bzip2_g JARVIS_g zip_g
+0.8154334038054968
+F1 score of XGB, using: bzip2_g JARVIS_g zip_g
+0.8144085611180059
+
+Accuracy of XGB, using: bzip2_g JARVIS_g xz_g
+0.8340380549682875
+F1 score of XGB, using: bzip2_g JARVIS_g xz_g
+0.8331340213786337
+
+Accuracy of XGB, using: bzip2_g JARVIS_g zstd_g
+0.7776955602536998
+F1 score of XGB, using: bzip2_g JARVIS_g zstd_g
+0.776878013486901
+
+Accuracy of XGB, using: bzip2_g lizard_g lz4_g
+0.8098308668076111
+F1 score of XGB, using: bzip2_g lizard_g lz4_g
+0.808880679013496
+
+Accuracy of XGB, using: bzip2_g lizard_g lzop_g
+0.8113107822410146
+F1 score of XGB, using: bzip2_g lizard_g lzop_g
+0.8101823288342238
+
+Accuracy of XGB, using: bzip2_g lizard_g mbgc_g
+0.8418604651162791
+F1 score of XGB, using: bzip2_g lizard_g mbgc_g
+0.8410390663548426
+
+Accuracy of XGB, using: bzip2_g lizard_g MFCompress_g
+0.7980972515856236
+F1 score of XGB, using: bzip2_g lizard_g MFCompress_g
+0.7965420372375654
+
+Accuracy of XGB, using: bzip2_g lizard_g naf_g
+0.760676532769556
+F1 score of XGB, using: bzip2_g lizard_g naf_g
+0.758681385845082
+
+Accuracy of XGB, using: bzip2_g lizard_g NUHT_g
+0.8652219873150105
+F1 score of XGB, using: bzip2_g lizard_g NUHT_g
+0.8618857160600684
+
+Accuracy of XGB, using: bzip2_g lizard_g snzip_g
+0.8198731501057083
+F1 score of XGB, using: bzip2_g lizard_g snzip_g
+0.818027371302754
+
+Accuracy of XGB, using: bzip2_g lizard_g zip_g
+0.8167019027484143
+F1 score of XGB, using: bzip2_g lizard_g zip_g
+0.8141572998837155
+
+Accuracy of XGB, using: bzip2_g lizard_g xz_g
+0.8265327695560254
+F1 score of XGB, using: bzip2_g lizard_g xz_g
+0.8237497487596732
+
+Accuracy of XGB, using: bzip2_g lizard_g zstd_g
+0.8097251585623679
+F1 score of XGB, using: bzip2_g lizard_g zstd_g
+0.8070966886437919
+
+Accuracy of XGB, using: bzip2_g lz4_g lzop_g
+0.8126849894291753
+F1 score of XGB, using: bzip2_g lz4_g lzop_g
+0.8121625796058103
+
+Accuracy of XGB, using: bzip2_g lz4_g mbgc_g
+0.8439746300211416
+F1 score of XGB, using: bzip2_g lz4_g mbgc_g
+0.8426977749746438
+
+Accuracy of XGB, using: bzip2_g lz4_g MFCompress_g
+0.8009513742071881
+F1 score of XGB, using: bzip2_g lz4_g MFCompress_g
+0.8002932003189063
+
+Accuracy of XGB, using: bzip2_g lz4_g naf_g
+0.764693446088795
+F1 score of XGB, using: bzip2_g lz4_g naf_g
+0.7644949302658198
+
+Accuracy of XGB, using: bzip2_g lz4_g NUHT_g
+0.8619450317124736
+F1 score of XGB, using: bzip2_g lz4_g NUHT_g
+0.8603780668859888
+
+Accuracy of XGB, using: bzip2_g lz4_g snzip_g
+0.8190274841437631
+F1 score of XGB, using: bzip2_g lz4_g snzip_g
+0.8185745196574858
+
+Accuracy of XGB, using: bzip2_g lz4_g zip_g
+0.8601479915433405
+F1 score of XGB, using: bzip2_g lz4_g zip_g
+0.8595074570994866
+
+Accuracy of XGB, using: bzip2_g lz4_g xz_g
+0.831818181818182
+F1 score of XGB, using: bzip2_g lz4_g xz_g
+0.831072904871929
+
+Accuracy of XGB, using: bzip2_g lz4_g zstd_g
+0.8150105708245242
+F1 score of XGB, using: bzip2_g lz4_g zstd_g
+0.814218415946403
+
+Accuracy of XGB, using: bzip2_g lzop_g mbgc_g
+0.8458773784355179
+F1 score of XGB, using: bzip2_g lzop_g mbgc_g
+0.8448768117021865
+
+Accuracy of XGB, using: bzip2_g lzop_g MFCompress_g
+0.7909090909090908
+F1 score of XGB, using: bzip2_g lzop_g MFCompress_g
+0.7909442938431497
+
+Accuracy of XGB, using: bzip2_g lzop_g naf_g
+0.6683932346723045
+F1 score of XGB, using: bzip2_g lzop_g naf_g
+0.6684930271762043
+
+Accuracy of XGB, using: bzip2_g lzop_g NUHT_g
+0.7947145877378435
+F1 score of XGB, using: bzip2_g lzop_g NUHT_g
+0.7935378700905387
+
+Accuracy of XGB, using: bzip2_g lzop_g snzip_g
+0.7704016913319238
+F1 score of XGB, using: bzip2_g lzop_g snzip_g
+0.7720396384125037
+
+Accuracy of XGB, using: bzip2_g lzop_g zip_g
+0.8349894291754758
+F1 score of XGB, using: bzip2_g lzop_g zip_g
+0.8329635931044308
+
+Accuracy of XGB, using: bzip2_g lzop_g xz_g
+0.8346723044397463
+F1 score of XGB, using: bzip2_g lzop_g xz_g
+0.8330360298965246
+
+Accuracy of XGB, using: bzip2_g lzop_g zstd_g
+0.7651162790697674
+F1 score of XGB, using: bzip2_g lzop_g zstd_g
+0.7636114843606798
+
+Accuracy of XGB, using: bzip2_g mbgc_g MFCompress_g
+0.844186046511628
+F1 score of XGB, using: bzip2_g mbgc_g MFCompress_g
+0.843605481239616
+
+Accuracy of XGB, using: bzip2_g mbgc_g naf_g
+0.7896405919661733
+F1 score of XGB, using: bzip2_g mbgc_g naf_g
+0.7886424532251868
+
+Accuracy of XGB, using: bzip2_g mbgc_g NUHT_g
+0.8717758985200845
+F1 score of XGB, using: bzip2_g mbgc_g NUHT_g
+0.8700617792398073
+
+Accuracy of XGB, using: bzip2_g mbgc_g snzip_g
+0.8446088794926003
+F1 score of XGB, using: bzip2_g mbgc_g snzip_g
+0.8437985198663543
+
+Accuracy of XGB, using: bzip2_g mbgc_g zip_g
+0.8573995771670191
+F1 score of XGB, using: bzip2_g mbgc_g zip_g
+0.8564571069284893
+
+Accuracy of XGB, using: bzip2_g mbgc_g xz_g
+0.8365750528541225
+F1 score of XGB, using: bzip2_g mbgc_g xz_g
+0.8359734825893795
+
+Accuracy of XGB, using: bzip2_g mbgc_g zstd_g
+0.8477801268498943
+F1 score of XGB, using: bzip2_g mbgc_g zstd_g
+0.846387150509592
+
+Accuracy of XGB, using: bzip2_g MFCompress_g naf_g
+0.7113107822410147
+F1 score of XGB, using: bzip2_g MFCompress_g naf_g
+0.7126480433651924
+
+Accuracy of XGB, using: bzip2_g MFCompress_g NUHT_g
+0.8145877378435518
+F1 score of XGB, using: bzip2_g MFCompress_g NUHT_g
+0.8138613296935983
+
+Accuracy of XGB, using: bzip2_g MFCompress_g snzip_g
+0.7861522198731502
+F1 score of XGB, using: bzip2_g MFCompress_g snzip_g
+0.786264620459262
+
+Accuracy of XGB, using: bzip2_g MFCompress_g zip_g
+0.8252642706131077
+F1 score of XGB, using: bzip2_g MFCompress_g zip_g
+0.8245806153005942
+
+Accuracy of XGB, using: bzip2_g MFCompress_g xz_g
+0.8385835095137422
+F1 score of XGB, using: bzip2_g MFCompress_g xz_g
+0.8374576366123033
+
+Accuracy of XGB, using: bzip2_g MFCompress_g zstd_g
+0.7874207188160678
+F1 score of XGB, using: bzip2_g MFCompress_g zstd_g
+0.7870591699321896
+
+Accuracy of XGB, using: bzip2_g naf_g NUHT_g
+0.7256871035940803
+F1 score of XGB, using: bzip2_g naf_g NUHT_g
+0.7249272776733596
+
+Accuracy of XGB, using: bzip2_g naf_g snzip_g
+0.710782241014799
+F1 score of XGB, using: bzip2_g naf_g snzip_g
+0.7113667586897424
+
+Accuracy of XGB, using: bzip2_g naf_g zip_g
+0.7709302325581395
+F1 score of XGB, using: bzip2_g naf_g zip_g
+0.7685766481528384
+
+Accuracy of XGB, using: bzip2_g naf_g xz_g
+0.7806553911205073
+F1 score of XGB, using: bzip2_g naf_g xz_g
+0.779373274395861
+
+Accuracy of XGB, using: bzip2_g naf_g zstd_g
+0.7128964059196617
+F1 score of XGB, using: bzip2_g naf_g zstd_g
+0.711524373338805
+
+Accuracy of XGB, using: bzip2_g NUHT_g snzip_g
+0.8155391120507399
+F1 score of XGB, using: bzip2_g NUHT_g snzip_g
+0.8137897829090608
+
+Accuracy of XGB, using: bzip2_g NUHT_g zip_g
+0.873784355179704
+F1 score of XGB, using: bzip2_g NUHT_g zip_g
+0.8708605223568693
+
+Accuracy of XGB, using: bzip2_g NUHT_g xz_g
+0.8657505285412264
+F1 score of XGB, using: bzip2_g NUHT_g xz_g
+0.8633549773939638
+
+Accuracy of XGB, using: bzip2_g NUHT_g zstd_g
+0.8231501057082452
+F1 score of XGB, using: bzip2_g NUHT_g zstd_g
+0.8208790340146377
+
+Accuracy of XGB, using: bzip2_g snzip_g zip_g
+0.8396405919661734
+F1 score of XGB, using: bzip2_g snzip_g zip_g
+0.8382783555101195
+
+Accuracy of XGB, using: bzip2_g snzip_g xz_g
+0.8348837209302327
+F1 score of XGB, using: bzip2_g snzip_g xz_g
+0.8335090801156445
+
+Accuracy of XGB, using: bzip2_g snzip_g zstd_g
+0.8008456659619452
+F1 score of XGB, using: bzip2_g snzip_g zstd_g
+0.7991823472222634
+
+Accuracy of XGB, using: bzip2_g zip_g xz_g
+0.8374207188160675
+F1 score of XGB, using: bzip2_g zip_g xz_g
+0.8359396476059034
+
+Accuracy of XGB, using: bzip2_g zip_g zstd_g
+0.8282241014799154
+F1 score of XGB, using: bzip2_g zip_g zstd_g
+0.8256598583523248
+
+Accuracy of XGB, using: bzip2_g xz_g zstd_g
+0.8331923890063425
+F1 score of XGB, using: bzip2_g xz_g zstd_g
+0.8313154997570347
+
+Accuracy of XGB, using: GeCo3_g gzip_g JARVIS_g
+0.7949260042283297
+F1 score of XGB, using: GeCo3_g gzip_g JARVIS_g
+0.7942346185163894
+
+Accuracy of XGB, using: GeCo3_g gzip_g lizard_g
+0.809090909090909
+F1 score of XGB, using: GeCo3_g gzip_g lizard_g
+0.8079374209754651
+
+Accuracy of XGB, using: GeCo3_g gzip_g lz4_g
+0.8286469344608879
+F1 score of XGB, using: GeCo3_g gzip_g lz4_g
+0.8275916379530648
+
+Accuracy of XGB, using: GeCo3_g gzip_g lzop_g
+0.7610993657505286
+F1 score of XGB, using: GeCo3_g gzip_g lzop_g
+0.7599290518864117
+
+Accuracy of XGB, using: GeCo3_g gzip_g mbgc_g
+0.8630021141649047
+F1 score of XGB, using: GeCo3_g gzip_g mbgc_g
+0.8618463744973652
+
+Accuracy of XGB, using: GeCo3_g gzip_g MFCompress_g
+0.8038054968287527
+F1 score of XGB, using: GeCo3_g gzip_g MFCompress_g
+0.8034714096778488
+
+Accuracy of XGB, using: GeCo3_g gzip_g naf_g
+0.6990486257928119
+F1 score of XGB, using: GeCo3_g gzip_g naf_g
+0.699031892002738
+
+Accuracy of XGB, using: GeCo3_g gzip_g NUHT_g
+0.8141649048625794
+F1 score of XGB, using: GeCo3_g gzip_g NUHT_g
+0.8125395473185646
+
+Accuracy of XGB, using: GeCo3_g gzip_g snzip_g
+0.8035940803382665
+F1 score of XGB, using: GeCo3_g gzip_g snzip_g
+0.8035779023141627
+
+Accuracy of XGB, using: GeCo3_g gzip_g zip_g
+0.8297040169133194
+F1 score of XGB, using: GeCo3_g gzip_g zip_g
+0.8272090194583426
+
+Accuracy of XGB, using: GeCo3_g gzip_g xz_g
+0.8457716701902747
+F1 score of XGB, using: GeCo3_g gzip_g xz_g
+0.8445929020903703
+
+Accuracy of XGB, using: GeCo3_g gzip_g zstd_g
+0.7546511627906977
+F1 score of XGB, using: GeCo3_g gzip_g zstd_g
+0.7541320750745173
+
+Accuracy of XGB, using: GeCo3_g JARVIS_g lizard_g
+0.7935517970401691
+F1 score of XGB, using: GeCo3_g JARVIS_g lizard_g
+0.7920037959126696
+
+Accuracy of XGB, using: GeCo3_g JARVIS_g lz4_g
+0.7926004228329809
+F1 score of XGB, using: GeCo3_g JARVIS_g lz4_g
+0.7919856962555729
+
+Accuracy of XGB, using: GeCo3_g JARVIS_g lzop_g
+0.7799154334038054
+F1 score of XGB, using: GeCo3_g JARVIS_g lzop_g
+0.7806158337451857
+
+Accuracy of XGB, using: GeCo3_g JARVIS_g mbgc_g
+0.8068710359408033
+F1 score of XGB, using: GeCo3_g JARVIS_g mbgc_g
+0.8055809152186251
+
+Accuracy of XGB, using: GeCo3_g JARVIS_g MFCompress_g
+0.7928118393234673
+F1 score of XGB, using: GeCo3_g JARVIS_g MFCompress_g
+0.7922143189985429
+
+Accuracy of XGB, using: GeCo3_g JARVIS_g naf_g
+0.7266384778012686
+F1 score of XGB, using: GeCo3_g JARVIS_g naf_g
+0.7266863613654577
+
+Accuracy of XGB, using: GeCo3_g JARVIS_g NUHT_g
+0.8142706131078224
+F1 score of XGB, using: GeCo3_g JARVIS_g NUHT_g
+0.8131253447151217
+
+Accuracy of XGB, using: GeCo3_g JARVIS_g snzip_g
+0.788477801268499
+F1 score of XGB, using: GeCo3_g JARVIS_g snzip_g
+0.7880310496133472
+
+Accuracy of XGB, using: GeCo3_g JARVIS_g zip_g
+0.8134249471458774
+F1 score of XGB, using: GeCo3_g JARVIS_g zip_g
+0.8123343187046601
+
+Accuracy of XGB, using: GeCo3_g JARVIS_g xz_g
+0.823678646934461
+F1 score of XGB, using: GeCo3_g JARVIS_g xz_g
+0.8211914527172063
+
+Accuracy of XGB, using: GeCo3_g JARVIS_g zstd_g
+0.7806553911205073
+F1 score of XGB, using: GeCo3_g JARVIS_g zstd_g
+0.7806331967194617
+
+Accuracy of XGB, using: GeCo3_g lizard_g lz4_g
+0.782875264270613
+F1 score of XGB, using: GeCo3_g lizard_g lz4_g
+0.7817997246021815
+
+Accuracy of XGB, using: GeCo3_g lizard_g lzop_g
+0.7917547568710359
+F1 score of XGB, using: GeCo3_g lizard_g lzop_g
+0.7907767947892965
+
+Accuracy of XGB, using: GeCo3_g lizard_g mbgc_g
+0.8281183932346721
+F1 score of XGB, using: GeCo3_g lizard_g mbgc_g
+0.8271769942136048
+
+Accuracy of XGB, using: GeCo3_g lizard_g MFCompress_g
+0.7980972515856237
+F1 score of XGB, using: GeCo3_g lizard_g MFCompress_g
+0.7972930707638346
+
+Accuracy of XGB, using: GeCo3_g lizard_g naf_g
+0.7339323467230445
+F1 score of XGB, using: GeCo3_g lizard_g naf_g
+0.7330056850459953
+
+Accuracy of XGB, using: GeCo3_g lizard_g NUHT_g
+0.8419661733615221
+F1 score of XGB, using: GeCo3_g lizard_g NUHT_g
+0.83938443642318
+
+Accuracy of XGB, using: GeCo3_g lizard_g snzip_g
+0.7979915433403806
+F1 score of XGB, using: GeCo3_g lizard_g snzip_g
+0.7963275031323681
+
+Accuracy of XGB, using: GeCo3_g lizard_g zip_g
+0.8100422832980971
+F1 score of XGB, using: GeCo3_g lizard_g zip_g
+0.8087274220147667
+
+Accuracy of XGB, using: GeCo3_g lizard_g xz_g
+0.8181818181818181
+F1 score of XGB, using: GeCo3_g lizard_g xz_g
+0.8165436504899601
+
+Accuracy of XGB, using: GeCo3_g lizard_g zstd_g
+0.7945031712473571
+F1 score of XGB, using: GeCo3_g lizard_g zstd_g
+0.7923780864701241
+
+Accuracy of XGB, using: GeCo3_g lz4_g lzop_g
+0.7936575052854123
+F1 score of XGB, using: GeCo3_g lz4_g lzop_g
+0.7930968000969443
+
+Accuracy of XGB, using: GeCo3_g lz4_g mbgc_g
+0.8428118393234673
+F1 score of XGB, using: GeCo3_g lz4_g mbgc_g
+0.8413268845487414
+
+Accuracy of XGB, using: GeCo3_g lz4_g MFCompress_g
+0.800105708245243
+F1 score of XGB, using: GeCo3_g lz4_g MFCompress_g
+0.8001362757776482
+
+Accuracy of XGB, using: GeCo3_g lz4_g naf_g
+0.7225158562367865
+F1 score of XGB, using: GeCo3_g lz4_g naf_g
+0.7226227289854293
+
+Accuracy of XGB, using: GeCo3_g lz4_g NUHT_g
+0.8362579281183932
+F1 score of XGB, using: GeCo3_g lz4_g NUHT_g
+0.8339252465327156
+
+Accuracy of XGB, using: GeCo3_g lz4_g snzip_g
+0.8099365750528541
+F1 score of XGB, using: GeCo3_g lz4_g snzip_g
+0.8090861147714513
+
+Accuracy of XGB, using: GeCo3_g lz4_g zip_g
+0.8438689217758986
+F1 score of XGB, using: GeCo3_g lz4_g zip_g
+0.8432942055489718
+
+Accuracy of XGB, using: GeCo3_g lz4_g xz_g
+0.8344608879492601
+F1 score of XGB, using: GeCo3_g lz4_g xz_g
+0.8333143320784879
+
+Accuracy of XGB, using: GeCo3_g lz4_g zstd_g
+0.790169133192389
+F1 score of XGB, using: GeCo3_g lz4_g zstd_g
+0.7893825294345177
+
+Accuracy of XGB, using: GeCo3_g lzop_g mbgc_g
+0.8396405919661734
+F1 score of XGB, using: GeCo3_g lzop_g mbgc_g
+0.8383933300431728
+
+Accuracy of XGB, using: GeCo3_g lzop_g MFCompress_g
+0.7923890063424948
+F1 score of XGB, using: GeCo3_g lzop_g MFCompress_g
+0.7925582667381692
+
+Accuracy of XGB, using: GeCo3_g lzop_g naf_g
+0.6686046511627908
+F1 score of XGB, using: GeCo3_g lzop_g naf_g
+0.6686037846036552
+
+Accuracy of XGB, using: GeCo3_g lzop_g NUHT_g
+0.7856236786469346
+F1 score of XGB, using: GeCo3_g lzop_g NUHT_g
+0.7835512425603878
+
+Accuracy of XGB, using: GeCo3_g lzop_g snzip_g
+0.7546511627906977
+F1 score of XGB, using: GeCo3_g lzop_g snzip_g
+0.7542155847424076
+
+Accuracy of XGB, using: GeCo3_g lzop_g zip_g
+0.8298097251585623
+F1 score of XGB, using: GeCo3_g lzop_g zip_g
+0.8274118796347418
+
+Accuracy of XGB, using: GeCo3_g lzop_g xz_g
+0.8412262156448204
+F1 score of XGB, using: GeCo3_g lzop_g xz_g
+0.8399307789384431
+
+Accuracy of XGB, using: GeCo3_g lzop_g zstd_g
+0.7358350951374206
+F1 score of XGB, using: GeCo3_g lzop_g zstd_g
+0.7348274767183349
+
+Accuracy of XGB, using: GeCo3_g mbgc_g MFCompress_g
+0.8279069767441861
+F1 score of XGB, using: GeCo3_g mbgc_g MFCompress_g
+0.8273193459999989
+
+Accuracy of XGB, using: GeCo3_g mbgc_g naf_g
+0.7810782241014801
+F1 score of XGB, using: GeCo3_g mbgc_g naf_g
+0.7795137938720517
+
+Accuracy of XGB, using: GeCo3_g mbgc_g NUHT_g
+0.8567653276955601
+F1 score of XGB, using: GeCo3_g mbgc_g NUHT_g
+0.853543069210861
+
+Accuracy of XGB, using: GeCo3_g mbgc_g snzip_g
+0.8512684989429176
+F1 score of XGB, using: GeCo3_g mbgc_g snzip_g
+0.8503342040708478
+
+Accuracy of XGB, using: GeCo3_g mbgc_g zip_g
+0.8502114164904861
+F1 score of XGB, using: GeCo3_g mbgc_g zip_g
+0.8493816473966771
+
+Accuracy of XGB, using: GeCo3_g mbgc_g xz_g
+0.8547568710359409
+F1 score of XGB, using: GeCo3_g mbgc_g xz_g
+0.8531779973092675
+
+Accuracy of XGB, using: GeCo3_g mbgc_g zstd_g
+0.8355179704016912
+F1 score of XGB, using: GeCo3_g mbgc_g zstd_g
+0.8344195375460037
+
+Accuracy of XGB, using: GeCo3_g MFCompress_g naf_g
+0.7446088794926004
+F1 score of XGB, using: GeCo3_g MFCompress_g naf_g
+0.7456665601240514
+
+Accuracy of XGB, using: GeCo3_g MFCompress_g NUHT_g
+0.8191331923890065
+F1 score of XGB, using: GeCo3_g MFCompress_g NUHT_g
+0.8186132450070615
+
+Accuracy of XGB, using: GeCo3_g MFCompress_g snzip_g
+0.7933403805496829
+F1 score of XGB, using: GeCo3_g MFCompress_g snzip_g
+0.7931388029993988
+
+Accuracy of XGB, using: GeCo3_g MFCompress_g zip_g
+0.8251585623678647
+F1 score of XGB, using: GeCo3_g MFCompress_g zip_g
+0.8243276742928453
+
+Accuracy of XGB, using: GeCo3_g MFCompress_g xz_g
+0.8283298097251585
+F1 score of XGB, using: GeCo3_g MFCompress_g xz_g
+0.8265206630796657
+
+Accuracy of XGB, using: GeCo3_g MFCompress_g zstd_g
+0.7942917547568711
+F1 score of XGB, using: GeCo3_g MFCompress_g zstd_g
+0.794150923075362
+
+Accuracy of XGB, using: GeCo3_g naf_g NUHT_g
+0.6957716701902747
+F1 score of XGB, using: GeCo3_g naf_g NUHT_g
+0.6936633935675063
+
+Accuracy of XGB, using: GeCo3_g naf_g snzip_g
+0.6792811839323466
+F1 score of XGB, using: GeCo3_g naf_g snzip_g
+0.6792860604479606
+
+Accuracy of XGB, using: GeCo3_g naf_g zip_g
+0.749048625792812
+F1 score of XGB, using: GeCo3_g naf_g zip_g
+0.7467459851990862
+
+Accuracy of XGB, using: GeCo3_g naf_g xz_g
+0.7946088794926005
+F1 score of XGB, using: GeCo3_g naf_g xz_g
+0.792081289331493
+
+Accuracy of XGB, using: GeCo3_g naf_g zstd_g
+0.6728329809725159
+F1 score of XGB, using: GeCo3_g naf_g zstd_g
+0.672022615233466
+
+Accuracy of XGB, using: GeCo3_g NUHT_g snzip_g
+0.8143763213530655
+F1 score of XGB, using: GeCo3_g NUHT_g snzip_g
+0.8131858659609025
+
+Accuracy of XGB, using: GeCo3_g NUHT_g zip_g
+0.8455602536997887
+F1 score of XGB, using: GeCo3_g NUHT_g zip_g
+0.8421807563571526
+
+Accuracy of XGB, using: GeCo3_g NUHT_g xz_g
+0.8686046511627907
+F1 score of XGB, using: GeCo3_g NUHT_g xz_g
+0.8661802902747324
+
+Accuracy of XGB, using: GeCo3_g NUHT_g zstd_g
+0.8022198731501057
+F1 score of XGB, using: GeCo3_g NUHT_g zstd_g
+0.8004834829742933
+
+Accuracy of XGB, using: GeCo3_g snzip_g zip_g
+0.838477801268499
+F1 score of XGB, using: GeCo3_g snzip_g zip_g
+0.8372354777590937
+
+Accuracy of XGB, using: GeCo3_g snzip_g xz_g
+0.8399577167019029
+F1 score of XGB, using: GeCo3_g snzip_g xz_g
+0.8388066509534534
+
+Accuracy of XGB, using: GeCo3_g snzip_g zstd_g
+0.7700845665961945
+F1 score of XGB, using: GeCo3_g snzip_g zstd_g
+0.7691033313461253
+
+Accuracy of XGB, using: GeCo3_g zip_g xz_g
+0.8493657505285412
+F1 score of XGB, using: GeCo3_g zip_g xz_g
+0.8481907828129019
+
+Accuracy of XGB, using: GeCo3_g zip_g zstd_g
+0.8226215644820295
+F1 score of XGB, using: GeCo3_g zip_g zstd_g
+0.8204004726004934
+
+Accuracy of XGB, using: GeCo3_g xz_g zstd_g
+0.8439746300211418
+F1 score of XGB, using: GeCo3_g xz_g zstd_g
+0.8428228525438584
+
+Accuracy of XGB, using: gzip_g JARVIS_g lizard_g
+0.7893234672304439
+F1 score of XGB, using: gzip_g JARVIS_g lizard_g
+0.7881079550942373
+
+Accuracy of XGB, using: gzip_g JARVIS_g lz4_g
+0.824630021141649
+F1 score of XGB, using: gzip_g JARVIS_g lz4_g
+0.8240451922942578
+
+Accuracy of XGB, using: gzip_g JARVIS_g lzop_g
+0.7956659619450317
+F1 score of XGB, using: gzip_g JARVIS_g lzop_g
+0.795472349339738
+
+Accuracy of XGB, using: gzip_g JARVIS_g mbgc_g
+0.8451374207188159
+F1 score of XGB, using: gzip_g JARVIS_g mbgc_g
+0.8442932262102915
+
+Accuracy of XGB, using: gzip_g JARVIS_g MFCompress_g
+0.766490486257928
+F1 score of XGB, using: gzip_g JARVIS_g MFCompress_g
+0.7661338326300517
+
+Accuracy of XGB, using: gzip_g JARVIS_g naf_g
+0.6982029598308668
+F1 score of XGB, using: gzip_g JARVIS_g naf_g
+0.6979800230423612
+
+Accuracy of XGB, using: gzip_g JARVIS_g NUHT_g
+0.8234672304439746
+F1 score of XGB, using: gzip_g JARVIS_g NUHT_g
+0.8224438578046394
+
+Accuracy of XGB, using: gzip_g JARVIS_g snzip_g
+0.8073995771670189
+F1 score of XGB, using: gzip_g JARVIS_g snzip_g
+0.8069889972092114
+
+Accuracy of XGB, using: gzip_g JARVIS_g zip_g
+0.80338266384778
+F1 score of XGB, using: gzip_g JARVIS_g zip_g
+0.8019278213557506
+
+Accuracy of XGB, using: gzip_g JARVIS_g xz_g
+0.8291754756871035
+F1 score of XGB, using: gzip_g JARVIS_g xz_g
+0.8285096770857392
+
+Accuracy of XGB, using: gzip_g JARVIS_g zstd_g
+0.7683932346723046
+F1 score of XGB, using: gzip_g JARVIS_g zstd_g
+0.7679295971827886
+
+Accuracy of XGB, using: gzip_g lizard_g lz4_g
+0.8280126849894291
+F1 score of XGB, using: gzip_g lizard_g lz4_g
+0.8273747507618218
+
+Accuracy of XGB, using: gzip_g lizard_g lzop_g
+0.8077167019027482
+F1 score of XGB, using: gzip_g lizard_g lzop_g
+0.8064714527778403
+
+Accuracy of XGB, using: gzip_g lizard_g mbgc_g
+0.8448202959830866
+F1 score of XGB, using: gzip_g lizard_g mbgc_g
+0.8439194224209079
+
+Accuracy of XGB, using: gzip_g lizard_g MFCompress_g
+0.7941860465116279
+F1 score of XGB, using: gzip_g lizard_g MFCompress_g
+0.792947492752201
+
+Accuracy of XGB, using: gzip_g lizard_g naf_g
+0.7577167019027484
+F1 score of XGB, using: gzip_g lizard_g naf_g
+0.7553793657675947
+
+Accuracy of XGB, using: gzip_g lizard_g NUHT_g
+0.8644820295983087
+F1 score of XGB, using: gzip_g lizard_g NUHT_g
+0.8612351007286897
+
+Accuracy of XGB, using: gzip_g lizard_g snzip_g
+0.8377378435517968
+F1 score of XGB, using: gzip_g lizard_g snzip_g
+0.8366481904316109
+
+Accuracy of XGB, using: gzip_g lizard_g zip_g
+0.7954545454545455
+F1 score of XGB, using: gzip_g lizard_g zip_g
+0.7937864362952165
+
+Accuracy of XGB, using: gzip_g lizard_g xz_g
+0.8056025369978856
+F1 score of XGB, using: gzip_g lizard_g xz_g
+0.8039565465422548
+
+Accuracy of XGB, using: gzip_g lizard_g zstd_g
+0.8130021141649049
+F1 score of XGB, using: gzip_g lizard_g zstd_g
+0.8108340545882993
+
+Accuracy of XGB, using: gzip_g lz4_g lzop_g
+0.8290697674418605
+F1 score of XGB, using: gzip_g lz4_g lzop_g
+0.8283878200618908
+
+Accuracy of XGB, using: gzip_g lz4_g mbgc_g
+0.8661733615221987
+F1 score of XGB, using: gzip_g lz4_g mbgc_g
+0.8656845705686257
+
+Accuracy of XGB, using: gzip_g lz4_g MFCompress_g
+0.8401691331923888
+F1 score of XGB, using: gzip_g lz4_g MFCompress_g
+0.839152201228751
+
+Accuracy of XGB, using: gzip_g lz4_g naf_g
+0.8060253699788582
+F1 score of XGB, using: gzip_g lz4_g naf_g
+0.8051474119364317
+
+Accuracy of XGB, using: gzip_g lz4_g NUHT_g
+0.8902748414376322
+F1 score of XGB, using: gzip_g lz4_g NUHT_g
+0.889453050093751
+
+Accuracy of XGB, using: gzip_g lz4_g snzip_g
+0.8469344608879492
+F1 score of XGB, using: gzip_g lz4_g snzip_g
+0.8461918881843165
+
+Accuracy of XGB, using: gzip_g lz4_g zip_g
+0.8468287526427061
+F1 score of XGB, using: gzip_g lz4_g zip_g
+0.8460576353711964
+
+Accuracy of XGB, using: gzip_g lz4_g xz_g
+0.8468287526427061
+F1 score of XGB, using: gzip_g lz4_g xz_g
+0.8463345441423918
+
+Accuracy of XGB, using: gzip_g lz4_g zstd_g
+0.8274841437632136
+F1 score of XGB, using: gzip_g lz4_g zstd_g
+0.8267323420142821
+
+Accuracy of XGB, using: gzip_g lzop_g mbgc_g
+0.8593023255813954
+F1 score of XGB, using: gzip_g lzop_g mbgc_g
+0.8586827850331676
+
+Accuracy of XGB, using: gzip_g lzop_g MFCompress_g
+0.7928118393234673
+F1 score of XGB, using: gzip_g lzop_g MFCompress_g
+0.7922402531673425
+
+Accuracy of XGB, using: gzip_g lzop_g naf_g
+0.7105708245243129
+F1 score of XGB, using: gzip_g lzop_g naf_g
+0.7104406509538566
+
+Accuracy of XGB, using: gzip_g lzop_g NUHT_g
+0.8322410147991544
+F1 score of XGB, using: gzip_g lzop_g NUHT_g
+0.8310998859859471
+
+Accuracy of XGB, using: gzip_g lzop_g snzip_g
+0.8032769556025372
+F1 score of XGB, using: gzip_g lzop_g snzip_g
+0.8040424889491945
+
+Accuracy of XGB, using: gzip_g lzop_g zip_g
+0.8283298097251587
+F1 score of XGB, using: gzip_g lzop_g zip_g
+0.8264163878949443
+
+Accuracy of XGB, using: gzip_g lzop_g xz_g
+0.8342494714587738
+F1 score of XGB, using: gzip_g lzop_g xz_g
+0.8327710620290729
+
+Accuracy of XGB, using: gzip_g lzop_g zstd_g
+0.7595137420718816
+F1 score of XGB, using: gzip_g lzop_g zstd_g
+0.7586447784278755
+
+Accuracy of XGB, using: gzip_g mbgc_g MFCompress_g
+0.8519027484143763
+F1 score of XGB, using: gzip_g mbgc_g MFCompress_g
+0.8514263108112218
+
+Accuracy of XGB, using: gzip_g mbgc_g naf_g
+0.8149048625792812
+F1 score of XGB, using: gzip_g mbgc_g naf_g
+0.8142069689151873
+
+Accuracy of XGB, using: gzip_g mbgc_g NUHT_g
+0.893446088794926
+F1 score of XGB, using: gzip_g mbgc_g NUHT_g
+0.8919854919956368
+
+Accuracy of XGB, using: gzip_g mbgc_g snzip_g
+0.8682875264270613
+F1 score of XGB, using: gzip_g mbgc_g snzip_g
+0.8675004014409003
+
+Accuracy of XGB, using: gzip_g mbgc_g zip_g
+0.8368921775898519
+F1 score of XGB, using: gzip_g mbgc_g zip_g
+0.836101559992249
+
+Accuracy of XGB, using: gzip_g mbgc_g xz_g
+0.8432346723044397
+F1 score of XGB, using: gzip_g mbgc_g xz_g
+0.8425892038937303
+
+Accuracy of XGB, using: gzip_g mbgc_g zstd_g
+0.861522198731501
+F1 score of XGB, using: gzip_g mbgc_g zstd_g
+0.8602884919769824
+
+Accuracy of XGB, using: gzip_g MFCompress_g naf_g
+0.7200845665961946
+F1 score of XGB, using: gzip_g MFCompress_g naf_g
+0.7211667457191847
+
+Accuracy of XGB, using: gzip_g MFCompress_g NUHT_g
+0.8216701902748416
+F1 score of XGB, using: gzip_g MFCompress_g NUHT_g
+0.8211136827212469
+
+Accuracy of XGB, using: gzip_g MFCompress_g snzip_g
+0.817124735729387
+F1 score of XGB, using: gzip_g MFCompress_g snzip_g
+0.816982516206472
+
+Accuracy of XGB, using: gzip_g MFCompress_g zip_g
+0.8117336152219874
+F1 score of XGB, using: gzip_g MFCompress_g zip_g
+0.8101420622101475
+
+Accuracy of XGB, using: gzip_g MFCompress_g xz_g
+0.8295983086680762
+F1 score of XGB, using: gzip_g MFCompress_g xz_g
+0.8289407247891873
+
+Accuracy of XGB, using: gzip_g MFCompress_g zstd_g
+0.7825581395348837
+F1 score of XGB, using: gzip_g MFCompress_g zstd_g
+0.7819440794308117
+
+Accuracy of XGB, using: gzip_g naf_g NUHT_g
+0.7770613107822408
+F1 score of XGB, using: gzip_g naf_g NUHT_g
+0.7751746087893954
+
+Accuracy of XGB, using: gzip_g naf_g snzip_g
+0.7668076109936576
+F1 score of XGB, using: gzip_g naf_g snzip_g
+0.7671499631265143
+
+Accuracy of XGB, using: gzip_g naf_g zip_g
+0.7765327695560253
+F1 score of XGB, using: gzip_g naf_g zip_g
+0.7754465638438928
+
+Accuracy of XGB, using: gzip_g naf_g xz_g
+0.775475687103594
+F1 score of XGB, using: gzip_g naf_g xz_g
+0.7746753653404796
+
+Accuracy of XGB, using: gzip_g naf_g zstd_g
+0.7015856236786469
+F1 score of XGB, using: gzip_g naf_g zstd_g
+0.7007751969395836
+
+Accuracy of XGB, using: gzip_g NUHT_g snzip_g
+0.8564482029598308
+F1 score of XGB, using: gzip_g NUHT_g snzip_g
+0.8553251846837868
+
+Accuracy of XGB, using: gzip_g NUHT_g zip_g
+0.8765327695560254
+F1 score of XGB, using: gzip_g NUHT_g zip_g
+0.873461191513797
+
+Accuracy of XGB, using: gzip_g NUHT_g xz_g
+0.8767441860465116
+F1 score of XGB, using: gzip_g NUHT_g xz_g
+0.8750092368446246
+
+Accuracy of XGB, using: gzip_g NUHT_g zstd_g
+0.8191331923890063
+F1 score of XGB, using: gzip_g NUHT_g zstd_g
+0.8167225657918596
+
+Accuracy of XGB, using: gzip_g snzip_g zip_g
+0.8468287526427062
+F1 score of XGB, using: gzip_g snzip_g zip_g
+0.8454097117699909
+
+Accuracy of XGB, using: gzip_g snzip_g xz_g
+0.8430232558139534
+F1 score of XGB, using: gzip_g snzip_g xz_g
+0.8421723894335736
+
+Accuracy of XGB, using: gzip_g snzip_g zstd_g
+0.8150105708245243
+F1 score of XGB, using: gzip_g snzip_g zstd_g
+0.8145492068977951
+
+Accuracy of XGB, using: gzip_g zip_g xz_g
+0.808879492600423
+F1 score of XGB, using: gzip_g zip_g xz_g
+0.8076914195098341
+
+Accuracy of XGB, using: gzip_g zip_g zstd_g
+0.826955602536998
+F1 score of XGB, using: gzip_g zip_g zstd_g
+0.8242993323398592
+
+Accuracy of XGB, using: gzip_g xz_g zstd_g
+0.8313953488372092
+F1 score of XGB, using: gzip_g xz_g zstd_g
+0.829778874218546
+
+Accuracy of XGB, using: JARVIS_g lizard_g lz4_g
+0.7933403805496829
+F1 score of XGB, using: JARVIS_g lizard_g lz4_g
+0.7925560766703514
+
+Accuracy of XGB, using: JARVIS_g lizard_g lzop_g
+0.7947145877378435
+F1 score of XGB, using: JARVIS_g lizard_g lzop_g
+0.7940786623225705
+
+Accuracy of XGB, using: JARVIS_g lizard_g mbgc_g
+0.8105708245243128
+F1 score of XGB, using: JARVIS_g lizard_g mbgc_g
+0.8098237257507815
+
+Accuracy of XGB, using: JARVIS_g lizard_g MFCompress_g
+0.7608879492600422
+F1 score of XGB, using: JARVIS_g lizard_g MFCompress_g
+0.7602920140518086
+
+Accuracy of XGB, using: JARVIS_g lizard_g naf_g
+0.7113107822410148
+F1 score of XGB, using: JARVIS_g lizard_g naf_g
+0.7107186617438968
+
+Accuracy of XGB, using: JARVIS_g lizard_g NUHT_g
+0.8331923890063425
+F1 score of XGB, using: JARVIS_g lizard_g NUHT_g
+0.8320065422568005
+
+Accuracy of XGB, using: JARVIS_g lizard_g snzip_g
+0.7994714587737843
+F1 score of XGB, using: JARVIS_g lizard_g snzip_g
+0.7982757613089004
+
+Accuracy of XGB, using: JARVIS_g lizard_g zip_g
+0.7982029598308668
+F1 score of XGB, using: JARVIS_g lizard_g zip_g
+0.797416767620431
+
+Accuracy of XGB, using: JARVIS_g lizard_g xz_g
+0.7946088794926004
+F1 score of XGB, using: JARVIS_g lizard_g xz_g
+0.7933036682391092
+
+Accuracy of XGB, using: JARVIS_g lizard_g zstd_g
+0.7912262156448203
+F1 score of XGB, using: JARVIS_g lizard_g zstd_g
+0.7901415402730931
+
+Accuracy of XGB, using: JARVIS_g lz4_g lzop_g
+0.8067653276955603
+F1 score of XGB, using: JARVIS_g lz4_g lzop_g
+0.8062067054700996
+
+Accuracy of XGB, using: JARVIS_g lz4_g mbgc_g
+0.8330866807610994
+F1 score of XGB, using: JARVIS_g lz4_g mbgc_g
+0.8314598085637875
+
+Accuracy of XGB, using: JARVIS_g lz4_g MFCompress_g
+0.7795983086680762
+F1 score of XGB, using: JARVIS_g lz4_g MFCompress_g
+0.7786466102842593
+
+Accuracy of XGB, using: JARVIS_g lz4_g naf_g
+0.7273784355179704
+F1 score of XGB, using: JARVIS_g lz4_g naf_g
+0.7270262821906501
+
+Accuracy of XGB, using: JARVIS_g lz4_g NUHT_g
+0.836046511627907
+F1 score of XGB, using: JARVIS_g lz4_g NUHT_g
+0.833658063697615
+
+Accuracy of XGB, using: JARVIS_g lz4_g snzip_g
+0.814799154334038
+F1 score of XGB, using: JARVIS_g lz4_g snzip_g
+0.8145975255843316
+
+Accuracy of XGB, using: JARVIS_g lz4_g zip_g
+0.8463002114164905
+F1 score of XGB, using: JARVIS_g lz4_g zip_g
+0.8463609248193279
+
+Accuracy of XGB, using: JARVIS_g lz4_g xz_g
+0.829492600422833
+F1 score of XGB, using: JARVIS_g lz4_g xz_g
+0.8284118842280368
+
+Accuracy of XGB, using: JARVIS_g lz4_g zstd_g
+0.8052854122621567
+F1 score of XGB, using: JARVIS_g lz4_g zstd_g
+0.804889663643128
+
+Accuracy of XGB, using: JARVIS_g lzop_g mbgc_g
+0.8303382663847779
+F1 score of XGB, using: JARVIS_g lzop_g mbgc_g
+0.8294855864049213
+
+Accuracy of XGB, using: JARVIS_g lzop_g MFCompress_g
+0.7856236786469345
+F1 score of XGB, using: JARVIS_g lzop_g MFCompress_g
+0.7848573148472481
+
+Accuracy of XGB, using: JARVIS_g lzop_g naf_g
+0.7307610993657506
+F1 score of XGB, using: JARVIS_g lzop_g naf_g
+0.7306476411170543
+
+Accuracy of XGB, using: JARVIS_g lzop_g NUHT_g
+0.8332980972515855
+F1 score of XGB, using: JARVIS_g lzop_g NUHT_g
+0.8314309798083507
+
+Accuracy of XGB, using: JARVIS_g lzop_g snzip_g
+0.7872093023255815
+F1 score of XGB, using: JARVIS_g lzop_g snzip_g
+0.7866718333077074
+
+Accuracy of XGB, using: JARVIS_g lzop_g zip_g
+0.8252642706131079
+F1 score of XGB, using: JARVIS_g lzop_g zip_g
+0.8241325140111275
+
+Accuracy of XGB, using: JARVIS_g lzop_g xz_g
+0.8399577167019029
+F1 score of XGB, using: JARVIS_g lzop_g xz_g
+0.8389648933268712
+
+Accuracy of XGB, using: JARVIS_g lzop_g zstd_g
+0.7643763213530655
+F1 score of XGB, using: JARVIS_g lzop_g zstd_g
+0.7634801757730955
+
+Accuracy of XGB, using: JARVIS_g mbgc_g MFCompress_g
+0.794291754756871
+F1 score of XGB, using: JARVIS_g mbgc_g MFCompress_g
+0.7925662141156911
+
+Accuracy of XGB, using: JARVIS_g mbgc_g naf_g
+0.7617336152219873
+F1 score of XGB, using: JARVIS_g mbgc_g naf_g
+0.7607135224251124
+
+Accuracy of XGB, using: JARVIS_g mbgc_g NUHT_g
+0.8502114164904861
+F1 score of XGB, using: JARVIS_g mbgc_g NUHT_g
+0.8471189878071888
+
+Accuracy of XGB, using: JARVIS_g mbgc_g snzip_g
+0.835940803382664
+F1 score of XGB, using: JARVIS_g mbgc_g snzip_g
+0.8352834004367107
+
+Accuracy of XGB, using: JARVIS_g mbgc_g zip_g
+0.8317124735729386
+F1 score of XGB, using: JARVIS_g mbgc_g zip_g
+0.8309578087790644
+
+Accuracy of XGB, using: JARVIS_g mbgc_g xz_g
+0.835940803382664
+F1 score of XGB, using: JARVIS_g mbgc_g xz_g
+0.8349743807321511
+
+Accuracy of XGB, using: JARVIS_g mbgc_g zstd_g
+0.8251585623678646
+F1 score of XGB, using: JARVIS_g mbgc_g zstd_g
+0.824552246466659
+
+Accuracy of XGB, using: JARVIS_g MFCompress_g naf_g
+0.6661733615221989
+F1 score of XGB, using: JARVIS_g MFCompress_g naf_g
+0.6641792451895483
+
+Accuracy of XGB, using: JARVIS_g MFCompress_g NUHT_g
+0.764693446088795
+F1 score of XGB, using: JARVIS_g MFCompress_g NUHT_g
+0.7615177099338165
+
+Accuracy of XGB, using: JARVIS_g MFCompress_g snzip_g
+0.7849894291754758
+F1 score of XGB, using: JARVIS_g MFCompress_g snzip_g
+0.7844041118662648
+
+Accuracy of XGB, using: JARVIS_g MFCompress_g zip_g
+0.7708245243128964
+F1 score of XGB, using: JARVIS_g MFCompress_g zip_g
+0.7698770031084383
+
+Accuracy of XGB, using: JARVIS_g MFCompress_g xz_g
+0.795137420718816
+F1 score of XGB, using: JARVIS_g MFCompress_g xz_g
+0.793007610983104
+
+Accuracy of XGB, using: JARVIS_g MFCompress_g zstd_g
+0.7647991543340381
+F1 score of XGB, using: JARVIS_g MFCompress_g zstd_g
+0.7647338652997681
+
+Accuracy of XGB, using: JARVIS_g naf_g NUHT_g
+0.7085623678646934
+F1 score of XGB, using: JARVIS_g naf_g NUHT_g
+0.7043483011437379
+
+Accuracy of XGB, using: JARVIS_g naf_g snzip_g
+0.7229386892177588
+F1 score of XGB, using: JARVIS_g naf_g snzip_g
+0.7223146826084365
+
+Accuracy of XGB, using: JARVIS_g naf_g zip_g
+0.7136363636363636
+F1 score of XGB, using: JARVIS_g naf_g zip_g
+0.7121597636388612
+
+Accuracy of XGB, using: JARVIS_g naf_g xz_g
+0.7665961945031713
+F1 score of XGB, using: JARVIS_g naf_g xz_g
+0.7642943140090617
+
+Accuracy of XGB, using: JARVIS_g naf_g zstd_g
+0.7070824524312896
+F1 score of XGB, using: JARVIS_g naf_g zstd_g
+0.707397681197531
+
+Accuracy of XGB, using: JARVIS_g NUHT_g snzip_g
+0.8339323467230443
+F1 score of XGB, using: JARVIS_g NUHT_g snzip_g
+0.832774663549159
+
+Accuracy of XGB, using: JARVIS_g NUHT_g zip_g
+0.8325581395348838
+F1 score of XGB, using: JARVIS_g NUHT_g zip_g
+0.8306622094228103
+
+Accuracy of XGB, using: JARVIS_g NUHT_g xz_g
+0.8468287526427061
+F1 score of XGB, using: JARVIS_g NUHT_g xz_g
+0.8448282200934301
+
+Accuracy of XGB, using: JARVIS_g NUHT_g zstd_g
+0.8220930232558139
+F1 score of XGB, using: JARVIS_g NUHT_g zstd_g
+0.8215173035664785
+
+Accuracy of XGB, using: JARVIS_g snzip_g zip_g
+0.8216701902748413
+F1 score of XGB, using: JARVIS_g snzip_g zip_g
+0.8204467739911623
+
+Accuracy of XGB, using: JARVIS_g snzip_g xz_g
+0.8374207188160678
+F1 score of XGB, using: JARVIS_g snzip_g xz_g
+0.8364304133190383
+
+Accuracy of XGB, using: JARVIS_g snzip_g zstd_g
+0.7793868921775899
+F1 score of XGB, using: JARVIS_g snzip_g zstd_g
+0.7786644248437946
+
+Accuracy of XGB, using: JARVIS_g zip_g xz_g
+0.8325581395348838
+F1 score of XGB, using: JARVIS_g zip_g xz_g
+0.8321452664217814
+
+Accuracy of XGB, using: JARVIS_g zip_g zstd_g
+0.8243128964059198
+F1 score of XGB, using: JARVIS_g zip_g zstd_g
+0.8234319232781051
+
+Accuracy of XGB, using: JARVIS_g xz_g zstd_g
+0.8365750528541225
+F1 score of XGB, using: JARVIS_g xz_g zstd_g
+0.8353140790121074
+
+Accuracy of XGB, using: lizard_g lz4_g lzop_g
+0.802536997885835
+F1 score of XGB, using: lizard_g lz4_g lzop_g
+0.8020503397890657
+
+Accuracy of XGB, using: lizard_g lz4_g mbgc_g
+0.8408033826638478
+F1 score of XGB, using: lizard_g lz4_g mbgc_g
+0.8404054482724821
+
+Accuracy of XGB, using: lizard_g lz4_g MFCompress_g
+0.7876321353065541
+F1 score of XGB, using: lizard_g lz4_g MFCompress_g
+0.786671732261397
+
+Accuracy of XGB, using: lizard_g lz4_g naf_g
+0.7504228329809726
+F1 score of XGB, using: lizard_g lz4_g naf_g
+0.7498599379637173
+
+Accuracy of XGB, using: lizard_g lz4_g NUHT_g
+0.8564482029598308
+F1 score of XGB, using: lizard_g lz4_g NUHT_g
+0.8546788958304596
+
+Accuracy of XGB, using: lizard_g lz4_g snzip_g
+0.8182875264270614
+F1 score of XGB, using: lizard_g lz4_g snzip_g
+0.8174474924738112
+
+Accuracy of XGB, using: lizard_g lz4_g zip_g
+0.8320295983086681
+F1 score of XGB, using: lizard_g lz4_g zip_g
+0.8315282636308918
+
+Accuracy of XGB, using: lizard_g lz4_g xz_g
+0.8161733615221987
+F1 score of XGB, using: lizard_g lz4_g xz_g
+0.8157637340984619
+
+Accuracy of XGB, using: lizard_g lz4_g zstd_g
+0.8012684989429175
+F1 score of XGB, using: lizard_g lz4_g zstd_g
+0.8007207653536994
+
+Accuracy of XGB, using: lizard_g lzop_g mbgc_g
+0.8310782241014799
+F1 score of XGB, using: lizard_g lzop_g mbgc_g
+0.8304343436901569
+
+Accuracy of XGB, using: lizard_g lzop_g MFCompress_g
+0.7901691331923889
+F1 score of XGB, using: lizard_g lzop_g MFCompress_g
+0.7891867528338115
+
+Accuracy of XGB, using: lizard_g lzop_g naf_g
+0.7465116279069768
+F1 score of XGB, using: lizard_g lzop_g naf_g
+0.7454860029711574
+
+Accuracy of XGB, using: lizard_g lzop_g NUHT_g
+0.8522198731501056
+F1 score of XGB, using: lizard_g lzop_g NUHT_g
+0.8502137947845233
+
+Accuracy of XGB, using: lizard_g lzop_g snzip_g
+0.8097251585623677
+F1 score of XGB, using: lizard_g lzop_g snzip_g
+0.8084994482213672
+
+Accuracy of XGB, using: lizard_g lzop_g zip_g
+0.8143763213530655
+F1 score of XGB, using: lizard_g lzop_g zip_g
+0.8131821979649085
+
+Accuracy of XGB, using: lizard_g lzop_g xz_g
+0.8080338266384777
+F1 score of XGB, using: lizard_g lzop_g xz_g
+0.80669003153098
+
+Accuracy of XGB, using: lizard_g lzop_g zstd_g
+0.7782241014799154
+F1 score of XGB, using: lizard_g lzop_g zstd_g
+0.7763966066846686
+
+Accuracy of XGB, using: lizard_g mbgc_g MFCompress_g
+0.8108879492600423
+F1 score of XGB, using: lizard_g mbgc_g MFCompress_g
+0.8106566756697274
+
+Accuracy of XGB, using: lizard_g mbgc_g naf_g
+0.772093023255814
+F1 score of XGB, using: lizard_g mbgc_g naf_g
+0.7724205580794508
+
+Accuracy of XGB, using: lizard_g mbgc_g NUHT_g
+0.8677589852008456
+F1 score of XGB, using: lizard_g mbgc_g NUHT_g
+0.8660233403896059
+
+Accuracy of XGB, using: lizard_g mbgc_g snzip_g
+0.8320295983086681
+F1 score of XGB, using: lizard_g mbgc_g snzip_g
+0.8311013747943896
+
+Accuracy of XGB, using: lizard_g mbgc_g zip_g
+0.8285412262156449
+F1 score of XGB, using: lizard_g mbgc_g zip_g
+0.8276931132182803
+
+Accuracy of XGB, using: lizard_g mbgc_g xz_g
+0.8177589852008456
+F1 score of XGB, using: lizard_g mbgc_g xz_g
+0.8169883047685621
+
+Accuracy of XGB, using: lizard_g mbgc_g zstd_g
+0.8231501057082454
+F1 score of XGB, using: lizard_g mbgc_g zstd_g
+0.8222233326940527
+
+Accuracy of XGB, using: lizard_g MFCompress_g naf_g
+0.7143763213530655
+F1 score of XGB, using: lizard_g MFCompress_g naf_g
+0.7134221242481886
+
+Accuracy of XGB, using: lizard_g MFCompress_g NUHT_g
+0.8183932346723044
+F1 score of XGB, using: lizard_g MFCompress_g NUHT_g
+0.8171222619029759
+
+Accuracy of XGB, using: lizard_g MFCompress_g snzip_g
+0.795031712473573
+F1 score of XGB, using: lizard_g MFCompress_g snzip_g
+0.7941326027150895
+
+Accuracy of XGB, using: lizard_g MFCompress_g zip_g
+0.7918604651162792
+F1 score of XGB, using: lizard_g MFCompress_g zip_g
+0.7908537577662543
+
+Accuracy of XGB, using: lizard_g MFCompress_g xz_g
+0.7772727272727272
+F1 score of XGB, using: lizard_g MFCompress_g xz_g
+0.7764299098935581
+
+Accuracy of XGB, using: lizard_g MFCompress_g zstd_g
+0.7911205073995772
+F1 score of XGB, using: lizard_g MFCompress_g zstd_g
+0.7897379574891311
+
+Accuracy of XGB, using: lizard_g naf_g NUHT_g
+0.7954545454545456
+F1 score of XGB, using: lizard_g naf_g NUHT_g
+0.7931910689951225
+
+Accuracy of XGB, using: lizard_g naf_g snzip_g
+0.7643763213530655
+F1 score of XGB, using: lizard_g naf_g snzip_g
+0.7629181594823748
+
+Accuracy of XGB, using: lizard_g naf_g zip_g
+0.7548625792811839
+F1 score of XGB, using: lizard_g naf_g zip_g
+0.7532648704205541
+
+Accuracy of XGB, using: lizard_g naf_g xz_g
+0.7282241014799156
+F1 score of XGB, using: lizard_g naf_g xz_g
+0.727713172684698
+
+Accuracy of XGB, using: lizard_g naf_g zstd_g
+0.750845665961945
+F1 score of XGB, using: lizard_g naf_g zstd_g
+0.7488050008400823
+
+Accuracy of XGB, using: lizard_g NUHT_g snzip_g
+0.8617336152219872
+F1 score of XGB, using: lizard_g NUHT_g snzip_g
+0.8597282114878834
+
+Accuracy of XGB, using: lizard_g NUHT_g zip_g
+0.8682875264270612
+F1 score of XGB, using: lizard_g NUHT_g zip_g
+0.8654563159856361
+
+Accuracy of XGB, using: lizard_g NUHT_g xz_g
+0.843551797040169
+F1 score of XGB, using: lizard_g NUHT_g xz_g
+0.8417727190891355
+
+Accuracy of XGB, using: lizard_g NUHT_g zstd_g
+0.8587737843551796
+F1 score of XGB, using: lizard_g NUHT_g zstd_g
+0.8555133951578027
+
+Accuracy of XGB, using: lizard_g snzip_g zip_g
+0.8230443974630021
+F1 score of XGB, using: lizard_g snzip_g zip_g
+0.8215781105498838
+
+Accuracy of XGB, using: lizard_g snzip_g xz_g
+0.8088794926004228
+F1 score of XGB, using: lizard_g snzip_g xz_g
+0.8071764843705489
+
+Accuracy of XGB, using: lizard_g snzip_g zstd_g
+0.8063424947145876
+F1 score of XGB, using: lizard_g snzip_g zstd_g
+0.8045573464923808
+
+Accuracy of XGB, using: lizard_g zip_g xz_g
+0.7988372093023256
+F1 score of XGB, using: lizard_g zip_g xz_g
+0.7971413908845849
+
+Accuracy of XGB, using: lizard_g zip_g zstd_g
+0.8243128964059198
+F1 score of XGB, using: lizard_g zip_g zstd_g
+0.8222791733826529
+
+Accuracy of XGB, using: lizard_g xz_g zstd_g
+0.8082452431289641
+F1 score of XGB, using: lizard_g xz_g zstd_g
+0.8064890349812632
+
+Accuracy of XGB, using: lz4_g lzop_g mbgc_g
+0.8449260042283298
+F1 score of XGB, using: lz4_g lzop_g mbgc_g
+0.8439600387313414
+
+Accuracy of XGB, using: lz4_g lzop_g MFCompress_g
+0.8106765327695561
+F1 score of XGB, using: lz4_g lzop_g MFCompress_g
+0.8096555695510842
+
+Accuracy of XGB, using: lz4_g lzop_g naf_g
+0.7848837209302325
+F1 score of XGB, using: lz4_g lzop_g naf_g
+0.7844816575667141
+
+Accuracy of XGB, using: lz4_g lzop_g NUHT_g
+0.8700845665961945
+F1 score of XGB, using: lz4_g lzop_g NUHT_g
+0.8682531339942594
+
+Accuracy of XGB, using: lz4_g lzop_g snzip_g
+0.8151162790697674
+F1 score of XGB, using: lz4_g lzop_g snzip_g
+0.8143980356241821
+
+Accuracy of XGB, using: lz4_g lzop_g zip_g
+0.8439746300211418
+F1 score of XGB, using: lz4_g lzop_g zip_g
+0.8434168220176679
+
+Accuracy of XGB, using: lz4_g lzop_g xz_g
+0.8290697674418605
+F1 score of XGB, using: lz4_g lzop_g xz_g
+0.8283634258170783
+
+Accuracy of XGB, using: lz4_g lzop_g zstd_g
+0.7987315010570823
+F1 score of XGB, using: lz4_g lzop_g zstd_g
+0.7981153352067606
+
+Accuracy of XGB, using: lz4_g mbgc_g MFCompress_g
+0.8367864693446089
+F1 score of XGB, using: lz4_g mbgc_g MFCompress_g
+0.8351739035967676
+
+Accuracy of XGB, using: lz4_g mbgc_g naf_g
+0.7958773784355181
+F1 score of XGB, using: lz4_g mbgc_g naf_g
+0.7948760328474314
+
+Accuracy of XGB, using: lz4_g mbgc_g NUHT_g
+0.8816067653276954
+F1 score of XGB, using: lz4_g mbgc_g NUHT_g
+0.8787720090010435
+
+Accuracy of XGB, using: lz4_g mbgc_g snzip_g
+0.8472515856236787
+F1 score of XGB, using: lz4_g mbgc_g snzip_g
+0.8465767717681123
+
+Accuracy of XGB, using: lz4_g mbgc_g zip_g
+0.8636363636363636
+F1 score of XGB, using: lz4_g mbgc_g zip_g
+0.8633318411289123
+
+Accuracy of XGB, using: lz4_g mbgc_g xz_g
+0.8310782241014797
+F1 score of XGB, using: lz4_g mbgc_g xz_g
+0.8301652168888463
+
+Accuracy of XGB, using: lz4_g mbgc_g zstd_g
+0.8402748414376321
+F1 score of XGB, using: lz4_g mbgc_g zstd_g
+0.8396502959208882
+
+Accuracy of XGB, using: lz4_g MFCompress_g naf_g
+0.7402748414376321
+F1 score of XGB, using: lz4_g MFCompress_g naf_g
+0.7402120913382377
+
+Accuracy of XGB, using: lz4_g MFCompress_g NUHT_g
+0.8383720930232558
+F1 score of XGB, using: lz4_g MFCompress_g NUHT_g
+0.8363129724961643
+
+Accuracy of XGB, using: lz4_g MFCompress_g snzip_g
+0.820507399577167
+F1 score of XGB, using: lz4_g MFCompress_g snzip_g
+0.8199212270519164
+
+Accuracy of XGB, using: lz4_g MFCompress_g zip_g
+0.8489429175475685
+F1 score of XGB, using: lz4_g MFCompress_g zip_g
+0.8486117796327253
+
+Accuracy of XGB, using: lz4_g MFCompress_g xz_g
+0.8244186046511628
+F1 score of XGB, using: lz4_g MFCompress_g xz_g
+0.8231529330252835
+
+Accuracy of XGB, using: lz4_g MFCompress_g zstd_g
+0.8016913319238901
+F1 score of XGB, using: lz4_g MFCompress_g zstd_g
+0.8014428135396139
+
+Accuracy of XGB, using: lz4_g naf_g NUHT_g
+0.8124735729386892
+F1 score of XGB, using: lz4_g naf_g NUHT_g
+0.8106532857476315
+
+Accuracy of XGB, using: lz4_g naf_g snzip_g
+0.7853065539112051
+F1 score of XGB, using: lz4_g naf_g snzip_g
+0.7850034701896234
+
+Accuracy of XGB, using: lz4_g naf_g zip_g
+0.8180761099365752
+F1 score of XGB, using: lz4_g naf_g zip_g
+0.8179473907250072
+
+Accuracy of XGB, using: lz4_g naf_g xz_g
+0.7570824524312898
+F1 score of XGB, using: lz4_g naf_g xz_g
+0.7571289481719938
+
+Accuracy of XGB, using: lz4_g naf_g zstd_g
+0.7706131078224102
+F1 score of XGB, using: lz4_g naf_g zstd_g
+0.7706011106084396
+
+Accuracy of XGB, using: lz4_g NUHT_g snzip_g
+0.8865750528541225
+F1 score of XGB, using: lz4_g NUHT_g snzip_g
+0.8858332989654937
+
+Accuracy of XGB, using: lz4_g NUHT_g zip_g
+0.8953488372093021
+F1 score of XGB, using: lz4_g NUHT_g zip_g
+0.8948738484965453
+
+Accuracy of XGB, using: lz4_g NUHT_g xz_g
+0.8639534883720931
+F1 score of XGB, using: lz4_g NUHT_g xz_g
+0.8618520035986545
+
+Accuracy of XGB, using: lz4_g NUHT_g zstd_g
+0.8673361522198733
+F1 score of XGB, using: lz4_g NUHT_g zstd_g
+0.8661465788202729
+
+Accuracy of XGB, using: lz4_g snzip_g zip_g
+0.8520084566596193
+F1 score of XGB, using: lz4_g snzip_g zip_g
+0.8512229354648951
+
+Accuracy of XGB, using: lz4_g snzip_g xz_g
+0.8361522198731501
+F1 score of XGB, using: lz4_g snzip_g xz_g
+0.8356413932111124
+
+Accuracy of XGB, using: lz4_g snzip_g zstd_g
+0.812262156448203
+F1 score of XGB, using: lz4_g snzip_g zstd_g
+0.8118905920535525
+
+Accuracy of XGB, using: lz4_g zip_g xz_g
+0.8469344608879492
+F1 score of XGB, using: lz4_g zip_g xz_g
+0.8467336970928232
+
+Accuracy of XGB, using: lz4_g zip_g zstd_g
+0.8398520084566595
+F1 score of XGB, using: lz4_g zip_g zstd_g
+0.839596745792243
+
+Accuracy of XGB, using: lz4_g xz_g zstd_g
+0.8315010570824525
+F1 score of XGB, using: lz4_g xz_g zstd_g
+0.830847321857506
+
+Accuracy of XGB, using: lzop_g mbgc_g MFCompress_g
+0.8297040169133192
+F1 score of XGB, using: lzop_g mbgc_g MFCompress_g
+0.8285213792941466
+
+Accuracy of XGB, using: lzop_g mbgc_g naf_g
+0.8066596194503172
+F1 score of XGB, using: lzop_g mbgc_g naf_g
+0.8056824634992118
+
+Accuracy of XGB, using: lzop_g mbgc_g NUHT_g
+0.8862579281183931
+F1 score of XGB, using: lzop_g mbgc_g NUHT_g
+0.8832747955241673
+
+Accuracy of XGB, using: lzop_g mbgc_g snzip_g
+0.8398520084566596
+F1 score of XGB, using: lzop_g mbgc_g snzip_g
+0.8390502950716735
+
+Accuracy of XGB, using: lzop_g mbgc_g zip_g
+0.8526427061310782
+F1 score of XGB, using: lzop_g mbgc_g zip_g
+0.8518322808219377
+
+Accuracy of XGB, using: lzop_g mbgc_g xz_g
+0.8418604651162791
+F1 score of XGB, using: lzop_g mbgc_g xz_g
+0.840438619603716
+
+Accuracy of XGB, using: lzop_g mbgc_g zstd_g
+0.8170190274841437
+F1 score of XGB, using: lzop_g mbgc_g zstd_g
+0.8162480550335172
+
+Accuracy of XGB, using: lzop_g MFCompress_g naf_g
+0.7350951374207189
+F1 score of XGB, using: lzop_g MFCompress_g naf_g
+0.7349128874877016
+
+Accuracy of XGB, using: lzop_g MFCompress_g NUHT_g
+0.8215644820295983
+F1 score of XGB, using: lzop_g MFCompress_g NUHT_g
+0.8199197118650889
+
+Accuracy of XGB, using: lzop_g MFCompress_g snzip_g
+0.7876321353065538
+F1 score of XGB, using: lzop_g MFCompress_g snzip_g
+0.7870841815437665
+
+Accuracy of XGB, using: lzop_g MFCompress_g zip_g
+0.8241014799154334
+F1 score of XGB, using: lzop_g MFCompress_g zip_g
+0.82189132947069
+
+Accuracy of XGB, using: lzop_g MFCompress_g xz_g
+0.8256871035940803
+F1 score of XGB, using: lzop_g MFCompress_g xz_g
+0.824604871253112
+
+Accuracy of XGB, using: lzop_g MFCompress_g zstd_g
+0.7623678646934461
+F1 score of XGB, using: lzop_g MFCompress_g zstd_g
+0.7607629102816307
+
+Accuracy of XGB, using: lzop_g naf_g NUHT_g
+0.7241014799154334
+F1 score of XGB, using: lzop_g naf_g NUHT_g
+0.7228875047686649
+
+Accuracy of XGB, using: lzop_g naf_g snzip_g
+0.6939746300211416
+F1 score of XGB, using: lzop_g naf_g snzip_g
+0.695316543711745
+
+Accuracy of XGB, using: lzop_g naf_g zip_g
+0.7900634249471459
+F1 score of XGB, using: lzop_g naf_g zip_g
+0.787847371265428
+
+Accuracy of XGB, using: lzop_g naf_g xz_g
+0.7908033826638479
+F1 score of XGB, using: lzop_g naf_g xz_g
+0.789097242641738
+
+Accuracy of XGB, using: lzop_g naf_g zstd_g
+0.6921775898520085
+F1 score of XGB, using: lzop_g naf_g zstd_g
+0.6902091912191515
+
+Accuracy of XGB, using: lzop_g NUHT_g snzip_g
+0.8151162790697674
+F1 score of XGB, using: lzop_g NUHT_g snzip_g
+0.8146851869437226
+
+Accuracy of XGB, using: lzop_g NUHT_g zip_g
+0.8760042283298098
+F1 score of XGB, using: lzop_g NUHT_g zip_g
+0.8728195600057926
+
+Accuracy of XGB, using: lzop_g NUHT_g xz_g
+0.8804439746300211
+F1 score of XGB, using: lzop_g NUHT_g xz_g
+0.8781687017827935
+
+Accuracy of XGB, using: lzop_g NUHT_g zstd_g
+0.8153276955602535
+F1 score of XGB, using: lzop_g NUHT_g zstd_g
+0.813546741092124
+
+Accuracy of XGB, using: lzop_g snzip_g zip_g
+0.8419661733615221
+F1 score of XGB, using: lzop_g snzip_g zip_g
+0.8405484523127436
+
+Accuracy of XGB, using: lzop_g snzip_g xz_g
+0.8335095137420719
+F1 score of XGB, using: lzop_g snzip_g xz_g
+0.8323949749897042
+
+Accuracy of XGB, using: lzop_g snzip_g zstd_g
+0.7705073995771671
+F1 score of XGB, using: lzop_g snzip_g zstd_g
+0.770325034200424
+
+Accuracy of XGB, using: lzop_g zip_g xz_g
+0.835200845665962
+F1 score of XGB, using: lzop_g zip_g xz_g
+0.8338798591487144
+
+Accuracy of XGB, using: lzop_g zip_g zstd_g
+0.8168076109936576
+F1 score of XGB, using: lzop_g zip_g zstd_g
+0.8147965308079177
+
+Accuracy of XGB, using: lzop_g xz_g zstd_g
+0.8079281183932346
+F1 score of XGB, using: lzop_g xz_g zstd_g
+0.8067365884435512
+
+Accuracy of XGB, using: mbgc_g MFCompress_g naf_g
+0.7550739957716704
+F1 score of XGB, using: mbgc_g MFCompress_g naf_g
+0.7539315715294356
+
+Accuracy of XGB, using: mbgc_g MFCompress_g NUHT_g
+0.841754756871036
+F1 score of XGB, using: mbgc_g MFCompress_g NUHT_g
+0.8386000088955065
+
+Accuracy of XGB, using: mbgc_g MFCompress_g snzip_g
+0.8465116279069766
+F1 score of XGB, using: mbgc_g MFCompress_g snzip_g
+0.8457352687025269
+
+Accuracy of XGB, using: mbgc_g MFCompress_g zip_g
+0.8424947145877377
+F1 score of XGB, using: mbgc_g MFCompress_g zip_g
+0.8419597177506566
+
+Accuracy of XGB, using: mbgc_g MFCompress_g xz_g
+0.8312896405919661
+F1 score of XGB, using: mbgc_g MFCompress_g xz_g
+0.83058864168649
+
+Accuracy of XGB, using: mbgc_g MFCompress_g zstd_g
+0.8326638477801268
+F1 score of XGB, using: mbgc_g MFCompress_g zstd_g
+0.8318538225415446
+
+Accuracy of XGB, using: mbgc_g naf_g NUHT_g
+0.7912262156448202
+F1 score of XGB, using: mbgc_g naf_g NUHT_g
+0.7879259225624415
+
+Accuracy of XGB, using: mbgc_g naf_g snzip_g
+0.8059196617336152
+F1 score of XGB, using: mbgc_g naf_g snzip_g
+0.8051825384562559
+
+Accuracy of XGB, using: mbgc_g naf_g zip_g
+0.7933403805496828
+F1 score of XGB, using: mbgc_g naf_g zip_g
+0.7931176033928078
+
+Accuracy of XGB, using: mbgc_g naf_g xz_g
+0.7514799154334038
+F1 score of XGB, using: mbgc_g naf_g xz_g
+0.7514971530396806
+
+Accuracy of XGB, using: mbgc_g naf_g zstd_g
+0.7972515856236787
+F1 score of XGB, using: mbgc_g naf_g zstd_g
+0.796402986080431
+
+Accuracy of XGB, using: mbgc_g NUHT_g snzip_g
+0.8828752642706131
+F1 score of XGB, using: mbgc_g NUHT_g snzip_g
+0.8817347335762719
+
+Accuracy of XGB, using: mbgc_g NUHT_g zip_g
+0.8903805496828753
+F1 score of XGB, using: mbgc_g NUHT_g zip_g
+0.8885452502922353
+
+Accuracy of XGB, using: mbgc_g NUHT_g xz_g
+0.8433403805496829
+F1 score of XGB, using: mbgc_g NUHT_g xz_g
+0.8408171744082761
+
+Accuracy of XGB, using: mbgc_g NUHT_g zstd_g
+0.8835095137420719
+F1 score of XGB, using: mbgc_g NUHT_g zstd_g
+0.8816610414444334
+
+Accuracy of XGB, using: mbgc_g snzip_g zip_g
+0.8531712473572938
+F1 score of XGB, using: mbgc_g snzip_g zip_g
+0.8521007676720422
+
+Accuracy of XGB, using: mbgc_g snzip_g xz_g
+0.8383720930232558
+F1 score of XGB, using: mbgc_g snzip_g xz_g
+0.837746397651323
+
+Accuracy of XGB, using: mbgc_g snzip_g zstd_g
+0.8344608879492601
+F1 score of XGB, using: mbgc_g snzip_g zstd_g
+0.8326716211381967
+
+Accuracy of XGB, using: mbgc_g zip_g xz_g
+0.8248414376321354
+F1 score of XGB, using: mbgc_g zip_g xz_g
+0.8243247048778495
+
+Accuracy of XGB, using: mbgc_g zip_g zstd_g
+0.8534883720930233
+F1 score of XGB, using: mbgc_g zip_g zstd_g
+0.8521888642522664
+
+Accuracy of XGB, using: mbgc_g xz_g zstd_g
+0.8368921775898519
+F1 score of XGB, using: mbgc_g xz_g zstd_g
+0.8358535915334141
+
+Accuracy of XGB, using: MFCompress_g naf_g NUHT_g
+0.709090909090909
+F1 score of XGB, using: MFCompress_g naf_g NUHT_g
+0.7076952161367045
+
+Accuracy of XGB, using: MFCompress_g naf_g snzip_g
+0.7287526427061312
+F1 score of XGB, using: MFCompress_g naf_g snzip_g
+0.7283688678770821
+
+Accuracy of XGB, using: MFCompress_g naf_g zip_g
+0.7130021141649049
+F1 score of XGB, using: MFCompress_g naf_g zip_g
+0.7121635010464524
+
+Accuracy of XGB, using: MFCompress_g naf_g xz_g
+0.7400634249471458
+F1 score of XGB, using: MFCompress_g naf_g xz_g
+0.7382154250053313
+
+Accuracy of XGB, using: MFCompress_g naf_g zstd_g
+0.7136363636363636
+F1 score of XGB, using: MFCompress_g naf_g zstd_g
+0.7137195544413704
+
+Accuracy of XGB, using: MFCompress_g NUHT_g snzip_g
+0.827061310782241
+F1 score of XGB, using: MFCompress_g NUHT_g snzip_g
+0.826711111803279
+
+Accuracy of XGB, using: MFCompress_g NUHT_g zip_g
+0.8343551797040171
+F1 score of XGB, using: MFCompress_g NUHT_g zip_g
+0.8324083355508056
+
+Accuracy of XGB, using: MFCompress_g NUHT_g xz_g
+0.8362579281183932
+F1 score of XGB, using: MFCompress_g NUHT_g xz_g
+0.834103108115778
+
+Accuracy of XGB, using: MFCompress_g NUHT_g zstd_g
+0.8159619450317125
+F1 score of XGB, using: MFCompress_g NUHT_g zstd_g
+0.8153992976532901
+
+Accuracy of XGB, using: MFCompress_g snzip_g zip_g
+0.8312896405919661
+F1 score of XGB, using: MFCompress_g snzip_g zip_g
+0.8298192844434004
+
+Accuracy of XGB, using: MFCompress_g snzip_g xz_g
+0.8214587737843552
+F1 score of XGB, using: MFCompress_g snzip_g xz_g
+0.820841429610191
+
+Accuracy of XGB, using: MFCompress_g snzip_g zstd_g
+0.783615221987315
+F1 score of XGB, using: MFCompress_g snzip_g zstd_g
+0.7831412550367347
+
+Accuracy of XGB, using: MFCompress_g zip_g xz_g
+0.8172304439746301
+F1 score of XGB, using: MFCompress_g zip_g xz_g
+0.8163904441761952
+
+Accuracy of XGB, using: MFCompress_g zip_g zstd_g
+0.8234672304439746
+F1 score of XGB, using: MFCompress_g zip_g zstd_g
+0.8224234259302975
+
+Accuracy of XGB, using: MFCompress_g xz_g zstd_g
+0.8291754756871036
+F1 score of XGB, using: MFCompress_g xz_g zstd_g
+0.8281192778461225
+
+Accuracy of XGB, using: naf_g NUHT_g snzip_g
+0.7539112050739958
+F1 score of XGB, using: naf_g NUHT_g snzip_g
+0.7522507269840413
+
+Accuracy of XGB, using: naf_g NUHT_g zip_g
+0.8088794926004228
+F1 score of XGB, using: naf_g NUHT_g zip_g
+0.8059403594670723
+
+Accuracy of XGB, using: naf_g NUHT_g xz_g
+0.775475687103594
+F1 score of XGB, using: naf_g NUHT_g xz_g
+0.7727214160669585
+
+Accuracy of XGB, using: naf_g NUHT_g zstd_g
+0.7665961945031712
+F1 score of XGB, using: naf_g NUHT_g zstd_g
+0.7644043287994498
+
+Accuracy of XGB, using: naf_g snzip_g zip_g
+0.7993657505285413
+F1 score of XGB, using: naf_g snzip_g zip_g
+0.7977610448441474
+
+Accuracy of XGB, using: naf_g snzip_g xz_g
+0.779492600422833
+F1 score of XGB, using: naf_g snzip_g xz_g
+0.7784587383660695
+
+Accuracy of XGB, using: naf_g snzip_g zstd_g
+0.7468287526427061
+F1 score of XGB, using: naf_g snzip_g zstd_g
+0.7461306959990103
+
+Accuracy of XGB, using: naf_g zip_g xz_g
+0.7620507399577168
+F1 score of XGB, using: naf_g zip_g xz_g
+0.7612415865333336
+
+Accuracy of XGB, using: naf_g zip_g zstd_g
+0.7857293868921775
+F1 score of XGB, using: naf_g zip_g zstd_g
+0.7832367096618527
+
+Accuracy of XGB, using: naf_g xz_g zstd_g
+0.7889006342494714
+F1 score of XGB, using: naf_g xz_g zstd_g
+0.7873799406126325
+
+Accuracy of XGB, using: NUHT_g snzip_g zip_g
+0.8818181818181818
+F1 score of XGB, using: NUHT_g snzip_g zip_g
+0.8803273291417749
+
+Accuracy of XGB, using: NUHT_g snzip_g xz_g
+0.8737843551797042
+F1 score of XGB, using: NUHT_g snzip_g xz_g
+0.8723498931829443
+
+Accuracy of XGB, using: NUHT_g snzip_g zstd_g
+0.8503171247357295
+F1 score of XGB, using: NUHT_g snzip_g zstd_g
+0.8484148189374245
+
+Accuracy of XGB, using: NUHT_g zip_g xz_g
+0.8790697674418604
+F1 score of XGB, using: NUHT_g zip_g xz_g
+0.8766420867327185
+
+Accuracy of XGB, using: NUHT_g zip_g zstd_g
+0.868076109936575
+F1 score of XGB, using: NUHT_g zip_g zstd_g
+0.8653995825077002
+
+Accuracy of XGB, using: NUHT_g xz_g zstd_g
+0.8834038054968287
+F1 score of XGB, using: NUHT_g xz_g zstd_g
+0.8809898231070974
+
+Accuracy of XGB, using: snzip_g zip_g xz_g
+0.8340380549682875
+F1 score of XGB, using: snzip_g zip_g xz_g
+0.8326303777033685
+
+Accuracy of XGB, using: snzip_g zip_g zstd_g
+0.8408033826638478
+F1 score of XGB, using: snzip_g zip_g zstd_g
+0.8395768146661586
+
+Accuracy of XGB, using: snzip_g xz_g zstd_g
+0.8289640591966172
+F1 score of XGB, using: snzip_g xz_g zstd_g
+0.8274011663451353
+
+Accuracy of XGB, using: zip_g xz_g zstd_g
+0.8368921775898519
+F1 score of XGB, using: zip_g xz_g zstd_g
+0.8356033622006974
+
+Accuracy of XGB, using: blzpack_g bsc_g bzip2_g GeCo3_g
+0.7977801268498943
+F1 score of XGB, using: blzpack_g bsc_g bzip2_g GeCo3_g
+0.7971216883158053
+
+Accuracy of XGB, using: blzpack_g bsc_g bzip2_g gzip_g
+0.843446088794926
+F1 score of XGB, using: blzpack_g bsc_g bzip2_g gzip_g
+0.8421937122615274
+
+Accuracy of XGB, using: blzpack_g bsc_g bzip2_g JARVIS_g
+0.8198731501057083
+F1 score of XGB, using: blzpack_g bsc_g bzip2_g JARVIS_g
+0.8190886481759942
+
+Accuracy of XGB, using: blzpack_g bsc_g bzip2_g lizard_g
+0.8343551797040171
+F1 score of XGB, using: blzpack_g bsc_g bzip2_g lizard_g
+0.833297279400987
+
+Accuracy of XGB, using: blzpack_g bsc_g bzip2_g lz4_g
+0.8207188160676534
+F1 score of XGB, using: blzpack_g bsc_g bzip2_g lz4_g
+0.8201484113659194
+
+Accuracy of XGB, using: blzpack_g bsc_g bzip2_g lzop_g
+0.8363636363636363
+F1 score of XGB, using: blzpack_g bsc_g bzip2_g lzop_g
+0.8350930287835588
+
+Accuracy of XGB, using: blzpack_g bsc_g bzip2_g mbgc_g
+0.86723044397463
+F1 score of XGB, using: blzpack_g bsc_g bzip2_g mbgc_g
+0.8661639980312292
+
+Accuracy of XGB, using: blzpack_g bsc_g bzip2_g MFCompress_g
+0.8157505285412263
+F1 score of XGB, using: blzpack_g bsc_g bzip2_g MFCompress_g
+0.8155287305102729
+
+Accuracy of XGB, using: blzpack_g bsc_g bzip2_g naf_g
+0.7924947145877379
+F1 score of XGB, using: blzpack_g bsc_g bzip2_g naf_g
+0.7917729450246429
+
+Accuracy of XGB, using: blzpack_g bsc_g bzip2_g NUHT_g
+0.861522198731501
+F1 score of XGB, using: blzpack_g bsc_g bzip2_g NUHT_g
+0.8602111238458212
+
+Accuracy of XGB, using: blzpack_g bsc_g bzip2_g snzip_g
+0.8269556025369977
+F1 score of XGB, using: blzpack_g bsc_g bzip2_g snzip_g
+0.8260959644800062
+
+Accuracy of XGB, using: blzpack_g bsc_g bzip2_g zip_g
+0.8658562367864695
+F1 score of XGB, using: blzpack_g bsc_g bzip2_g zip_g
+0.8646002670317939
+
+Accuracy of XGB, using: blzpack_g bsc_g bzip2_g xz_g
+0.8653276955602538
+F1 score of XGB, using: blzpack_g bsc_g bzip2_g xz_g
+0.8637775417180178
+
+Accuracy of XGB, using: blzpack_g bsc_g bzip2_g zstd_g
+0.8263213530655392
+F1 score of XGB, using: blzpack_g bsc_g bzip2_g zstd_g
+0.8248226700640918
+
+Accuracy of XGB, using: blzpack_g bsc_g GeCo3_g gzip_g
+0.8237843551797039
+F1 score of XGB, using: blzpack_g bsc_g GeCo3_g gzip_g
+0.8233043209430478
+
+Accuracy of XGB, using: blzpack_g bsc_g GeCo3_g JARVIS_g
+0.8157505285412261
+F1 score of XGB, using: blzpack_g bsc_g GeCo3_g JARVIS_g
+0.8155273464514889
+
+Accuracy of XGB, using: blzpack_g bsc_g GeCo3_g lizard_g
+0.8271670190274841
+F1 score of XGB, using: blzpack_g bsc_g GeCo3_g lizard_g
+0.8260098667205407
+
+Accuracy of XGB, using: blzpack_g bsc_g GeCo3_g lz4_g
+0.8128964059196617
+F1 score of XGB, using: blzpack_g bsc_g GeCo3_g lz4_g
+0.8120936242353567
+
+Accuracy of XGB, using: blzpack_g bsc_g GeCo3_g lzop_g
+0.811522198731501
+F1 score of XGB, using: blzpack_g bsc_g GeCo3_g lzop_g
+0.8104754662244371
+
+Accuracy of XGB, using: blzpack_g bsc_g GeCo3_g mbgc_g
+0.8652219873150105
+F1 score of XGB, using: blzpack_g bsc_g GeCo3_g mbgc_g
+0.8644166146315702
+
+Accuracy of XGB, using: blzpack_g bsc_g GeCo3_g MFCompress_g
+0.8091966173361522
+F1 score of XGB, using: blzpack_g bsc_g GeCo3_g MFCompress_g
+0.8095906820791242
+
+Accuracy of XGB, using: blzpack_g bsc_g GeCo3_g naf_g
+0.7697674418604652
+F1 score of XGB, using: blzpack_g bsc_g GeCo3_g naf_g
+0.7694947114642695
+
+Accuracy of XGB, using: blzpack_g bsc_g GeCo3_g NUHT_g
+0.8448202959830866
+F1 score of XGB, using: blzpack_g bsc_g GeCo3_g NUHT_g
+0.8435706609675219
+
+Accuracy of XGB, using: blzpack_g bsc_g GeCo3_g snzip_g
+0.8142706131078224
+F1 score of XGB, using: blzpack_g bsc_g GeCo3_g snzip_g
+0.8134036973480209
+
+Accuracy of XGB, using: blzpack_g bsc_g GeCo3_g zip_g
+0.861522198731501
+F1 score of XGB, using: blzpack_g bsc_g GeCo3_g zip_g
+0.8599561148693675
+
+Accuracy of XGB, using: blzpack_g bsc_g GeCo3_g xz_g
+0.8707188160676532
+F1 score of XGB, using: blzpack_g bsc_g GeCo3_g xz_g
+0.8696253944456206
+
+Accuracy of XGB, using: blzpack_g bsc_g GeCo3_g zstd_g
+0.796723044397463
+F1 score of XGB, using: blzpack_g bsc_g GeCo3_g zstd_g
+0.7961373781361798
+
+Accuracy of XGB, using: blzpack_g bsc_g gzip_g JARVIS_g
+0.8409090909090908
+F1 score of XGB, using: blzpack_g bsc_g gzip_g JARVIS_g
+0.839958413905971
+
+Accuracy of XGB, using: blzpack_g bsc_g gzip_g lizard_g
+0.8603594080338267
+F1 score of XGB, using: blzpack_g bsc_g gzip_g lizard_g
+0.8587225699312236
+
+Accuracy of XGB, using: blzpack_g bsc_g gzip_g lz4_g
+0.8570824524312897
+F1 score of XGB, using: blzpack_g bsc_g gzip_g lz4_g
+0.8562617182085053
+
+Accuracy of XGB, using: blzpack_g bsc_g gzip_g lzop_g
+0.8429175475687103
+F1 score of XGB, using: blzpack_g bsc_g gzip_g lzop_g
+0.8416594372363821
+
+Accuracy of XGB, using: blzpack_g bsc_g gzip_g mbgc_g
+0.8917547568710358
+F1 score of XGB, using: blzpack_g bsc_g gzip_g mbgc_g
+0.8908415382045133
+
+Accuracy of XGB, using: blzpack_g bsc_g gzip_g MFCompress_g
+0.8448202959830866
+F1 score of XGB, using: blzpack_g bsc_g gzip_g MFCompress_g
+0.8442235964228754
+
+Accuracy of XGB, using: blzpack_g bsc_g gzip_g naf_g
+0.8115221987315012
+F1 score of XGB, using: blzpack_g bsc_g gzip_g naf_g
+0.8107881700260615
+
+Accuracy of XGB, using: blzpack_g bsc_g gzip_g NUHT_g
+0.876215644820296
+F1 score of XGB, using: blzpack_g bsc_g gzip_g NUHT_g
+0.8747103396479302
+
+Accuracy of XGB, using: blzpack_g bsc_g gzip_g snzip_g
+0.8585623678646934
+F1 score of XGB, using: blzpack_g bsc_g gzip_g snzip_g
+0.8576545455570406
+
+Accuracy of XGB, using: blzpack_g bsc_g gzip_g zip_g
+0.870401691331924
+F1 score of XGB, using: blzpack_g bsc_g gzip_g zip_g
+0.8690571853563298
+
+Accuracy of XGB, using: blzpack_g bsc_g gzip_g xz_g
+0.8783298097251585
+F1 score of XGB, using: blzpack_g bsc_g gzip_g xz_g
+0.8768600732781581
+
+Accuracy of XGB, using: blzpack_g bsc_g gzip_g zstd_g
+0.8297040169133192
+F1 score of XGB, using: blzpack_g bsc_g gzip_g zstd_g
+0.8290638772519798
+
+Accuracy of XGB, using: blzpack_g bsc_g JARVIS_g lizard_g
+0.8347780126849894
+F1 score of XGB, using: blzpack_g bsc_g JARVIS_g lizard_g
+0.8339381051195567
+
+Accuracy of XGB, using: blzpack_g bsc_g JARVIS_g lz4_g
+0.8209302325581396
+F1 score of XGB, using: blzpack_g bsc_g JARVIS_g lz4_g
+0.8200049784154683
+
+Accuracy of XGB, using: blzpack_g bsc_g JARVIS_g lzop_g
+0.8340380549682875
+F1 score of XGB, using: blzpack_g bsc_g JARVIS_g lzop_g
+0.8330812451433042
+
+Accuracy of XGB, using: blzpack_g bsc_g JARVIS_g mbgc_g
+0.8637420718816067
+F1 score of XGB, using: blzpack_g bsc_g JARVIS_g mbgc_g
+0.862798669651287
+
+Accuracy of XGB, using: blzpack_g bsc_g JARVIS_g MFCompress_g
+0.8156448202959832
+F1 score of XGB, using: blzpack_g bsc_g JARVIS_g MFCompress_g
+0.8150748377380006
+
+Accuracy of XGB, using: blzpack_g bsc_g JARVIS_g naf_g
+0.8014799154334037
+F1 score of XGB, using: blzpack_g bsc_g JARVIS_g naf_g
+0.8009789657421985
+
+Accuracy of XGB, using: blzpack_g bsc_g JARVIS_g NUHT_g
+0.8584566596194503
+F1 score of XGB, using: blzpack_g bsc_g JARVIS_g NUHT_g
+0.8571244329574169
+
+Accuracy of XGB, using: blzpack_g bsc_g JARVIS_g snzip_g
+0.8292811839323466
+F1 score of XGB, using: blzpack_g bsc_g JARVIS_g snzip_g
+0.8281893632362125
+
+Accuracy of XGB, using: blzpack_g bsc_g JARVIS_g zip_g
+0.8640591966173361
+F1 score of XGB, using: blzpack_g bsc_g JARVIS_g zip_g
+0.8630448619510844
+
+Accuracy of XGB, using: blzpack_g bsc_g JARVIS_g xz_g
+0.8674418604651162
+F1 score of XGB, using: blzpack_g bsc_g JARVIS_g xz_g
+0.8661962420719691
+
+Accuracy of XGB, using: blzpack_g bsc_g JARVIS_g zstd_g
+0.8198731501057083
+F1 score of XGB, using: blzpack_g bsc_g JARVIS_g zstd_g
+0.8186233141193802
+
+Accuracy of XGB, using: blzpack_g bsc_g lizard_g lz4_g
+0.8308668076109937
+F1 score of XGB, using: blzpack_g bsc_g lizard_g lz4_g
+0.8302127437500115
+
+Accuracy of XGB, using: blzpack_g bsc_g lizard_g lzop_g
+0.8423890063424947
+F1 score of XGB, using: blzpack_g bsc_g lizard_g lzop_g
+0.8411065204140005
+
+Accuracy of XGB, using: blzpack_g bsc_g lizard_g mbgc_g
+0.8642706131078224
+F1 score of XGB, using: blzpack_g bsc_g lizard_g mbgc_g
+0.863675638990614
+
+Accuracy of XGB, using: blzpack_g bsc_g lizard_g MFCompress_g
+0.831923890063425
+F1 score of XGB, using: blzpack_g bsc_g lizard_g MFCompress_g
+0.8308422200675224
+
+Accuracy of XGB, using: blzpack_g bsc_g lizard_g naf_g
+0.8170190274841438
+F1 score of XGB, using: blzpack_g bsc_g lizard_g naf_g
+0.8155507483163025
+
+Accuracy of XGB, using: blzpack_g bsc_g lizard_g NUHT_g
+0.8829809725158564
+F1 score of XGB, using: blzpack_g bsc_g lizard_g NUHT_g
+0.881405880398493
+
+Accuracy of XGB, using: blzpack_g bsc_g lizard_g snzip_g
+0.8434460887949259
+F1 score of XGB, using: blzpack_g bsc_g lizard_g snzip_g
+0.8425069081192367
+
+Accuracy of XGB, using: blzpack_g bsc_g lizard_g zip_g
+0.8692389006342494
+F1 score of XGB, using: blzpack_g bsc_g lizard_g zip_g
+0.8679893048229331
+
+Accuracy of XGB, using: blzpack_g bsc_g lizard_g xz_g
+0.8577167019027485
+F1 score of XGB, using: blzpack_g bsc_g lizard_g xz_g
+0.8564760554452174
+
+Accuracy of XGB, using: blzpack_g bsc_g lizard_g zstd_g
+0.8348837209302327
+F1 score of XGB, using: blzpack_g bsc_g lizard_g zstd_g
+0.8334987769922405
+
+Accuracy of XGB, using: blzpack_g bsc_g lz4_g lzop_g
+0.8417547568710357
+F1 score of XGB, using: blzpack_g bsc_g lz4_g lzop_g
+0.8407247499671253
+
+Accuracy of XGB, using: blzpack_g bsc_g lz4_g mbgc_g
+0.8605708245243131
+F1 score of XGB, using: blzpack_g bsc_g lz4_g mbgc_g
+0.8596618775817226
+
+Accuracy of XGB, using: blzpack_g bsc_g lz4_g MFCompress_g
+0.8302325581395349
+F1 score of XGB, using: blzpack_g bsc_g lz4_g MFCompress_g
+0.8292711171213586
+
+Accuracy of XGB, using: blzpack_g bsc_g lz4_g naf_g
+0.8100422832980974
+F1 score of XGB, using: blzpack_g bsc_g lz4_g naf_g
+0.8096409996919333
+
+Accuracy of XGB, using: blzpack_g bsc_g lz4_g NUHT_g
+0.8755813953488373
+F1 score of XGB, using: blzpack_g bsc_g lz4_g NUHT_g
+0.8741069545449107
+
+Accuracy of XGB, using: blzpack_g bsc_g lz4_g snzip_g
+0.8411205073995772
+F1 score of XGB, using: blzpack_g bsc_g lz4_g snzip_g
+0.841018445031344
+
+Accuracy of XGB, using: blzpack_g bsc_g lz4_g zip_g
+0.8716701902748415
+F1 score of XGB, using: blzpack_g bsc_g lz4_g zip_g
+0.8710318092186204
+
+Accuracy of XGB, using: blzpack_g bsc_g lz4_g xz_g
+0.858985200845666
+F1 score of XGB, using: blzpack_g bsc_g lz4_g xz_g
+0.857863859763882
+
+Accuracy of XGB, using: blzpack_g bsc_g lz4_g zstd_g
+0.8344608879492601
+F1 score of XGB, using: blzpack_g bsc_g lz4_g zstd_g
+0.8341315683831153
+
+Accuracy of XGB, using: blzpack_g bsc_g lzop_g mbgc_g
+0.8726215644820297
+F1 score of XGB, using: blzpack_g bsc_g lzop_g mbgc_g
+0.8716007602137807
+
+Accuracy of XGB, using: blzpack_g bsc_g lzop_g MFCompress_g
+0.8274841437632136
+F1 score of XGB, using: blzpack_g bsc_g lzop_g MFCompress_g
+0.8266682656791433
+
+Accuracy of XGB, using: blzpack_g bsc_g lzop_g naf_g
+0.8072938689217759
+F1 score of XGB, using: blzpack_g bsc_g lzop_g naf_g
+0.80592691299863
+
+Accuracy of XGB, using: blzpack_g bsc_g lzop_g NUHT_g
+0.8619450317124736
+F1 score of XGB, using: blzpack_g bsc_g lzop_g NUHT_g
+0.8602164004219569
+
+Accuracy of XGB, using: blzpack_g bsc_g lzop_g snzip_g
+0.8392177589852008
+F1 score of XGB, using: blzpack_g bsc_g lzop_g snzip_g
+0.8387222619304298
+
+Accuracy of XGB, using: blzpack_g bsc_g lzop_g zip_g
+0.8694503171247356
+F1 score of XGB, using: blzpack_g bsc_g lzop_g zip_g
+0.867565350645204
+
+Accuracy of XGB, using: blzpack_g bsc_g lzop_g xz_g
+0.8610993657505286
+F1 score of XGB, using: blzpack_g bsc_g lzop_g xz_g
+0.8597536935864346
+
+Accuracy of XGB, using: blzpack_g bsc_g lzop_g zstd_g
+0.8210359408033827
+F1 score of XGB, using: blzpack_g bsc_g lzop_g zstd_g
+0.820193445065275
+
+Accuracy of XGB, using: blzpack_g bsc_g mbgc_g MFCompress_g
+0.8620507399577166
+F1 score of XGB, using: blzpack_g bsc_g mbgc_g MFCompress_g
+0.8612335068711067
+
+Accuracy of XGB, using: blzpack_g bsc_g mbgc_g naf_g
+0.8527484143763214
+F1 score of XGB, using: blzpack_g bsc_g mbgc_g naf_g
+0.851979276552133
+
+Accuracy of XGB, using: blzpack_g bsc_g mbgc_g NUHT_g
+0.9007399577167019
+F1 score of XGB, using: blzpack_g bsc_g mbgc_g NUHT_g
+0.8993616372830603
+
+Accuracy of XGB, using: blzpack_g bsc_g mbgc_g snzip_g
+0.8653276955602538
+F1 score of XGB, using: blzpack_g bsc_g mbgc_g snzip_g
+0.8647603531072596
+
+Accuracy of XGB, using: blzpack_g bsc_g mbgc_g zip_g
+0.8887949260042284
+F1 score of XGB, using: blzpack_g bsc_g mbgc_g zip_g
+0.8876219181211347
+
+Accuracy of XGB, using: blzpack_g bsc_g mbgc_g xz_g
+0.8732558139534884
+F1 score of XGB, using: blzpack_g bsc_g mbgc_g xz_g
+0.8722634489759482
+
+Accuracy of XGB, using: blzpack_g bsc_g mbgc_g zstd_g
+0.8659619450317123
+F1 score of XGB, using: blzpack_g bsc_g mbgc_g zstd_g
+0.8650572788879604
+
+Accuracy of XGB, using: blzpack_g bsc_g MFCompress_g naf_g
+0.7902748414376323
+F1 score of XGB, using: blzpack_g bsc_g MFCompress_g naf_g
+0.7901805812039308
+
+Accuracy of XGB, using: blzpack_g bsc_g MFCompress_g NUHT_g
+0.8557082452431288
+F1 score of XGB, using: blzpack_g bsc_g MFCompress_g NUHT_g
+0.8546338905806807
+
+Accuracy of XGB, using: blzpack_g bsc_g MFCompress_g snzip_g
+0.8281183932346723
+F1 score of XGB, using: blzpack_g bsc_g MFCompress_g snzip_g
+0.8277763989547694
+
+Accuracy of XGB, using: blzpack_g bsc_g MFCompress_g zip_g
+0.8623678646934462
+F1 score of XGB, using: blzpack_g bsc_g MFCompress_g zip_g
+0.86153134195156
+
+Accuracy of XGB, using: blzpack_g bsc_g MFCompress_g xz_g
+0.8593023255813954
+F1 score of XGB, using: blzpack_g bsc_g MFCompress_g xz_g
+0.8581690224968318
+
+Accuracy of XGB, using: blzpack_g bsc_g MFCompress_g zstd_g
+0.8152219873150106
+F1 score of XGB, using: blzpack_g bsc_g MFCompress_g zstd_g
+0.8149657708933532
+
+Accuracy of XGB, using: blzpack_g bsc_g naf_g NUHT_g
+0.8365750528541227
+F1 score of XGB, using: blzpack_g bsc_g naf_g NUHT_g
+0.835607238727213
+
+Accuracy of XGB, using: blzpack_g bsc_g naf_g snzip_g
+0.8044397463002115
+F1 score of XGB, using: blzpack_g bsc_g naf_g snzip_g
+0.8035350823120051
+
+Accuracy of XGB, using: blzpack_g bsc_g naf_g zip_g
+0.8523255813953489
+F1 score of XGB, using: blzpack_g bsc_g naf_g zip_g
+0.8510304572110966
+
+Accuracy of XGB, using: blzpack_g bsc_g naf_g xz_g
+0.8496828752642707
+F1 score of XGB, using: blzpack_g bsc_g naf_g xz_g
+0.8485638237873706
+
+Accuracy of XGB, using: blzpack_g bsc_g naf_g zstd_g
+0.7798097251585624
+F1 score of XGB, using: blzpack_g bsc_g naf_g zstd_g
+0.7792237328060029
+
+Accuracy of XGB, using: blzpack_g bsc_g NUHT_g snzip_g
+0.8765327695560254
+F1 score of XGB, using: blzpack_g bsc_g NUHT_g snzip_g
+0.8754350190362908
+
+Accuracy of XGB, using: blzpack_g bsc_g NUHT_g zip_g
+0.9014799154334039
+F1 score of XGB, using: blzpack_g bsc_g NUHT_g zip_g
+0.8994060800634195
+
+Accuracy of XGB, using: blzpack_g bsc_g NUHT_g xz_g
+0.8936575052854124
+F1 score of XGB, using: blzpack_g bsc_g NUHT_g xz_g
+0.8915950713647038
+
+Accuracy of XGB, using: blzpack_g bsc_g NUHT_g zstd_g
+0.8556025369978858
+F1 score of XGB, using: blzpack_g bsc_g NUHT_g zstd_g
+0.8544014773957752
+
+Accuracy of XGB, using: blzpack_g bsc_g snzip_g zip_g
+0.8761099365750529
+F1 score of XGB, using: blzpack_g bsc_g snzip_g zip_g
+0.8751423359963308
+
+Accuracy of XGB, using: blzpack_g bsc_g snzip_g xz_g
+0.8652219873150105
+F1 score of XGB, using: blzpack_g bsc_g snzip_g xz_g
+0.8645251037470085
+
+Accuracy of XGB, using: blzpack_g bsc_g snzip_g zstd_g
+0.8274841437632136
+F1 score of XGB, using: blzpack_g bsc_g snzip_g zstd_g
+0.8261043897415927
+
+Accuracy of XGB, using: blzpack_g bsc_g zip_g xz_g
+0.8791754756871036
+F1 score of XGB, using: blzpack_g bsc_g zip_g xz_g
+0.8782345943589325
+
+Accuracy of XGB, using: blzpack_g bsc_g zip_g zstd_g
+0.8591966173361522
+F1 score of XGB, using: blzpack_g bsc_g zip_g zstd_g
+0.8578417910837597
+
+Accuracy of XGB, using: blzpack_g bsc_g xz_g zstd_g
+0.8626849894291755
+F1 score of XGB, using: blzpack_g bsc_g xz_g zstd_g
+0.8615404105414559
+
+Accuracy of XGB, using: blzpack_g bzip2_g GeCo3_g gzip_g
+0.8067653276955602
+F1 score of XGB, using: blzpack_g bzip2_g GeCo3_g gzip_g
+0.8057049317653557
+
+Accuracy of XGB, using: blzpack_g bzip2_g GeCo3_g JARVIS_g
+0.809830866807611
+F1 score of XGB, using: blzpack_g bzip2_g GeCo3_g JARVIS_g
+0.8097589067092048
+
+Accuracy of XGB, using: blzpack_g bzip2_g GeCo3_g lizard_g
+0.8239957716701903
+F1 score of XGB, using: blzpack_g bzip2_g GeCo3_g lizard_g
+0.8224672041414565
+
+Accuracy of XGB, using: blzpack_g bzip2_g GeCo3_g lz4_g
+0.8080338266384779
+F1 score of XGB, using: blzpack_g bzip2_g GeCo3_g lz4_g
+0.8075425333286704
+
+Accuracy of XGB, using: blzpack_g bzip2_g GeCo3_g lzop_g
+0.7737843551797041
+F1 score of XGB, using: blzpack_g bzip2_g GeCo3_g lzop_g
+0.7731522568676771
+
+Accuracy of XGB, using: blzpack_g bzip2_g GeCo3_g mbgc_g
+0.8620507399577167
+F1 score of XGB, using: blzpack_g bzip2_g GeCo3_g mbgc_g
+0.8607017687994359
+
+Accuracy of XGB, using: blzpack_g bzip2_g GeCo3_g MFCompress_g
+0.8012684989429175
+F1 score of XGB, using: blzpack_g bzip2_g GeCo3_g MFCompress_g
+0.8016785204108876
+
+Accuracy of XGB, using: blzpack_g bzip2_g GeCo3_g naf_g
+0.7158562367864694
+F1 score of XGB, using: blzpack_g bzip2_g GeCo3_g naf_g
+0.7159237793875627
+
+Accuracy of XGB, using: blzpack_g bzip2_g GeCo3_g NUHT_g
+0.8158562367864695
+F1 score of XGB, using: blzpack_g bzip2_g GeCo3_g NUHT_g
+0.814814080587866
+
+Accuracy of XGB, using: blzpack_g bzip2_g GeCo3_g snzip_g
+0.7821353065539113
+F1 score of XGB, using: blzpack_g bzip2_g GeCo3_g snzip_g
+0.781943819864358
+
+Accuracy of XGB, using: blzpack_g bzip2_g GeCo3_g zip_g
+0.8530655391120507
+F1 score of XGB, using: blzpack_g bzip2_g GeCo3_g zip_g
+0.8510488117155492
+
+Accuracy of XGB, using: blzpack_g bzip2_g GeCo3_g xz_g
+0.8744186046511627
+F1 score of XGB, using: blzpack_g bzip2_g GeCo3_g xz_g
+0.8727509982617079
+
+Accuracy of XGB, using: blzpack_g bzip2_g GeCo3_g zstd_g
+0.7917547568710359
+F1 score of XGB, using: blzpack_g bzip2_g GeCo3_g zstd_g
+0.7911933407089712
+
+Accuracy of XGB, using: blzpack_g bzip2_g gzip_g JARVIS_g
+0.8405919661733614
+F1 score of XGB, using: blzpack_g bzip2_g gzip_g JARVIS_g
+0.8393218555465329
+
+Accuracy of XGB, using: blzpack_g bzip2_g gzip_g lizard_g
+0.8597251585623678
+F1 score of XGB, using: blzpack_g bzip2_g gzip_g lizard_g
+0.8581326026185107
+
+Accuracy of XGB, using: blzpack_g bzip2_g gzip_g lz4_g
+0.8601479915433405
+F1 score of XGB, using: blzpack_g bzip2_g gzip_g lz4_g
+0.8593477170896024
+
+Accuracy of XGB, using: blzpack_g bzip2_g gzip_g lzop_g
+0.8221987315010569
+F1 score of XGB, using: blzpack_g bzip2_g gzip_g lzop_g
+0.8209256127996772
+
+Accuracy of XGB, using: blzpack_g bzip2_g gzip_g mbgc_g
+0.8974630021141647
+F1 score of XGB, using: blzpack_g bzip2_g gzip_g mbgc_g
+0.8964188164296333
+
+Accuracy of XGB, using: blzpack_g bzip2_g gzip_g MFCompress_g
+0.8283298097251585
+F1 score of XGB, using: blzpack_g bzip2_g gzip_g MFCompress_g
+0.8274964483994651
+
+Accuracy of XGB, using: blzpack_g bzip2_g gzip_g naf_g
+0.7775898520084567
+F1 score of XGB, using: blzpack_g bzip2_g gzip_g naf_g
+0.7763155368632393
+
+Accuracy of XGB, using: blzpack_g bzip2_g gzip_g NUHT_g
+0.8545454545454545
+F1 score of XGB, using: blzpack_g bzip2_g gzip_g NUHT_g
+0.8532098431250924
+
+Accuracy of XGB, using: blzpack_g bzip2_g gzip_g snzip_g
+0.8400634249471459
+F1 score of XGB, using: blzpack_g bzip2_g gzip_g snzip_g
+0.8396318355500616
+
+Accuracy of XGB, using: blzpack_g bzip2_g gzip_g zip_g
+0.870401691331924
+F1 score of XGB, using: blzpack_g bzip2_g gzip_g zip_g
+0.8684046065522699
+
+Accuracy of XGB, using: blzpack_g bzip2_g gzip_g xz_g
+0.8809725158562367
+F1 score of XGB, using: blzpack_g bzip2_g gzip_g xz_g
+0.8795082339355969
+
+Accuracy of XGB, using: blzpack_g bzip2_g gzip_g zstd_g
+0.8144820295983086
+F1 score of XGB, using: blzpack_g bzip2_g gzip_g zstd_g
+0.813364561006984
+
+Accuracy of XGB, using: blzpack_g bzip2_g JARVIS_g lizard_g
+0.8340380549682875
+F1 score of XGB, using: blzpack_g bzip2_g JARVIS_g lizard_g
+0.8325791102365014
+
+Accuracy of XGB, using: blzpack_g bzip2_g JARVIS_g lz4_g
+0.819767441860465
+F1 score of XGB, using: blzpack_g bzip2_g JARVIS_g lz4_g
+0.8187344583027105
+
+Accuracy of XGB, using: blzpack_g bzip2_g JARVIS_g lzop_g
+0.8201902748414376
+F1 score of XGB, using: blzpack_g bzip2_g JARVIS_g lzop_g
+0.8192423269046165
+
+Accuracy of XGB, using: blzpack_g bzip2_g JARVIS_g mbgc_g
+0.8608879492600423
+F1 score of XGB, using: blzpack_g bzip2_g JARVIS_g mbgc_g
+0.8597974192530297
+
+Accuracy of XGB, using: blzpack_g bzip2_g JARVIS_g MFCompress_g
+0.8084566596194505
+F1 score of XGB, using: blzpack_g bzip2_g JARVIS_g MFCompress_g
+0.8082179112649795
+
+Accuracy of XGB, using: blzpack_g bzip2_g JARVIS_g naf_g
+0.7881606765327696
+F1 score of XGB, using: blzpack_g bzip2_g JARVIS_g naf_g
+0.7877857700462746
+
+Accuracy of XGB, using: blzpack_g bzip2_g JARVIS_g NUHT_g
+0.8585623678646934
+F1 score of XGB, using: blzpack_g bzip2_g JARVIS_g NUHT_g
+0.857179319700354
+
+Accuracy of XGB, using: blzpack_g bzip2_g JARVIS_g snzip_g
+0.818816067653277
+F1 score of XGB, using: blzpack_g bzip2_g JARVIS_g snzip_g
+0.817976454877589
+
+Accuracy of XGB, using: blzpack_g bzip2_g JARVIS_g zip_g
+0.8628964059196618
+F1 score of XGB, using: blzpack_g bzip2_g JARVIS_g zip_g
+0.8610729104418529
+
+Accuracy of XGB, using: blzpack_g bzip2_g JARVIS_g xz_g
+0.8718816067653277
+F1 score of XGB, using: blzpack_g bzip2_g JARVIS_g xz_g
+0.8705307292952588
+
+Accuracy of XGB, using: blzpack_g bzip2_g JARVIS_g zstd_g
+0.8193446088794925
+F1 score of XGB, using: blzpack_g bzip2_g JARVIS_g zstd_g
+0.8185877624654043
+
+Accuracy of XGB, using: blzpack_g bzip2_g lizard_g lz4_g
+0.8328752642706132
+F1 score of XGB, using: blzpack_g bzip2_g lizard_g lz4_g
+0.8321474974182206
+
+Accuracy of XGB, using: blzpack_g bzip2_g lizard_g lzop_g
+0.8488372093023255
+F1 score of XGB, using: blzpack_g bzip2_g lizard_g lzop_g
+0.8471742682577468
+
+Accuracy of XGB, using: blzpack_g bzip2_g lizard_g mbgc_g
+0.8649048625792812
+F1 score of XGB, using: blzpack_g bzip2_g lizard_g mbgc_g
+0.8636691079362002
+
+Accuracy of XGB, using: blzpack_g bzip2_g lizard_g MFCompress_g
+0.8274841437632137
+F1 score of XGB, using: blzpack_g bzip2_g lizard_g MFCompress_g
+0.8261965031113142
+
+Accuracy of XGB, using: blzpack_g bzip2_g lizard_g naf_g
+0.8131078224101479
+F1 score of XGB, using: blzpack_g bzip2_g lizard_g naf_g
+0.8113746505430319
+
+Accuracy of XGB, using: blzpack_g bzip2_g lizard_g NUHT_g
+0.8799154334038054
+F1 score of XGB, using: blzpack_g bzip2_g lizard_g NUHT_g
+0.8776275680916059
+
+Accuracy of XGB, using: blzpack_g bzip2_g lizard_g snzip_g
+0.8436575052854123
+F1 score of XGB, using: blzpack_g bzip2_g lizard_g snzip_g
+0.8422751569954035
+
+Accuracy of XGB, using: blzpack_g bzip2_g lizard_g zip_g
+0.8657505285412264
+F1 score of XGB, using: blzpack_g bzip2_g lizard_g zip_g
+0.864462919664596
+
+Accuracy of XGB, using: blzpack_g bzip2_g lizard_g xz_g
+0.8632135306553911
+F1 score of XGB, using: blzpack_g bzip2_g lizard_g xz_g
+0.8613441326702311
+
+Accuracy of XGB, using: blzpack_g bzip2_g lizard_g zstd_g
+0.8421775898520085
+F1 score of XGB, using: blzpack_g bzip2_g lizard_g zstd_g
+0.8408978812492081
+
+Accuracy of XGB, using: blzpack_g bzip2_g lz4_g lzop_g
+0.8429175475687103
+F1 score of XGB, using: blzpack_g bzip2_g lz4_g lzop_g
+0.8419393041063987
+
+Accuracy of XGB, using: blzpack_g bzip2_g lz4_g mbgc_g
+0.8682875264270613
+F1 score of XGB, using: blzpack_g bzip2_g lz4_g mbgc_g
+0.8668982287634031
+
+Accuracy of XGB, using: blzpack_g bzip2_g lz4_g MFCompress_g
+0.8207188160676532
+F1 score of XGB, using: blzpack_g bzip2_g lz4_g MFCompress_g
+0.8200394161459531
+
+Accuracy of XGB, using: blzpack_g bzip2_g lz4_g naf_g
+0.8002114164904862
+F1 score of XGB, using: blzpack_g bzip2_g lz4_g naf_g
+0.799500153909124
+
+Accuracy of XGB, using: blzpack_g bzip2_g lz4_g NUHT_g
+0.8731501057082452
+F1 score of XGB, using: blzpack_g bzip2_g lz4_g NUHT_g
+0.8711491959901279
+
+Accuracy of XGB, using: blzpack_g bzip2_g lz4_g snzip_g
+0.8356236786469344
+F1 score of XGB, using: blzpack_g bzip2_g lz4_g snzip_g
+0.8353978748590818
+
+Accuracy of XGB, using: blzpack_g bzip2_g lz4_g zip_g
+0.8791754756871036
+F1 score of XGB, using: blzpack_g bzip2_g lz4_g zip_g
+0.8784895867260772
+
+Accuracy of XGB, using: blzpack_g bzip2_g lz4_g xz_g
+0.8628964059196618
+F1 score of XGB, using: blzpack_g bzip2_g lz4_g xz_g
+0.8617752687306313
+
+Accuracy of XGB, using: blzpack_g bzip2_g lz4_g zstd_g
+0.8398520084566596
+F1 score of XGB, using: blzpack_g bzip2_g lz4_g zstd_g
+0.83894894206497
+
+Accuracy of XGB, using: blzpack_g bzip2_g lzop_g mbgc_g
+0.8746300211416491
+F1 score of XGB, using: blzpack_g bzip2_g lzop_g mbgc_g
+0.8734884688148771
+
+Accuracy of XGB, using: blzpack_g bzip2_g lzop_g MFCompress_g
+0.8101479915433403
+F1 score of XGB, using: blzpack_g bzip2_g lzop_g MFCompress_g
+0.8097573860424137
+
+Accuracy of XGB, using: blzpack_g bzip2_g lzop_g naf_g
+0.7494714587737845
+F1 score of XGB, using: blzpack_g bzip2_g lzop_g naf_g
+0.748259286860834
+
+Accuracy of XGB, using: blzpack_g bzip2_g lzop_g NUHT_g
+0.8344608879492601
+F1 score of XGB, using: blzpack_g bzip2_g lzop_g NUHT_g
+0.8333814669843764
+
+Accuracy of XGB, using: blzpack_g bzip2_g lzop_g snzip_g
+0.8167019027484145
+F1 score of XGB, using: blzpack_g bzip2_g lzop_g snzip_g
+0.8168426336391554
+
+Accuracy of XGB, using: blzpack_g bzip2_g lzop_g zip_g
+0.8663847780126851
+F1 score of XGB, using: blzpack_g bzip2_g lzop_g zip_g
+0.8646348540699977
+
+Accuracy of XGB, using: 
