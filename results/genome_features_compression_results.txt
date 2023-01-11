@@ -1,0 +1,52 @@
+Compression results for genome_features:
+Compressor: blzpack_comp
+    archaea: 0.32899274812021856
+    global: 0.32899274812021856
+Compressor: bsc_comp
+    archaea: 0.26516821521082024
+    global: 0.26516821521082024
+Compressor: bzip2_comp
+    archaea: 0.2896020635446538
+    global: 0.2896020635446538
+Compressor: GeCo3_comp
+    archaea: 0.2398374413199258
+    global: 0.2398374413199258
+Compressor: gzip_comp
+    archaea: 0.31293686043892166
+    global: 0.31293686043892166
+Compressor: JARVIS_comp
+    archaea: 0.2388550653425444
+    global: 0.2388550653425444
+Compressor: lizard_comp
+    archaea: 0.33384527973630695
+    global: 0.33384527973630695
+Compressor: lz4_comp
+    archaea: 0.4261830866049159
+    global: 0.4261830866049159
+Compressor: lzop_comp
+    archaea: 0.38465394568045574
+    global: 0.38465394568045574
+Compressor: mbgc_comp
+    archaea: 0.2723774055978612
+    global: 0.2723774055978612
+Compressor: MFCompress_comp
+    archaea: 0.24792863774461543
+    global: 0.24792863774461543
+Compressor: naf_comp
+    archaea: 74418.66568200977
+    global: 74418.66568200977
+Compressor: NUHT_comp
+    archaea: 0.26211919873232803
+    global: 0.26211919873232803
+Compressor: snzip_comp
+    archaea: 0.4938280833849664
+    global: 0.4938280833849664
+Compressor: zip_comp
+    archaea: 0.31500086510971076
+    global: 0.31500086510971076
+Compressor: xz_comp
+    archaea: 0.284561053835133
+    global: 0.284561053835133
+Compressor: zstd_comp
+    archaea: 0.3088662995235332
+    global: 0.3088662995235332

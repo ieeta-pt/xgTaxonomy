@@ -1,0 +1,34 @@
+Compression results for proteome_features:
+Compressor: blzpack_comp
+    archaea: 0.7650086546306555
+    global: 0.7650086546306555
+Compressor: bsc_comp
+    archaea: 0.5243310530582531
+    global: 0.5243310530582531
+Compressor: bzip2_comp
+    archaea: 0.5394466631753044
+    global: 0.5394466631753044
+Compressor: gzip_comp
+    archaea: 0.5753635432583433
+    global: 0.5753635432583433
+Compressor: lizard_comp
+    archaea: 0.6237634590458359
+    global: 0.6237634590458359
+Compressor: lz4_comp
+    archaea: 0.8059678854287576
+    global: 0.8059678854287576
+Compressor: lzop_comp
+    archaea: 0.7453933232706431
+    global: 0.7453933232706431
+Compressor: snzip_comp
+    archaea: 0.9962487536081718
+    global: 0.9962487536081718
+Compressor: zip_comp
+    archaea: 0.5851483554028969
+    global: 0.5851483554028969
+Compressor: xz_comp
+    archaea: 0.5322205171589525
+    global: 0.5322205171589525
+Compressor: zstd_comp
+    archaea: 0.5443795971535478
+    global: 0.5443795971535478

@@ -254,6 +254,6 @@ if __name__ == "__main__":
                 [Classify(args,list(ele)) for ele in com_list]
         else:
             for column in range(1,29):
-                Classify(args, [[column]])
+                Classify(args, [column])
     else:
         help(True)
