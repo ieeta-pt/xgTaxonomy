@@ -16,7 +16,7 @@ def parse_file(filepath):
                 for j in range(i+3, i+8):
                     # Split the line by whitespace and extract the class name, precision, recall and f1-score
                     parts = re.split(r"\s+", lines[j].strip())
-                    class_name = parts[0]
+                    class_name = parts[0].lower()
                     f1_score = float(parts[3])
                     results[method][class_name] = f1_score
     return results
@@ -27,13 +27,15 @@ def save_results(results, filepath_prefix):
     results_proteome = {}
     for method, values in results.items():
         if method.endswith("_g"):
+            method = method.replace("_g","")
             results_genome[method] = values
         elif method.endswith("_p"):
+            method = method.replace("_p","")
             results_proteome[method] = values
             
     # Save the results for genome
     with open(f"{filepath_prefix}_genome.csv", mode='w') as f:
-        fieldnames = ['Taxonomic Group'] + list(results_genome['blzpack_g'].keys())
+        fieldnames = ['Taxonomic Group'] + list(results_genome['blzpack'].keys())
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
         for class_name, values in results_genome.items():
@@ -44,7 +46,7 @@ def save_results(results, filepath_prefix):
             
     # Save the results for proteome
     with open(f"{filepath_prefix}_proteome.csv", mode='w') as f:
-        fieldnames = ['Taxonomic Group'] + list(results_proteome['blzpack_p'].keys())
+        fieldnames = ['Taxonomic Group'] + list(results_proteome['blzpack'].keys())
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
         for class_name, values in results_proteome.items():
