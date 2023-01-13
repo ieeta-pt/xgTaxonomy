@@ -1,5 +1,6 @@
 import csv
 from scipy.stats import pearsonr, spearmanr
+import subprocess
 
 def read_csv(filepath):
     data = {}
@@ -36,6 +37,8 @@ def compute_correlation(data1, data2):
     
 
 def main():
+    subprocess.run(["python", "evaluateCompression.py"])
+    subprocess.run(["python", "evaluateClassification.py"])
     print("Analysis of the Genomics")
     data1 = read_csv('../results/classification_results_table_genome.csv')
     data2 = read_csv('../results/genome_features_compression_results.csv')
