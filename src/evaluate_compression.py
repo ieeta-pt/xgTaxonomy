@@ -1,8 +1,8 @@
 import csv
 from collections import defaultdict
 from pathlib import Path
-import os 
-
+import os
+import sys
 
 def average_nc_per_genomic_type(filepaths):
     all_results = {}
@@ -16,36 +16,46 @@ def average_nc_per_genomic_type(filepaths):
             headers = next(reader)
             headers.pop(0)
             for i, row in enumerate(reader):
-                if i == 0:
-                    genomictype = row[0]
+                genomictype = row[0]
                 for j,value in enumerate(row):
                     if j!=0:
-                        compressor = headers[j-1]
-                        if value == '':
-                            value = 100000
-                        data[compressor][genomictype].append(float(value))
+                        compressor = headers[j-1].replace('_comp','')
+                        try:
+                            result = float(value)
+                        except ValueError:
+                            result = 0                        
+                        data[compressor][genomictype].append(result)
+        
         # Compute the averages and store the results in a dictionary
         results = {}
         for compressor, groups in data.items():
             results[compressor] = {}
             for genomic_type, values in groups.items():
                 avg = sum(values) / len(values)
-                results[compressor][genomic_type] = avg
-            # Compute average for that compressor globally
-            results[compressor]['global'] = sum(results[compressor].values()) / len(results[compressor].values())
+                results[compressor][genomic_type] = avg        
         all_results[filepath] = results
     return all_results
+
+def all_values_non_zero(d):
+    for value in d.values():
+        if value == 0:
+            return False
+    return True
 
 def save_results(all_results, folderpath):
     for filepath, results in all_results.items():
         file_name = Path(filepath).stem
-        with open(f"{folderpath}/{file_name}_compression_results.txt", 'w') as f:
-            f.write(f'Compression results for {file_name}:\n')
-            for compressor, groups in results.items():
-                f.write(f'Compressor: {compressor}\n')
-                for genomic_type, avg in groups.items():
-                    f.write(f'    {genomic_type}: {avg}\n')
-
+        with open(f"{folderpath}/{file_name}_compression_results.csv", mode='w') as f:
+            fieldnames = ['Taxonomic Group'] + list(results['blzpack'].keys())
+            writer = csv.DictWriter(f, fieldnames=fieldnames)
+            writer.writeheader()
+            for genomic_type, values in results.items():
+                row = {'Taxonomic Group': genomic_type}
+                for compressor, avg in values.items():
+                    row[compressor] = avg
+                if (all_values_non_zero(row)):
+                    writer.writerow(row)
+            
 def main():
     filepaths = ['../results/genome_features.csv', '../results/proteome_features.csv']
     all_results = average_nc_per_genomic_type(filepaths)
