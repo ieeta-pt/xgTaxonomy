@@ -138,6 +138,13 @@ cd src/
 python3 classifier.py -bf -cr > ../results/classification_report_all_combinations.txt
 ```
 
+#### Test Correlation
+
+```bash
+cd src/
+python3 correlateTable.py
+```
+
 ### Cite
 
 Please cite the following, if you use xgTaxonomy in your work:
