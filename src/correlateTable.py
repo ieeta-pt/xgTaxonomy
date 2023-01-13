@@ -24,24 +24,23 @@ def compute_correlation(data1, data2):
         all_data1 += data1[key]
         all_data2 += data2[key]
     corr, _ = pearsonr(all_data1, all_data2)
-    print(f'Pearson correlation for entire table: {corr}')
+    if abs(corr) < 0.5:
+            print(f'No notable Pearson correlation in table!')
+    else:
+        print(f'Pearson correlation for entire table: {corr}')
     corr, _ = spearmanr(all_data1, all_data2)
-    print(f'Spearman correlation for entire table: {corr}')
+    if abs(corr) < 0.5:
+        print(f'No notable Spearman correlation in table!')
+    else:
+        print(f'Spearman correlation for entire table: {corr}')
     
-    # Compute correlation for each genomic type
-    for key in data1.keys():
-        corr, _ = pearsonr(data1[key], data2[key])
-        if abs(corr) < 0.5:
-            print(f'No notable Pearson correlation for {key}!')
-        else:
-            print(f'Pearson correlation for {key}: {corr}')
-        corr, _ = spearmanr(data1[key], data2[key])
-        if abs(corr) < 0.5:
-            print(f'No notable Spearman correlation for {key}!')
-        else:
-            print(f'Spearman correlation for {key}: {corr}')
 
 def main():
+    print("Analysis of the Genomics")
+    data1 = read_csv('../results/classification_results_table_genome.csv')
+    data2 = read_csv('../results/genome_features_compression_results.csv')
+    compute_correlation(data1, data2)
+    print("Analysis of the Proteomics")
     data1 = read_csv('../results/classification_results_table_proteome.csv')
     data2 = read_csv('../results/proteome_features_compression_results.csv')
     compute_correlation(data1, data2)
