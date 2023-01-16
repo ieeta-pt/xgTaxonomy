@@ -1,0 +1,5 @@
+Accuracy of XGB, using: blzpack_g bsc_g bzip2_g GeCo3_g gzip_g JARVIS_g lizard_g lz4_g lzop_g mbgc_g MFCompress_g naf_g NUHT_g snzip_g zip_g xz_g zstd_g
+0.9429175475687104
+F1 score of XGB, using: blzpack_g bsc_g bzip2_g GeCo3_g gzip_g JARVIS_g lizard_g lz4_g lzop_g mbgc_g MFCompress_g naf_g NUHT_g snzip_g zip_g xz_g zstd_g
+0.9409357280953156
+

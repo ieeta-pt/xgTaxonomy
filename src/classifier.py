@@ -223,9 +223,9 @@ def help(show=False):
                             help='This flag generates the classification report (default: False)') 
     helper.add_argument('-bf', '--brute-force', default=False, action='store_true', \
                             help='This flag performs brute force classification of all possible combination of features (default: False)') 
-    helper.add_argument('-bg', '--brute-force-genome', default=False, action='store_true', \
+    helper.add_argument('-ag', '--all-genome', default=False, action='store_true', \
                             help='This flag performs brute force classification of all possible combination of features for the genome (default: False)') 
-    helper.add_argument('-bp', '--brute-force-proteome', default=False, action='store_true', \
+    helper.add_argument('-ap', '--all-proteome', default=False, action='store_true', \
                             help='This flag performs brute force classification of all possible combination of features for the proteome (default: False)') 
     
     if show:
@@ -239,14 +239,10 @@ if __name__ == "__main__":
     if args.accuracy or args.f1_score or args.both or args.classification_report:
         if args.all_columns:
             Classify(args, [list(range(1,18,1)),list(range(1,11))])
-        elif args.brute_force_genome:
-            for x in range(1,18,1):
-                    com_list = list(combinations(range(1,18), x+1))
-                    [Classify(args,list(ele)) for ele in com_list]
-        elif args.brute_force_proteome:
-            for x in range(1,12,1):
-                com_list = list(combinations(range(18,29), x+1))
-                [Classify(args,list(ele)) for ele in com_list]
+        elif args.all_genome:
+            Classify(args, list(range(1,18,1)))
+        elif args.all_proteome:
+            Classify(args, list(range(18,29)))
         elif args.brute_force:
             all_comb_list=[]
             for x in range(1,29,1):
