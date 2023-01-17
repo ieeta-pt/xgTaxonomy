@@ -6,10 +6,6 @@ import sys
 from os import listdir, path, makedirs
 from os.path import isfile, join, getsize
 sys.path.append(os.path.abspath('../src'))
-from pprint import pprint
-from collections import Counter
-import itertools
-import time
 
 compressors_path = "../compressors/"
 sequencesDir = "./database_sequences/"

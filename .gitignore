@@ -6,3 +6,4 @@ compressors/*
 compressors_files/*
 baseline_features/*
 src/__pycache__/
+src/classifier_previous.py
