@@ -2,7 +2,6 @@ import csv
 from collections import defaultdict
 from pathlib import Path
 import os
-import sys
 
 def average_nc_per_genomic_type(filepaths):
     all_results = {}

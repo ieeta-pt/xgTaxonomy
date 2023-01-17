@@ -1,13 +1,11 @@
 from os import listdir, path, makedirs, walk, system, remove
 from os.path import isfile, join
 import random
-from pprint import pprint
-import sys
 import shutil
 import wget
 import requests
 from bs4 import BeautifulSoup
-from config import summariesPath, dstPathOfOriginalSequences, locationOfDatabases, dstPathOfOriginalAminoacids, tmpPrt, orfPath
+from config import summariesPath, dstPathOfOriginalSequences, dstPathOfOriginalAminoacids, tmpPrt, orfPath
 
 #ensuring reproducibility
 random.seed(0)
