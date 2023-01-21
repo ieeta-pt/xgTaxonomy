@@ -54,14 +54,11 @@ def plot_results(compressor_stats, time_stats):
     ax2 = ax.twinx()
     ax2.set_ylabel("Avg Time (s)", fontweight='bold')
     sns.lineplot(x="compressor", y="avg_time", data=stats_df, color="blue", ax=ax2)
-    for index, row in stats_df.iterrows():
-        x_coord = ax2.get_xlim()[0] + (row.name + 0.5) * (ax2.get_xlim()[1] - ax2.get_xlim()[0]) / len(stats_df)
-        y_coord = row['avg_time']
-        ax2.annotate("{:.2f}".format(row['avg_time']), xy=(x_coord, y_coord), xytext=(-5,5), textcoords='offset points', fontsize=8, color='black')
     ax2.set_yscale('log')
     for tick in ax2.get_yticklabels():
         tick.set_fontsize(8)
-    plt.savefig("../results/compression_time_graph.png")
+    plt.savefig("../results/compression_time_graph.pdf")
+    print(stats_df.sort_values("compressor"))
     plt.show()
 
 
