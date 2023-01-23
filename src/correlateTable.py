@@ -27,11 +27,13 @@ def compute_correlation(data1, data2):
     corr, _ = pearsonr(all_data1, all_data2)
     if abs(corr) < 0.5:
             print(f'No notable Pearson correlation in table!')
+            print(f'Pearson correlation for entire table: {corr}')
     else:
         print(f'Pearson correlation for entire table: {corr}')
     corr, _ = spearmanr(all_data1, all_data2)
     if abs(corr) < 0.5:
         print(f'No notable Spearman correlation in table!')
+        print(f'Spearman correlation for entire table: {corr}')
     else:
         print(f'Spearman correlation for entire table: {corr}')
     
