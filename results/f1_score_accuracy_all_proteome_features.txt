@@ -1,0 +1,5 @@
+Accuracy of XGB, using: blzpack_p bsc_p bzip2_p gzip_p lizard_p lz4_p lzop_p snzip_p zip_p xz_p zstd_p
+0.8890063424947146
+F1 score of XGB, using: blzpack_p bsc_p bzip2_p gzip_p lizard_p lz4_p lzop_p snzip_p zip_p xz_p zstd_p
+0.8891351430583534
+

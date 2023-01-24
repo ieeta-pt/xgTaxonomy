@@ -21,6 +21,8 @@ mergedPath="../aux/original_sequences/"
 root = "../baseline_features/"
 UHT_COMP = "../compressors_files/Unbalanced-Huffman-Tree/dist/UHT_compress/"
 
+
+
 Name = "compression_time"
 percentages = [0,1,2,4,6,8,10]
 tmpDir = os.path.join(root, "tmp/")
@@ -39,14 +41,13 @@ def writeCSVLine(line):
 
 def getCompressionValues():
 
-# ,"bzip2","Cmix","GeCo3","gzip","JARVIS","MFCompress","NAF","NUHT","pufferfish","UHT","unzip","xz","zstd"]
-
-    writeCSVLine(["Domain","bzip2_comp","Cmix_comp","GeCo3_comp","gzip_comp","JARVIS_comp","MFCompress_comp",
-             "NUHT_comp","UHT_comp","zip_comp","xz_comp","zstd_comp",
-             "bzip2_time","Cmix_time","GeCo3_time","gzip_time","JARVIS_time","MFCompress_time",
-             "NUHT_time","UHT_time","zip_time","xz_time","zstd_time"])
-    
-    # writeCSVLine(["Domain","DNA","AA","GC","L_DNA","L_AA"])
+    writeCSVLine(["Domain","blzpack_comp","bsc_comp","bzip2_comp","Cmix_comp","GeCo3_comp","gzip_comp",
+            "JARVIS_comp","lizard_comp","lz4_comp","lzop_comp","mbgc_comp","MFCompress_comp",
+            "naf_comp","NUHT_comp", "snzip_comp", "UHT_comp","zip_comp","xz_comp","zstd_comp",
+            "blzpack_time","bsc_time","bzip2_time","Cmix_time","GeCo3_time","gzip_time","JARVIS_time",
+            "lizard_time", "lz4_time", "lzop_time", "mbgc_time","MFCompress_time",
+            "naf_time","NUHT_time", "snzip_time", "UHT_time", "zip_time", "xz_time", "zstd_time"])
+   
     for domain in listdir(mergedPath):
         print(f"Computing {domain}...")
         tmpPath = join(tmpDir,domain)
@@ -58,10 +59,14 @@ def getCompressionValues():
             name = fileName.replace(".fna.gz", "")
             csvEntry = {
                 "Domain": domain,
-                "bzip2_comp": None,"Cmix_comp": None, "GeCo3_comp": None,"gzip_comp": None,"JARVIS_comp": None,"MFCompress_comp": None,
-                "NUHT_comp": None,"UHT_comp": None,"zip_comp": None,"xz_comp": None,"zstd_comp": None,
-                "bzip2_time": None,"Cmix_time": None,"GeCo3_time": None,"gzip_time": None,"JARVIS_time": None,"MFCompress_time": None,
-                "NUHT_time": None,"UHT_time": None,"zip_time": None,"xz_time": None,"zstd_time": None
+                "blzpack_comp": None,"bsc_comp": None,"bzip2_comp": None, "Cmix_comp": None,"GeCo3_comp": None,"gzip_comp": None,
+                "JARVIS_comp": None,"lizard_comp": None,"lz4_comp": None,"lzop_comp": None,"mbgc_comp": None,"MFCompress_comp": None,
+                "naf_comp": None,"NUHT_comp": None,"snzip_comp": None, "UHT_comp": None,"zip_comp": None,
+                "xz_comp": None,"zstd_comp": None,
+                "blzpack_time": None,"bsc_time": None,"bzip2_time": None, "Cmix_time": None,"GeCo3_time": None,"gzip_time": None,
+                "JARVIS_time": None,"lizard_time": None, "lz4_time": None, "lzop_time": None, "mbgc_time": None,"MFCompress_time": None,
+                "naf_time": None,"NUHT_time": None, "snzip_time": None, "UHT_time": None, "zip_time": None,
+                "xz_time": None, "zstd_time": None
             }
 
             print(f"\tFile {fileName}")
@@ -77,8 +82,88 @@ def getCompressionValues():
                 decompressed_sz = os.path.getsize(join(tmpPath,"decompressed.fna"))
                 os.system(f'gto_fasta_from_seq  < {tmpPath}/GENOME_FILE > {tmpPath}/x.fa')
                 fa_sz=os.path.getsize(join(tmpPath,"x.fa"))
-                
 
+                #SNZIP
+                start_snzip = time.time()
+                os.system(f'snzip {tmpPath}/decompressed.fna')
+                end_snzip = time.time()
+                compressed_file=join(tmpPath,"decompressed.fna.sz")
+                cmp_sz = os.path.getsize(compressed_file)
+                elapsed_time_snzip=end_snzip-start_snzip
+                csvEntry["snzip_comp"] = str(cmp_sz/decompressed_sz)
+                csvEntry["snzip_time"] = str(elapsed_time_snzip)
+
+
+                #NAF
+                start_naf = time.time()
+                os.system(f'ennaf --level 22  {tmpPath}/decompressed.fna -o {tmpPath}/seq.naf --temp-dir DIR')
+                end_naf = time.time()
+                compressed_file=join(tmpPath,"seq.naf")
+                cmp_sz = os.path.getsize(compressed_file)
+                elapsed_time_naf=end_naf-start_naf
+                csvEntry["naf_comp"] = str(cmp_sz/decompressed_sz)
+                csvEntry["naf_time"] = str(elapsed_time_naf)             
+
+                #MBGC
+                start_mbgc = time.time()
+                os.system(f'mbgc -c 3 -i {tmpPath}/decompressed.fna {tmpPath}/seq.mbgc')
+                end_mbgc = time.time()
+                compressed_file=join(tmpPath,"seq.mbgc")
+                cmp_sz = os.path.getsize(compressed_file)
+                elapsed_time_mbgc=end_mbgc-start_mbgc
+                csvEntry["mbgc_comp"] = str(cmp_sz/decompressed_sz)
+                csvEntry["mbgc_time"] = str(elapsed_time_mbgc)
+
+                #LZOP
+                start_lzop = time.time()
+                os.system(f'lzop -9 {tmpPath}/decompressed.fna -o {tmpPath}/seq.lzop')
+                end_lzop = time.time()
+                compressed_file=join(tmpPath,"seq.lzop")
+                cmp_sz = os.path.getsize(compressed_file)
+                elapsed_time_lzop=end_lzop-start_lzop
+                csvEntry["lzop_comp"] = str(cmp_sz/decompressed_sz)
+                csvEntry["lzop_time"] = str(elapsed_time_lzop)
+
+                #LZ4
+                start_lz4 = time.time()
+                os.system(f'{compressors_path}lz4 -9  {tmpPath}/decompressed.fna {tmpPath}/seq.lz4')
+                end_lz4 = time.time()
+                compressed_file=join(tmpPath,"seq.lz4")
+                cmp_sz = os.path.getsize(compressed_file)
+                elapsed_time_lz4=end_lz4-start_lz4
+                csvEntry["lz4_comp"] = str(cmp_sz/decompressed_sz)
+                csvEntry["lz4_time"] = str(elapsed_time_lz4)
+
+                #LIZARD 
+                start_lizard = time.time()
+                os.system(f'{compressors_path}lizard -49  {tmpPath}/decompressed.fna {tmpPath}/seq.lizard')
+                end_lizard = time.time()
+                compressed_file=join(tmpPath,"seq.lizard")
+                cmp_sz = os.path.getsize(compressed_file)
+                elapsed_time_lizard=end_lizard-start_lizard
+                csvEntry["lizard_comp"] = str(cmp_sz/decompressed_sz)
+                csvEntry["lizard_time"] = str(elapsed_time_lizard)
+                
+                #BLZPACK
+                start_blazpack = time.time()
+                os.system(f'{compressors_path}blzpack -9  {tmpPath}/decompressed.fna {tmpPath}/seq.blzpack')
+                end_blazpack = time.time()
+                compressed_file=join(tmpPath,"seq.blzpack")
+                cmp_sz = os.path.getsize(compressed_file)
+                elapsed_time_blazpack=end_blazpack-start_blazpack
+                csvEntry["blazpack_comp"] = str(cmp_sz/decompressed_sz)
+                csvEntry["blazpack_time"] = str(elapsed_time_blazpack)
+                
+                #BSC
+                start_bsc = time.time()
+                os.system(f'{compressors_path}bsc e  {tmpPath}/decompressed.fna {tmpPath}/seq.bsc')
+                end_bsc = time.time()
+                compressed_file=join(tmpPath,"seq.bsc")
+                cmp_sz = os.path.getsize(compressed_file)
+                elapsed_time_bsc=end_bsc-start_bsc
+                csvEntry["bsc_comp"] = str(cmp_sz/decompressed_sz)
+                csvEntry["bsc_time"] = str(elapsed_time_bsc)
+        
                 #ZSTD
                 start_zstd = time.time()
                 os.system(f'zstd -9  {tmpPath}/decompressed.fna -o {tmpPath}/seq.zstd')
@@ -150,7 +235,6 @@ def getCompressionValues():
                 csvEntry["UHT_comp"] = str(cmp_sz/decompressed_sz)
                 csvEntry["UHT_time"] = str(elapsed_time_uht)
 
-
                 #MFCompress
                 start_mfc = time.time()
                 os.system(f"{compressors_path}MFCompressC -3 {tmpPath}/x.fa")
@@ -162,14 +246,14 @@ def getCompressionValues():
                 csvEntry["MFCompress_time"] = str(elapsed_time_mfc)
 
                 #CMIX
-                #start_cmix = time.time()
-                #os.system(f"{compressors_path}cmix -c {tmpPath}/GENOME_FILE {tmpPath}/cmix.seq")
-                #end_cmix = time.time()
-                #compressed_file=join(tmpPath,"cmix.seq")
-                #cmp_sz = os.path.getsize(compressed_file)
-                #elapsed_time_cmix=end_cmix-start_cmix
-                csvEntry["Cmix_comp"] = ""
-                csvEntry["Cmix_time"] = ""
+                start_cmix = time.time()
+                os.system(f"{compressors_path}cmix -c {tmpPath}/GENOME_FILE {tmpPath}/cmix.seq")
+                end_cmix = time.time()
+                compressed_file=join(tmpPath,"cmix.seq")
+                cmp_sz = os.path.getsize(compressed_file)
+                elapsed_time_cmix=end_cmix-start_cmix
+                csvEntry["Cmix_comp"] = str(cmp_sz/decompressed_sz)
+                csvEntry["Cmix_time"] = str(elapsed_time_cmix)
 
                 #JARVIS
                 start_jarvis = time.time()

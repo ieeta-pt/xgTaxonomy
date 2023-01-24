@@ -11,13 +11,15 @@ RUN wget \
     && bash Miniconda3-py39_4.11.0-Linux-x86_64.sh -b \
     && rm -f Miniconda3-py39_4.11.0-Linux-x86_64.sh
 
-RUN apt-get update -y && apt-get install -y bc
-
+RUN apt-get update -y && apt-get install -y bc 
+RUN apt-get install -y python3-pip
 RUN apt-get install -y zip 
 RUN apt-get install -y bzip2
 RUN apt-get install -y xz-utils 
 RUN apt-get install -y zstd
 RUN apt-get install -y gzip
+
+RUN apt-get install -y lzop
 
 RUN apt-get install -y gcc-multilib
 
@@ -27,16 +29,33 @@ RUN apt-get install -y clang
 
 RUN apt-get install -y git
 
+RUN apt-get install -y libssl-dev
+
+RUN apt-get install -y autotools-dev
+
+RUN apt-get install -y automake
+
+RUN apt-get install -y libsnappy-dev
+
+
+RUN DEBIAN_FRONTEND=noninteractive TZ=EUROPE/Portugal apt-get -y install cmake protobuf-compiler
+
 RUN conda install anaconda-client --yes
 
 RUN conda install -c bioconda libgcc --yes
 
-RUN pip3 install -r requirements.pip
+ADD . /xgTaxonomy 
+
+WORKDIR /xgTaxonomy
+
+RUN ls -l
 
 RUN chmod +x ./*sh
 
-ADD . /compact 
+RUN pip3 install -r requirements.pip
 
-WORKDIR /compact
+RUN ./install_compressors.sh
+
+RUN ./install_orf.sh
 
 CMD tail -f >> /dev/null

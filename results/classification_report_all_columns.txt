@@ -1,14 +1,14 @@
-Classification report, using: bzip2 JARVIS MFCompress NUHT zstd
+Classification report, using: blzpack_g bsc_g bzip2_g GeCo3_g gzip_g JARVIS_g lizard_g lz4_g lzop_g mbgc_g MFCompress_g naf_g NUHT_g snzip_g zip_g xz_g zstd_g bsc_p bzip2_p gzip_p lizard_p lz4_p lzop_p snzip_p zip_p xz_p zstd_p
               precision    recall  f1-score   support
 
-       Viral     0.9333    0.7778    0.8485        18
-    Bacteria     0.8333    0.5556    0.6667        18
-     Archaea     0.5484    0.9444    0.6939        18
-       Fungi     0.8750    0.7778    0.8235        18
-    Protozoa     0.8125    0.7222    0.7647        18
+       Viral     1.0000    0.9967    0.9983       299
+    Bacteria     0.9400    0.9400    0.9400       300
+     Archaea     0.9303    0.9380    0.9342       242
+       Fungi     0.9524    0.9302    0.9412        86
+    Protozoa     0.6500    0.6842    0.6667        19
 
-    accuracy                         0.7556        90
-   macro avg     0.8005    0.7556    0.7595        90
-weighted avg     0.8005    0.7556    0.7595        90
+    accuracy                         0.9514       946
+   macro avg     0.8945    0.8978    0.8961       946
+weighted avg     0.9518    0.9514    0.9516       946
 
 
