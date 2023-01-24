@@ -1,10 +1,14 @@
-# xgTaxonomy
+<h1 align="center"><img src="logo/xgtaxonomy_logo.png"
+alt="xgtax_logo" height="200" border="0" /></h1>
+<p align="center"><b>Cross-reference of Genomic Taxonomy</b></p>
 
-<H2><b>Cross-reference of Genomic Taxonomy</b></H2>
 
 ### About
 
 xgTaxonomy is a new method for metagenomic classification that utilizes data compression algorithms, known as compressors, to classify genomic sequences. Our two-step evaluation process shows that this approach outperforms existing methods in terms of accuracy and reliability. Additionally, combining features from multiple compressors improves classification accuracy by 26,22%. This method offers a promising strategy for improving the accuracy and reliability of metagenomic classification and provides insights into the statistical and algorithmic nature of genomic data.
+
+<h1 align="center"><img src="logo/graphical_abstract.png"
+alt="xgtax_logo" height="300" border="0" /></h1>
 
 ### Team
 
