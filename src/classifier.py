@@ -10,9 +10,18 @@ from sklearn.ensemble import ExtraTreesClassifier
 from itertools import combinations
 import csv
 import sys
+import shap
 import numpy as np
 from config import genomeFeaturesFilePath, proteomeFeaturesFilePath, numIterations
 import argparse
+import pandas as pd
+import matplotlib.pyplot as plt
+import matplotlib.colors as mcolors
+
+SHAP_PLOT_PATH="../results/shap_values.pdf"
+plt.rcParams['font.sans-serif'] = 'Helvetica'
+cmap = plt.get_cmap('Pastel1')
+
 
 compressor = {
     1:"blzpack_g",
@@ -141,9 +150,7 @@ def ReadData(args, columns):
     
     y_test = [domains[row[0]] for row in combined_rows]
     
-    return np.array(X_test), np.array(y_test)
-
-
+    return np.array(X_test), np.array(y_test), columns_to_keep
 
 def Classify(args, columns):
     domains = ["Viral", "Bacteria", "Archaea", "Fungi", "Protozoa"]
@@ -153,7 +160,7 @@ def Classify(args, columns):
     # Flatten the columns list
     columns = flatten_columns(args,columns)
 
-    data, labels = ReadData(args, columns)
+    data, labels, _ = ReadData(args, columns)
     # Check if data and labels are empty
     if data is None:
         # If they are empty, skip the classification for this iteration
@@ -198,7 +205,61 @@ def Classify(args, columns):
         print(" ".join([compressor[x] for x in columns]))
         print(sum(f1score_XGB)/len(f1score_XGB))
     print()
-        
+
+def ShapleyValue(args, columns):
+    domains = ["Viral", "Bacteria", "Archaea", "Fungi", "Protozoa"]
+
+
+    # Flatten the columns list
+    columns = flatten_columns(args,columns)
+
+    data, labels, selected_columns = ReadData(args, columns)
+    # Check if data and labels are empty
+    if data is None:
+        # If they are empty, skip the classification for this iteration
+        return
+    if args.features_selection:
+        clf = ExtraTreesClassifier(n_estimators=50)
+        clf = clf.fit(data, labels)
+        model = SelectFromModel(clf, prefit=True)
+        data = model.transform(data)
+
+    X_train, X_test, y_train, y_test = train_test_split(data, labels, test_size=0.20, stratify=labels, random_state=numIterations)
+    model = XGBClassifier(max_depth=12, learning_rate=0.89, n_estimators=500, eval_metric='mlogloss')   
+    model.fit(X_train, y_train)
+
+    # SHAP analysis
+    explainer = shap.TreeExplainer(model)
+    shap_values = explainer.shap_values(X_train)
+
+    feature_names= [compressor[x] for x in selected_columns]
+    feature_names = [value.replace("_g", " genome").replace("_p", " proteome") for value in feature_names]
+
+    df = pd.DataFrame(X_train, columns=feature_names) 
+    fig, ax = plt.subplots()
+    shap.summary_plot(shap_values, df, feature_names=feature_names, class_names=domains, plot_type='bar',show=False,color=cmap)
+
+    # Adjust tick label size and weight
+    ax.tick_params(axis='both', which='major', labelsize=8)
+
+    # Adjust legend font size
+    legend = ax.legend()
+    for text in legend.get_texts():
+        text.set_fontsize(10)
+
+    # Adjust title size and weight
+    ax.title.set_fontsize(10)
+    ax.title.set_fontweight('bold')
+
+    plt.savefig(SHAP_PLOT_PATH, bbox_inches='tight')
+    plt.close()  # Close the plot to free up memory
+
+    y_pred = model.predict(X_test)
+    predictions = [round(value) for value in y_pred]
+    print(accuracy_score(y_test, predictions))
+    print(f1_score(y_test, y_pred, average='weighted'))
+
+
 
 def help(show=False):
     parser = argparse.ArgumentParser(description="")
@@ -239,6 +300,7 @@ if __name__ == "__main__":
     if args.accuracy or args.f1_score or args.both or args.classification_report:
         if args.all_columns:
             Classify(args, [list(range(1,18,1)),list(range(1,11))])
+            ShapleyValue(args, [list(range(1,18,1)),list(range(1,11))])
         elif args.all_genome:
             Classify(args, list(range(1,18,1)))
         elif args.all_proteome:
