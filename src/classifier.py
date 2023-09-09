@@ -19,6 +19,8 @@ import matplotlib.pyplot as plt
 import matplotlib.colors as mcolors
 
 SHAP_PLOT_PATH="../results/shap_values.pdf"
+SHAP_PLOT_PATH_2="../results/shap_values_global.pdf"
+
 plt.rcParams['font.sans-serif'] = 'Helvetica'
 cmap = plt.get_cmap('Pastel1')
 
@@ -235,6 +237,8 @@ def ShapleyValue(args, columns):
     feature_names= [compressor[x] for x in selected_columns]
     feature_names = [value.replace("_g", " genome").replace("_p", " proteome") for value in feature_names]
 
+    InterpretShapResults(shap_values, feature_names)
+
     df = pd.DataFrame(X_train, columns=feature_names) 
     fig, ax = plt.subplots()
     shap.summary_plot(shap_values, df, feature_names=feature_names, class_names=domains, plot_type='bar',show=False,color=cmap)
@@ -259,7 +263,39 @@ def ShapleyValue(args, columns):
     print(accuracy_score(y_test, predictions))
     print(f1_score(y_test, y_pred, average='weighted'))
 
+def InterpretShapResults(shap_values, feature_names):
+     # If it's a multiclass classification, average the shap_values across all classes
+    if len(np.array(shap_values).shape) == 3:
+        shap_values = np.mean(shap_values, axis=0)
+    
+    # Calculate average absolute Shapley values
+    mean_shap_values = np.abs(shap_values).mean(axis=0)
+    feature_importance = pd.Series(mean_shap_values, index=feature_names).sort_values(ascending=False)
+    
+    # Display the average absolute Shapley values
+    print("Average Absolute Shapley Values for Features:\n")
+    print(feature_importance, "\n")
+    
+    # Plot ranked feature importances
+    plt.figure()
+    ax = feature_importance.plot(kind='bar', color='skyblue')
+    plt.title("Feature Importance Ranked by Mean Absolute Shapley Value")
+    plt.ylabel("Mean Absolute Shapley Value")
+    plt.xlabel("Features")
+    
+    # Annotate each bar with the corresponding average absolute Shapley value
+    for i, v in enumerate(feature_importance):
+        ax.text(i, v + 0.01, round(v, 2), ha='center', va='bottom', fontsize=8)
 
+    plt.tight_layout()
+    plt.savefig(SHAP_PLOT_PATH_2, bbox_inches='tight')
+    plt.close()  # Close the plot to free up memory
+
+    # Provide descriptive statistics
+    shap_df = pd.DataFrame(shap_values, columns=feature_names)
+    print("\nDescriptive Statistics of Shapley Values for Features:\n")
+    print(shap_df.describe())
+    sys.exit()
 
 def help(show=False):
     parser = argparse.ArgumentParser(description="")
