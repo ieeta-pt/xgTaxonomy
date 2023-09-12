@@ -1,6 +1,8 @@
 import os
 from Bio import SeqIO
 
+PATH_TO_DATASET = 'path_to_dataset'  # Replace with your dataset directory path
+
 def get_dataset_summary(dataset_directory):
     domains = ['viral', 'bacteria', 'archaea', 'fungi', 'plant', 'protozoa']
     summary = {}
@@ -33,7 +35,7 @@ def get_dataset_summary(dataset_directory):
     return summary
 
 if __name__ == "__main__":
-    dataset_directory = 'path_to_your_dataset'  # Replace with your dataset directory path
+    dataset_directory = PATH_TO_DATASET
     summary = get_dataset_summary(dataset_directory)
     for domain, stats in summary.items():
         print(f"Domain: {domain}")
