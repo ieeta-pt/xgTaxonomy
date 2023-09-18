@@ -1,8 +1,8 @@
 import os
 from Bio import SeqIO
 
-PATH_TO_DATASET = 'path_to_dataset'  # Replace with your dataset directory path
-
+PATH_TO_DATASET = '../aux/database_sequences/' 
+tmpPath = "../aux/tmp/"
 def get_dataset_summary(dataset_directory):
     domains = ['viral', 'bacteria', 'archaea', 'fungi', 'plant', 'protozoa']
     summary = {}
@@ -20,7 +20,9 @@ def get_dataset_summary(dataset_directory):
                 file_path = os.path.join(domain_path, seq_file)
                 
                 # Use Biopython's SeqIO to parse sequence files
-                for record in SeqIO.parse(file_path, "fasta"):
+                print(file_path)
+                os.system(f'zcat {file_path} > {tmpPath}/GENOME_FILE.fasta')
+                for record in SeqIO.parse(f"{tmpPath}/GENOME_FILE.fasta", "fasta"):
                     sequence_lengths.append(len(record.seq))
                     number_of_sequences += 1
 
