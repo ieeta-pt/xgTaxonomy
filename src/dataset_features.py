@@ -21,10 +21,12 @@ def get_dataset_summary(dataset_directory):
                 
                 # Use Biopython's SeqIO to parse sequence files
                 print(file_path)
+                total = 0
                 os.system(f'zcat {file_path} > {tmpPath}/GENOME_FILE.fasta')
                 for record in SeqIO.parse(f"{tmpPath}/GENOME_FILE.fasta", "fasta"):
-                    sequence_lengths.append(len(record.seq))
-                    number_of_sequences += 1
+                    total = len(record.seq)
+                sequence_lengths.append(total)
+                number_of_sequences += 1
 
             # Store the results in the summary dictionary
             summary[domain] = {
